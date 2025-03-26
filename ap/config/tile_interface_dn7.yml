@@ -1,0 +1,26 @@
+!!omap
+- sections:
+  - title_en: 'DN7 Digital Native QC 7 Tools'
+    title_ja: 'DN7 Digital Native QC 7 Tools'
+    tiles:
+      - row: 1
+        column: 1
+        page: fpp
+      - row: 1
+        column: 2
+        page: rlp
+      - row: 1
+        column: 3
+        page: chm
+      - row: 2
+        column: 1
+        page: msp
+      - row: 2
+        column: 2
+        page: pcp
+      - row: 2
+        column: 3
+        page: skd
+      - row: 2
+        column: 4
+        page: cog

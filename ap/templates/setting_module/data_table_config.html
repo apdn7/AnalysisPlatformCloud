@@ -1,0 +1,245 @@
+<div class="card graph-navi" id="cfg-data-table">
+    <div class="card-body">
+        <div
+            class="panel-group"
+            id="accordionDataTable"
+            role="tablist"
+            aria-multiselectable="true"
+        >
+            <div class="panel panel-default">
+                <form id="cfg-data-table-form">
+                    <div class="panel-heading" role="tab" id="headingDataTable">
+                        <div class="form-header">
+                            <div class="row" style="padding-top: 5px;">
+                                <div class="col-7">
+                                    <div class="collapse-box header-left">
+                                        <a
+                                            role="button"
+                                            data-toggle="collapse"
+                                            class="btn-collapse"
+                                            data-parent="#collapseCfgDataTable"
+                                            href="#collapseCfgDataTable"
+                                            aria-expanded="true"
+                                            aria-controls="collapseCfgDataTable"
+                                        >
+                                        </a>
+                                    </div>
+                                    <h3 class="header-left">
+                                        {{ _("Column Attribute Definition") }}
+                                    </h3>
+                                </div>
+                                <div class="col-5 d-flex justify-content-end">
+                                    <input
+                                        type="text"
+                                        id="searchCfgDataTable"
+                                        class="form-control common-search-input float-right"
+                                        placeholder="{{ _('Search') }}..."
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        id="collapseCfgDataTable"
+                        class="panel-collapse collapse show"
+                        role="tabpanel"
+                        aria-labelledby="headingDataTable"
+                    >
+                        {{ macros.alert_message("alert-msg-db") }}
+                        <div class="table-responsive">
+                            <table
+                                id="tblDataTableConfig"
+                                class="table table-bordered table-main table-hover-light"
+                            >
+                                <thead>
+                                    <tr>
+                                        <th class="col-number">
+                                            {{ _("No.") }}
+                                        </th>
+                                        <th
+                                            scope="col"
+                                            class="text-center th-title-other th-md"
+                                        >
+                                            {{ _("Data Table Name") }}
+                                        </th>
+                                        <th
+                                            scope="col"
+                                            class="text-center th-title-other th-md"
+                                        >
+                                            {{ _("Data Source Name") }}
+                                        </th>
+                                        <th
+                                            scope="col"
+                                            class="text-center th-title-other"
+                                        ></th>
+                                        <th
+                                            scope="col"
+                                            class="text-center th-title-other"
+                                        >
+                                            {{ _("Comment") }}
+                                        </th>
+                                        <th
+                                            scope="col"
+                                            class="text-center th-title-other w-auto"
+                                        >
+                                            {{ _("Status") }}
+                                        </th>
+                                        <!-- BRIDGE STATION - Refactor DN & OSS version -->
+                                        {% if app_source == AppSource.DN %}
+                                            <th
+                                                scope="col"
+                                                class="text-center th-title-other w-auto"
+                                            >
+                                                {{ _("Mapping Config") }}
+                                            </th>
+                                        {% endif %}
+                                        <th
+                                            scope="col"
+                                            class="text-center col-btn button-column"
+                                        >
+                                            <!-- <i class="fas fa-filter icon-secondary"
+                                        style="color:#449fff;cursor:pointer;"
+                                        onclick="showFilter('tblProcConfig', true)"></i> -->
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for data_table in data_table_list %}
+                                        <tr
+                                            name="tableInfo"
+                                            id="data_table_{{ data_table.id.data }}"
+                                            data-ds-id="{{ data_table.data_source.form.id.data }}"
+                                            data-datatable-id="{{ data_table.id.data }}"
+                                            {% if data_table.mapping_page_enabled.data == true %}
+                                                data-mapping-page-enabled
+                                            {% endif %}
+                                            {% if data_table.scan_done.data == true %}
+                                                data-scan-done
+                                            {% endif %}
+                                        >
+                                            <td class="col-number">
+                                                {{ loop.index }}
+                                            </td>
+                                            <td>
+                                                <input
+                                                    name="dataTableName"
+                                                    class="form-control"
+                                                    type="text"
+                                                    value="{{ data_table.name.data }}"
+                                                    disabled
+                                                    data-order
+                                                />
+                                            </td>
+                                            <td class="text-center">
+                                                <input
+                                                    name="databaseName"
+                                                    class="form-control"
+                                                    type="text"
+                                                    value="{{ data_table.data_source.form.name.data or '' }}"
+                                                    disabled
+                                                />
+                                            </td>
+                                            <td
+                                                class="text-center th-title-other button-column"
+                                            >
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary icon-btn"
+                                                    onclick="showDataTableSettingModal(this);"
+                                                    title=""
+                                                >
+                                                    <i
+                                                        class="fas fa-edit icon-secondary"
+                                                    ></i>
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <textarea
+                                                    name="comment"
+                                                    class="form-control form-data"
+                                                    rows="1"
+                                                    value="{{ data_table.comment.data or '' }}"
+                                                    disabled
+                                                >
+{{ data_table.comment.data or '' }}</textarea
+                                                >
+                                            </td>
+                                            <td
+                                                class="data-table-status"
+                                                id="jobStatus-{{ data_table.id.data }}"
+                                            ></td>
+                                            <!-- BRIDGE STATION - Refactor DN & OSS version -->
+                                            {% if app_source == AppSource.DN %}
+                                                <td class="text-center">
+                                                    <button
+                                                        id="data-table-to-nayose-page-{{ data_table.id.data }}"
+                                                        onclick="goToMappingPage(this);"
+                                                        type="button"
+                                                        class="btn btn-secondary icon-btn data-table-to-mapping-page blink-btn-fast {{ 'hide' if data_table.mapping_page_enabled.data == false or data_table.has_new_master.data == false }}"
+                                                    >
+                                                        <i
+                                                            class="fas fa-sitemap icon-secondary"
+                                                        ></i>
+                                                    </button>
+                                                </td>
+                                            {% endif %}
+                                            <td class="col-btn button-column">
+                                                <button
+                                                    onclick="deleteCfgDataTable(this);"
+                                                    type="button"
+                                                    class="btn btn-secondary icon-btn"
+                                                >
+                                                    <i
+                                                        class="fas fa-trash-alt icon-secondary"
+                                                    ></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="row" style="padding-top: 5px;">
+                            <div class="col-2">
+                                <button
+                                    onclick="addDataTableToTable();"
+                                    type="button"
+                                    class="btn btn-success icon-btn"
+                                >
+                                    <i class="fas fa-plus-circle"></i>
+                                </button>
+                            </div>
+                            <div class="col-8"></div>
+                            <div class="col-2"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        {% include "data_table_config_modals.html" %}
+    </div>
+    <div>
+        <ul
+            id="cfgDataTableContextMenu"
+            name="contextMenu"
+            class="context-menu"
+            style="display:none;"
+        >
+            <li
+                class="menu-item"
+                onclick="maximizeCard('collapseCfgDataTable')"
+            >
+                {{ _("Maximize card") }}
+            </li>
+            <li
+                class="menu-item"
+                onclick="minimizeCard('collapseCfgDataTable')"
+            >
+                {{ _("Minimize card") }}
+            </li>
+        </ul>
+    </div>
+</div>
+{% block js %}
+    <script src="{{ url_for('setting_module.static', filename = 'js/data_table_config_modals.js') }}"></script>
+{% endblock %}

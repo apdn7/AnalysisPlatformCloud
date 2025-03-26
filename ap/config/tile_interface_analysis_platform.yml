@@ -1,0 +1,56 @@
+!!omap
+- sections:
+  - title_en: 'Time or ID Series & Distribution Fluctuation'
+    title_ja: '時系列/ID系列・分布変動'
+    tiles:
+      - row: 1
+        column: 1
+        page: fpp
+      - row: 1
+        column: 2
+        page: rlp
+  - title_en: 'Stratification & Pattern Overview'
+    title_ja: '層別・パターン俯瞰'
+    tiles:
+      - row: 1
+        column: 1
+        page: stp
+      - row: 1
+        column: 2
+        page: chm
+  - title_en: 'Basic'
+    title_ja: 'ベーシック'
+    tiles:
+      - row: 1
+        column: 1
+        page: agp
+      - row: 1
+        column: 2
+        page: scp
+  - title_en: 'Multidimensional Correlation'
+    title_ja: '相関/多次元相関'
+    tiles:
+      - row: 1
+        column: 1
+        page: msp
+      - row: 1
+        column: 2
+        page: pcp
+      - row: 1
+        column: 3
+        page: gl
+  - title_en: 'Anomaly Detection'
+    title_ja: '異常検出'
+    tiles:
+      - row: 1
+        column: 1
+        page: pca
+  - title_en: 'Cause Analysis & Collocation Relationship'
+    title_ja: '要因分析/共起関係'
+    tiles:
+      - row: 1
+        column: 1
+        page: skd
+      - row: 1
+        column: 2
+        page: cog

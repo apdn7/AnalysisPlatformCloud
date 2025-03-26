@@ -1,0 +1,245 @@
+#trace-network,
+.trace_body {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    border: 2px solid #444444 !important;
+    border-radius: 0.25rem;
+    background-color: #222222;
+}
+
+table.legend_table {
+    font-size: 11px;
+    border-width: 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+}
+
+table.legend_table,
+td {
+    border-width: 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+    padding: 2px;
+}
+
+div.table_content {
+    width: 80px;
+    text-align: center;
+}
+
+div.table_description {
+    width: 100px;
+}
+
+#operation {
+    font-size: 28px;
+}
+
+.vis-label {
+    min-width: 100px;
+    color: black;
+}
+
+.btn-vis {
+    margin: 10px 0;
+}
+
+.btn-green {
+    background-color: seagreen;
+    border-color: seagreen;
+}
+
+/* .form-group .list-group-item {
+  padding: 0.375rem 0.75rem;
+  text-align: left;
+  background-color: #222222;
+} */
+
+.grouplist-checkbox {
+    border: 1px solid #222222;
+    border-radius: 2px;
+    max-height: 100px;
+    overflow: auto;
+}
+
+#modal-edge-popup .modal-dialog {
+    max-width: 990px;
+}
+
+.selected-col {
+    /* padding: 0.375rem 0.75rem; */
+    text-align: left;
+    background-color: #222222;
+    padding: 0.375rem;
+    /* max-width: calc(33.333333333333% - 10px); */
+    margin-left: 5px;
+    border: 1px solid #222222;
+    border-radius: 2px;
+}
+
+.col-title {
+    margin-top: 20px;
+}
+
+.trc-remove {
+    /* margin: -20px -15px 0 0; */
+    position: absolute;
+    right: 4px;
+    margin-top: -20px;
+}
+
+.trc-row {
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border: 2px solid #444444;
+}
+
+#traceNetworkLayout {
+    width: 140px;
+    border: 1px solid;
+    height: 25px;
+    border-radius: 24px;
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+#resetLayout {
+    width: 25px;
+    border: 1px solid;
+    height: 25px;
+    border-radius: 24px;
+    font-size: 13px;
+    padding: 3px;
+    background-color: #222222;
+    color: white;
+    margin-left: 8px;
+}
+
+.trace-network-content {
+    display: flex;
+    height: 85vh;
+    border: 1px solid #444444;
+    border-radius: 3px;
+}
+
+.trace-network-menu {
+    width: 40px;
+    height: 100%;
+    transition: all 0.3s linear;
+}
+
+.trace-network-menu.active {
+    width: 300px;
+}
+
+.trace-network-menu .sidebar-header {
+    padding: 4px;
+    border-bottom: 1px solid #444444;
+}
+
+.trace-menu-content {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.3s linear;
+}
+
+.trace-network-menu.active .trace-menu-content {
+    height: calc(100% - 36px);
+    width: 100%;
+    opacity: 1;
+    display: block;
+    transition: opacity 0.3s linear;
+}
+
+.trace-layout-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    left: 13px;
+    z-index: 9;
+}
+
+.trace-network-wrapper {
+    flex: 1;
+    position: relative;
+}
+
+/*Tree checkboxs CSS*/
+.tree {
+    list-style: none;
+    margin-top: 8px;
+    max-height: calc(100% - 96px);
+    overflow: auto;
+}
+
+.tree ul {
+    border-left: 1px dashed #444444;
+    list-style: none;
+    padding-left: 24px;
+}
+
+.tree li {
+    padding: 4px 8px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.tree li:first-child {
+    border-radius: 3px 3px 0 0;
+}
+
+.tree li:last-child {
+    border-radius: 0 0 3px 3px;
+}
+
+.tree label {
+    cursor: pointer;
+}
+
+.has ul {
+    margin-top: -5px;
+}
+
+.tree .total {
+    color: #e13300;
+}
+.tree .has {
+    position: relative;
+}
+
+.tree .tree-plus {
+    position: absolute;
+    top: 8px;
+    left: -30px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #444444;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.tree .tree-plus:before {
+    position: absolute;
+    content: '\002B';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tree-plus.expanded:before {
+    content: '\2212';
+}
+
+.tree > li.has .tree-plus {
+    display: block;
+}
+
+.tree > li .tree-plus {
+    display: none;
+}
+
+.tree > li label.no-tree {
+    /*padding-left: 32px;*/
+}

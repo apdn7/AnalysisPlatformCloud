@@ -1,0 +1,20 @@
+import os
+
+from flask import Blueprint
+
+from ap.common.flask_customize import render_template
+from ap.common.services.form_env import get_common_config_data
+
+heatmap_plot_blueprint = Blueprint(
+    'heatmap',
+    __name__,
+    template_folder=os.path.join('..', 'templates', 'heatmap'),
+    static_folder=os.path.join('..', 'static', 'heatmap'),
+    url_prefix='/ap',
+)
+
+
+@heatmap_plot_blueprint.route('/hmp')
+def index():
+    output_dict = get_common_config_data()
+    return render_template('heatmap.html', **output_dict)

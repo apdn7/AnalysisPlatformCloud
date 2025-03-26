@@ -1,0 +1,435 @@
+id	quantity_jp	quantity_en	unit	type	base	conversion	denominator	offset
+
+
+1	Null	Null	Null					
+1000	時間	Time	s	Real				
+1001	時間	Time	ns	Real	1000	1.000E-09	1	0
+1002	時間	Time	µs	Real	1000	1.000E-06	1	0
+1003	時間	Time	ms	Real	1000	1.000E-03	1	0
+1004	時間:分	Time: Minute	min	Real	1000	60	1	0
+1005	時間:時	Time: Hour	h	Real	1000	3600	1	0
+1006	時間:日	Time: Day	day	Real	1000	86400	1	0
+1090	時間	Time	sec	Real	1000			
+1091	時間	Time	hour	Real	1005			
+1100	周波数	Frequency	Hz	Real				
+1101	周波数/頻度	Frequency	cps	Real	1100	1	1	0
+1102	周波数/頻度	Frequency	cpm	Real	1101	1	60	0
+1103	周波数/頻度	Frequency	spm	Real	1100	1	60	0
+1110	周波数/頻度	Frequency	cycle/s	Real	1101			
+1111	周波数/頻度	Frequency	cycle/min	Real	1102			
+1112	周波数/頻度	Frequency	shot/min	Real	1103			
+1120	回転数	Number of Rotations	rps	Real	1100	1	1	0
+1121	回転数	Number of Rotations	rpm	Real	1120	1	60	0
+1200	平面角	Plane Angle	rad	Real				
+1201	平面角:度	Plane Angle: Degrees	°	Real	1200	3.141592654	180	0
+1202	平面角:分	Plane Angle: Minutes	'	Real	1200	3.141592654	10800	0
+1203	平面角:秒	Plane Angle: Seconds	"	Real	1200	3.141592654	648000	0
+1290	平面角:度	Plane Angle: Degrees	deg	Real	1201			
+1291	平面角:度	Plane Angle: Degrees	degree	Real	1201			
+1300	立体角	Solid Angle	sr	Real				
+1400	力	Force/Weight	N	Real				
+1401	力	Force/Weight	µN	Real	1400	1.000E-06	1	0
+1402	力	Force/Weight	mN	Real	1400	1.000E-03	1	0
+1403	力	Force/Weight	kN	Real	1400	1.000E+03	1	0
+1404	力	Force/Weight	dyn	Real	1400	1.000E-05	1	0
+1405	力	Force/Weight	kgf	Real	1400	9.80665	1000	0
+1406	力:プレス	Force: Press	ton	Real	1400	9.80665	1	0
+1420	モーメント/トルク	Moment of Force/Torque	N·m	Real				
+1421	モーメント/トルク	Moment of Force/Torque	N·cm	Real	1420	100	1	0
+1422	モーメント/トルク	Moment of Force/Torque	kg·m	Real	1420	9.80665	1	0
+1423	モーメント/トルク	Moment of Force/Torque	kg·cm	Real	1420	9.80665	100	0
+1425	モーメント/トルク	Moment of Force/Torque	Nm	Real	1420			
+1426	モーメント/トルク	Moment of Force/Torque	Ncm	Real	1421			
+1427	モーメント/トルク	Moment of Force/Torque	kgm	Real	1422			
+1428	モーメント/トルク	Moment of Force/Torque	kgcm	Real	1423			
+1430	モーメント/トルク	Moment of Force/Torque	N m	Real	1420			
+1431	モーメント/トルク	Moment of Force/Torque	N cm	Real	1421			
+1432	モーメント/トルク	Moment of Force/Torque	kg m	Real	1422			
+1433	モーメント/トルク	Moment of Force/Torque	kg cm	Real	1423			
+1435	モーメント/トルク	Moment of Force/Torque	N・m	Real	1420			
+1436	モーメント/トルク	Moment of Force/Torque	N・cm	Real	1421			
+1437	モーメント/トルク	Moment of Force/Torque	kg・m	Real	1422			
+1438	モーメント/トルク	Moment of Force/Torque	kg・cm	Real	1423			
+1440	モーメント/トルク	Moment of Force/Torque	N*m	Real	1425			
+1441	モーメント/トルク	Moment of Force/Torque	N*cm	Real	1426			
+1442	モーメント/トルク	Moment of Force/Torque	kg*m	Real	1427			
+1443	モーメント/トルク	Moment of Force/Torque	kg*cm	Real	1428			
+1445	モーメント/トルク	Moment of Force/Torque	N-m	Real	1425			
+1446	モーメント/トルク	Moment of Force/Torque	N-cm	Real	1426			
+1447	モーメント/トルク	Moment of Force/Torque	kg-m	Real	1427			
+1448	モーメント/トルク	Moment of Force/Torque	kg-cm	Real	1428			
+1450	慣性モーメント	Moment of Inertia	kg·m2	Real				
+1451	慣性モーメント	Moment of Inertia	kg·cm2	Real	1450	1.000E-04	1	0
+1452	慣性モーメント	Moment of Inertia	g·cm2	Real	1450	1.000E-07	1	0
+1455	慣性モーメント	Moment of Inertia	kgm2	Real	1450			
+1456	慣性モーメント	Moment of Inertia	kgcm2	Real	1451			
+1457	慣性モーメント	Moment of Inertia	gcm2	Real	1452			
+1460	慣性モーメント	Moment of Inertia	kg m2	Real	1450			
+1461	慣性モーメント	Moment of Inertia	kg cm2	Real	1451			
+1462	慣性モーメント	Moment of Inertia	g cm2	Real	1452			
+1465	慣性モーメント	Moment of Inertia	kg・m2	Real	1450			
+1466	慣性モーメント	Moment of Inertia	kg・cm2	Real	1451			
+1467	慣性モーメント	Moment of Inertia	g・cm2	Real	1452			
+1470	慣性モーメント	Moment of Inertia	kg*m2	Real	1455			
+1471	慣性モーメント	Moment of Inertia	kg*cm2	Real	1456			
+1472	慣性モーメント	Moment of Inertia	g*cm2	Real	1457			
+1475	慣性モーメント	Moment of Inertia	kg-m2	Real	1455			
+1476	慣性モーメント	Moment of Inertia	kg-cm2	Real	1456			
+1477	慣性モーメント	Moment of Inertia	g-cm2	Real	1457			
+1500	圧力/応力	Pressure/Stress	Pa	Real				
+1501	圧力/応力	Pressure/Stress	mPa	Real	1500	1.000E-03	1	0
+1502	圧力/応力	Pressure/Stress	hPa	Real	1500	100	1	0
+1503	圧力/応力	Pressure/Stress	kPa	Real	1500	1.000E+03	1	0
+1504	圧力/応力	Pressure/Stress	MPa	Real	1500	1.000E+06	1	0
+1505	圧力/応力	Pressure/Stress	GPa	Real	1500	1.000E+09	1	0
+1510	圧力/応力	Pressure/Stress	dyn/cm2	Real	1500	1.000E-05	1.00E-04	0
+1511	圧力/応力	Pressure/Stress	kgf/cm2	Real	1500	98066.5	1	0
+1512	圧力/応力	Pressure/Stress	psi	Real	1500	6896.55	1	0
+1513	圧力/応力	Pressure/Stress	atm	Real	1500	101325	1	0
+1514	圧力/応力	Pressure/Stress	Torr	Real	1500	133.322	1	0
+1515	圧力/応力	Pressure/Stress	mTorr	Real	1500	0.133322	1	0
+1530	圧力/応力	Pressure/Stress	N/m2	Real	1500			
+1531	圧力/応力	Pressure/Stress	mmHg	Real	1514			
+1532	圧力/応力	Pressure/Stress	pz	Real	1503			
+1540	圧力減衰速度	Pressure Decay Rate	Pa/s	Real				
+1541	圧力減衰速度	Pressure Decay Rate	kPa/s	Real	1540	1.000E+03	1	0
+1542	圧力減衰速度	Pressure Decay Rate	MPa/s	Real	1540	1.000E+06	1	0
+1600	エネルギ/仕事/熱量	Energy/Work/Heat	J	Real				
+1601	エネルギ/仕事/熱量	Energy/Work/Heat	µJ	Real	1600	1.000E-06	1	0
+1602	エネルギ/仕事/熱量	Energy/Work/Heat	mJ	Real	1600	1.000E-03	1	0
+1603	エネルギ/仕事/熱量	Energy/Work/Heat	kJ	Real	1600	1.000E+03	1	0
+1610	エネルギ:電子ボルト	Energy: Electron Volt	eV	Real	1600	1.6021765314E-19	1	0
+1611	エネルギ:電子ボルト	Energy: Electron Volt	keV	Real	1600	1.6021765314E-19	1.000E-03	0
+1612	エネルギ:電子ボルト	Energy: Electron Volt	MeV	Real	1600	1.6021765314E-19	1.000E-06	0
+1613	エネルギ:ワット時	Energy: Watt Hour	Wh	Real	1600	3.6	1.000E-03	
+1614	エネルギ:ワット時	Energy: Watt Hour	kWh	Real	1600	3.6	1.000E-06	
+1615	エネルギ:カロリ	Heat: Calorie	cal	Real	1600	4.184	1.000E+00	0
+1616	エネルギ:カロリ	Heat: Calorie	kcal	Real	1600	4.184	1.000E-03	0
+1650	比エネルギ	Specific Energy	J/kg	Real				
+1651	比エネルギ	Specific Energy	J/g	Real	1650	1	1.000E-03	0
+1660	エネルギ密度	Energy Density	J/m3	Real				
+1661	エネルギ密度	Energy Density	J/cm3	Real	1660	1	1.000E-06	0
+1700	仕事率/工率/放射束	Power/Radiant Flux	W	Real				
+1701	仕事率/工率/放射束	Power/Radiant Flux	µW	Real	1700	1.000E-06	1	0
+1702	仕事率/工率/放射束	Power/Radiant Flux	mW	Real	1700	1.000E-03	1	0
+1703	仕事率/工率/放射束	Power/Radiant Flux	kW	Real	1700	1.000E+03	1	0
+1704	馬力	Horsepower	hp	Real	1700	735.498	1	0
+1800	熱流束密度/放射照度	Heat Flux Density/Irradiance	W/m2	Real				
+1801	熱流束密度/放射照度	Heat Flux Density/Irradiance	µW/m2	Real	1800	1.000E-06	1	0
+1802	熱流束密度/放射照度	Heat Flux Density/Irradiance	mW/m2	Real	1800	1.000E-03	1	0
+1810	熱流束密度/放射照度	Heat Flux Density/Irradiance	kcal/m2·h	Real	1800	4.184	3.600E+00	0
+1811	熱流束密度/放射照度	Heat Flux Density/Irradiance	kcal/m2 h	Real	1810			
+1812	熱流束密度/放射照度	Heat Flux Density/Irradiance	kcal/m2・h	Real	1810			
+1813	熱流束密度/放射照度	Heat Flux Density/Irradiance	kcal/m2*h	Real	1810			
+1814	熱流束密度/放射照度	Heat Flux Density/Irradiance	kcal/m2-h	Real	1810			
+2000	長さ	Length	m	Real				
+2001	長さ	Length	nm	Real	2000	1.000E-09	1	0
+2002	長さ	Length	µm	Real	2000	1.000E-06	1	0
+2003	長さ	Length	mm	Real	2000	1.000E-03	1	0
+2004	長さ	Length	cm	Real	2000	0.1	1	0
+2005	長さ	Length	km	Real	2000	1000	1	0
+2020	長さ:インチ	Length: inch	in	Real	2000	25.4	1.000E+03	0
+2021	長さ:ミル	Length: mil	mil	Real	2000	25.4	1.000E+06	0
+2022	長さ:ポイント	Length: point	pt	Real	2000	3	8000	0
+2023	長さ:フィート	Length: feet	ft	Real	2000	0.3048	1	0
+2024	長さ:ヤード	Length: yard	yd	Real	2000	0.9144	1	0
+2025	長さ:マイル	Length: mile	mile	Real	2000	1609.344	1	0
+2100	面積	Area	m2	Real				
+2101	面積	Area	nm2	Real	2100	1.000E-18	1	0
+2102	面積	Area	µm2	Real	2100	1.000E-12	1	0
+2103	面積	Area	mm2	Real	2100	1.000E-06	1	0
+2104	面積	Area	cm2	Real	2100	1.000E-02	1	0
+2105	面積	Area	km2	Real	2100	1.000E+06	1	0
+2200	体積	Volume	m3	Real				
+2201	体積	Volume	nm3	Real	2200	1.000E-27	1	0
+2202	体積	Volume	µm3	Real	2200	1.000E-18	1	0
+2203	体積	Volume	mm3	Real	2200	1.000E-09	1	0
+2204	体積	Volume	cm3	Real	2200	1.000E-03	1	0
+2205	体積	Volume	km3	Real	2200	1.000E+09	1	0
+2210	体積:リットル	Volume: Litre	L	Real	2200	1.000E-03	1	0
+2211	体積:リットル	Volume: Litre	µL	Real	2200	1.000E-06	1	0
+2212	体積:リットル	Volume: Litre	mL	Real	2200	1.000E-06	1	0
+2213	体積:リットル	Volume: Litre	dL	Real	2200	1.000E-04	1	0
+2214	体積:リットル	Volume: Litre	kL	Real	2200	1	1	0
+2220	体積:cc	Volume: cc	cc	Real	2200	1.000E-06	1	0
+2250	燃費	Fuel Efficiency	km/L	Real				0
+2251	燃費	Fuel Efficiency	mpg	Real	2250	1.609344	3.785411784	0
+2300	速度	Speed/Velocity	m/s	Real				
+2301	速度	Speed/Velocity	µm/s	Real	2300	1.000E-06	1	0
+2302	速度	Speed/Velocity	mm/s	Real	2300	1.000E-03	1	0
+2303	速度	Speed/Velocity	cm/s	Real	2300	0.1	1	0
+2304	速度	Speed/Velocity	km/s	Real	2300	1.000E+03	1	0
+2310	速度:分速	Speed/Velocity	m/min	Real	2300	1	60	0
+2311	速度:分速	Speed/Velocity	mm/min	Real	2300	1.000E-03	60	0
+2320	速度:時速	Speed/Velocity	km/h	Real	2300	1.000E+03	3600	0
+2321	速度:時速	Speed/Velocity	mph	Real	2300	1609.344	3600	0
+2329	速度:時速	Speed/Velocity	kph	Real	2320			
+2350	角速度/角周波数	Angular Velocity/Frequency	rad/s	Real				
+2351	角速度/角周波数	Angular Velocity/Frequency	µrad/s	Real	2350	1.000E-06	1	0
+2352	角速度/角周波数	Angular Velocity/Frequency	mrad/s	Real	2350	1.000E-03	1	0
+2400	加速度	Acceleration	m/s2	Real				
+2401	加速度	Acceleration	Gal	Real	2400	0.01	1	0
+2402	加速度:標準重力加速度	Standard Gravitational Acceleration	G	Real	2400	9.80665	1	0
+2450	角加速度	Angular Acceleration	rad/s2	Real				
+2451	角加速度	Angular Acceleration	deg/s2	Real		3.141592654	180	0
+2452	角加速度	Angular Acceleration	rps2	Real		3.141592654	0.5	0
+2500	体積流量	Volume Flow Rate 	m3/s	Real				
+2501	体積流量	Volume Flow Rate 	L/s	Real	2500	1.00E-03	1	0
+2510	体積流量	Volume Flow Rate 	m3/min	Real	2500	1	60	0
+2511	体積流量	Volume Flow Rate 	cm3/min	Real	2500	1.000E-06	60	0
+2512	体積流量	Volume Flow Rate 	mm3/min	Real	2500	1.000E-09	60	0
+2513	体積流量	Volume Flow Rate 	L/min	Real	2500	1.000E-03	60	0
+2514	体積流量	Volume Flow Rate 	cc/min	Real	2500	1.000E-06	60	0
+2520	体積流量	Volume Flow Rate 	m3/h	Real	2500	1	3600	0
+2521	体積流量	Volume Flow Rate 	L/h	Real	2500	1.000E-03	3600	0
+2530	体積流量	Volume Flow Rate 	mm3/str	Real				
+2540	体積流量	Volume Flow Rate 	mm3/str·N	Real				
+2541	体積流量	Volume Flow Rate 	mm3/strN	Real	2540			
+2542	体積流量	Volume Flow Rate 	mm3/str N	Real	2540			
+2543	体積流量	Volume Flow Rate 	mm3/str・N	Real	2540			
+2544	体積流量	Volume Flow Rate 	mm3/str*N	Real	2540			
+2545	体積流量	Volume Flow Rate 	mm3/str-N	Real	2540			
+2700	ばね定数/表面張力	Spring Constant/Surface Tension	N/m	Real				
+2701	ばね定数/表面張力	Spring Constant/Surface Tension	N/mm	Real	2700	1	1.000E-03	0
+2702	ばね定数/表面張力	Spring Constant/Surface Tension	kN/m	Real	2700	1.000E+03	1	0
+2703	ばね定数/表面張力	Spring Constant/Surface Tension	kN/cm	Real	2700	1.000E+03	0.01	0
+2710	ヤング率	Young's Modulus	N/mm2	Real				
+2711	ヤング率	Young's Modulus	kgf/mm2	Real	2710	9.80665	1	0
+2800	波数	Wavenumber	1/m	Real				
+3000	質量	Mass	g	Real				
+3001	質量	Mass	µg	Real	3000	1.000E-06	1	0
+3002	質量	Mass	mg	Real	3000	1.000E-03	1	0
+3003	質量	Mass	kg	Real	3000	1.000E+03	1	0
+3004	質量	Mass	t	Real	3000	1.000E+06	1	0
+3100	密度	Density	kg/m3	Real				
+3101	密度	Density	g/cm3	Real	3100	1.000E-03	1.00E-06	0
+3102	密度	Density	g/cc	Real	3100	1.000E-03	1.00E-06	0
+3200	面密度	Surface Density	kg/m2	Real				
+3201	面密度	Surface Density	g/cm2	Real	3200	1.000E-03	1.000E-04	0
+3250	面密度:セル密度	Cell Density	1/cm2	Real				
+3251	面密度:セル密度	Cell Density	cpsi	Real	3250	6.452E+00	1	0
+3300	比体積	Specific Volume	m3/kg	Real				
+3301	比体積	Specific Volume	cm3/g	Real	3300	1.000E+06	1.000E+03	0
+3302	比体積	Specific Volume	cc/g	Real	3300	1.000E+06	1.000E+03	0
+3400	比面積	Specific Area	m2/kg	Real				
+3401	比面積	Specific Area	m2/g	Real	3400	1	1.000E+03	0
+3402	比面積	Specific Area	cm2/g	Real	3400	1.000E+04	1.000E+03	0
+3500	粘度	Viscosity	Pa·s	Real				
+3501	粘度	Viscosity	µPa·s	Real	3500	1.000E-06		
+3502	粘度	Viscosity	mPa·s	Real	3500	1.000E-03	1	0
+3503	粘度	Viscosity	P	Real	3500	1.000E-02	1	0
+3504	粘度	Viscosity	cP	Real	3500	1.000E-03	1	0
+3510	粘度	Viscosity	Pa s	Real	3500			
+3511	粘度	Viscosity	µPa s	Real	3501			
+3512	粘度	Viscosity	mPa s	Real	3502			
+3513	粘度	Viscosity	Pa・s	Real	3500			
+3514	粘度	Viscosity	µPa・s	Real	3501			
+3515	粘度	Viscosity	mPa・s	Real	3502			
+3516	粘度	Viscosity	Pa*s	Real	3500			
+3517	粘度	Viscosity	µPa*s	Real	3501			
+3518	粘度	Viscosity	mPa*s	Real	3502			
+3519	粘度	Viscosity	Pa-s	Real	3500			
+3520	粘度	Viscosity	µPa-s	Real	3501			
+3521	粘度	Viscosity	mPa-s	Real	3502			
+3600	動粘度	Dynamic Viscosity 	m2/s	Real				
+3610	動粘度	Dynamic Viscosity 	St	Real	3600	1.000E-04	1	0
+3700	質量流量	Mass Flow Rate	g/s	Real				
+3701	質量流量	Mass Flow Rate	mg/s	Real	3700	1.000E-03	1	
+3702	質量流量	Mass Flow Rate	kg/s	Real	3700	1.000E+03	1	0
+3703	質量流量	Mass Flow Rate	g/min	Real	3700	1	60	0
+3704	質量流量	Mass Flow Rate	mg/min	Real	3700	1.000E-03	60	
+3705	質量流量	Mass Flow Rate	kg/min	Real	3700	1.000E+03	60	0
+3710	質量流量	Mass Flow Rate	Pa·m3/s	Real				
+3711	質量流量	Mass Flow Rate	SLM	Real	3710	101.325	60	0
+3712	質量流量	Mass Flow Rate	sccm	Real	3710	0.101325	60	0
+3720	質量流量	Mass Flow Rate	atm·cm3/min	Real	3710	0.101325	60	0
+3721	質量流量	Mass Flow Rate	atm cm3/min	Real	3720			
+3722	質量流量	Mass Flow Rate	atm・cm3/min	Real	3720			
+3723	質量流量	Mass Flow Rate	atm*cm3/min	Real	3720			
+3724	質量流量	Mass Flow Rate	atm-cm3/min	Real	3720			
+4000	電流	Electric Current	A	Real				
+4001	電流	Electric Current	nA	Real	4000	1.000E-09	1	0
+4002	電流	Electric Current	µA	Real	4000	1.000E-06	1	0
+4003	電流	Electric Current	mA	Real	4000	1.000E-03	1	0
+4004	電流	Electric Current	kA	Real	4000	1.000E+03	1	0
+4010	電流密度	Current Density	A/m2	Real				
+4020	電流密度	Current Density	A/cm2	Real	4010	1	1.00E-04	0
+4021	電流密度	Current Density	nA/cm2	Real	4010	1.000E-09	1.000E-04	0
+4022	電流密度	Current Density	µA/cm2	Real	4010	1.000E-06	1.000E-04	0
+4023	電流密度	Current Density	mA/cm2	Real	4010	1.000E-03	1.000E-04	0
+4024	電流密度	Current Density	kA/cm2	Real	4010	1.000E+03	1.000E-04	0
+4050	磁界強度	Magnetic Field Strength	A/m	Real			1.000E+03	
+4051	磁界強度	Magnetic Field Strength	mA/m	Real	4050	1.000E-03	1	0
+4052	磁界強度	Magnetic Field Strength	kA/m	Real	4050	1.000E+03	1	0
+4053	磁界強度	Magnetic Field Strength	Oe			250	3.141592654	
+4100	電荷/電気量	Electric Charge	C	Real				
+4101	電荷/電気量:ファラデー	Electric Charge: Faraday	F	Real	4100	96485.3383	1	0
+4110	表面電荷密度/電束密度/電気変位	Surface Charge Density/Electric Flux Density/Displacement	C/m2	Real				
+4120	電荷密度	Electric Charge Density	C/m3	Real				
+4150	照射線量・曝露(X線/γ線)	Exposure (X/γ-rays)	C/kg	Real				
+4200	電圧/起電力	Voltage, EMF	V	Real				
+4201	電圧/起電力	Voltage, EMF	pV	Real	4200	1.000E-12	1	0
+4202	電圧/起電力	Voltage, EMF	nV	Real	4200	1.000E-09	1	0
+4203	電圧/起電力	Voltage, EMF	µV	Real	4200	1.000E-06	1	0
+4204	電圧/起電力	Voltage, EMF	mV	Real	4200	1.000E-03	1	0
+4205	電圧/起電力	Voltage, EMF	kV	Real	4200	1.000E+03	1	0
+4206	電圧/起電力	Voltage, EMF	MV	Real	4200	1.000E+06	1	0
+4250	電界強度	Electric Field Strength	V/m	Real				
+4300	静電容量	Capacitance	F	Real				
+4301	静電容量	Capacitance	fF	Real	4300	1.000E-15	1	0
+4302	静電容量	Capacitance	pF	Real	4300	1.000E-12	1	0
+4303	静電容量	Capacitance	nF	Real	4300	1.000E-09	1	0
+4304	静電容量	Capacitance	µF	Real	4300	1.000E-06	1	0
+4305	静電容量	Capacitance	mF	Real	4300	1.000E-03	1	0
+4350	誘電率	Permittivity	F/m	Real				
+4400	電気抵抗	Resistance/Impedance/Reactance	Ω	Real				
+4401	電気抵抗	Resistance/Impedance/Reactance	µΩ	Real	4400	1.000E-06	1	0
+4402	電気抵抗	Resistance/Impedance/Reactance	mΩ	Real	4400	1.000E-03	1	0
+4403	電気抵抗	Resistance/Impedance/Reactance	kΩ	Real	4400	1.000E+03	1	0
+4404	電気抵抗	Resistance/Impedance/Reactance	MΩ	Real	4400	1.000E+06	1	0
+4405	電気抵抗	Resistance/Impedance/Reactance	ohm	Real	4400			
+4500	コンダクタンス	Electrical Conductance	S	Real				
+4501	コンダクタンス	Electrical Conductance	µS	Real	4500	1.000E-06	1	0
+4502	コンダクタンス	Electrical Conductance	mS	Real	4500	1.000E-03	1	0
+4503	コンダクタンス	Electrical Conductance	kS	Real	4500	1.000E+03	1	0
+4504	コンダクタンス	Electrical Conductance	MS	Real	4500	1.000E+06	1	0
+4510	コンダクタンス	Electrical Conductance	1/Ω	Real	4500	1	1	0
+4511	コンダクタンス	Electrical Conductance	Ω^-1	Real	4510			
+4512	コンダクタンス	Electrical Conductance	1/ohm	Real	4510			
+4513	コンダクタンス	Electrical Conductance	ohm-1	Real	4510			
+4600	磁束	Magnetic Flux	Wb	Real				
+4601	磁束	Magnetic Flux	µWb	Real	4600	1.000E-06	1	0
+4602	磁束	Magnetic Flux	mWb	Real	4600	1.000E-03	1	0
+4700	磁束密度	Magnetic Flux Density	T	Real				
+4701	磁束密度	Magnetic Flux Density	nT	Real	4700	1.000E-09	1	0
+4702	磁束密度	Magnetic Flux Density	µT	Real	4700	1.000E-06	1	0
+4703	磁束密度	Magnetic Flux Density	mT	Real	4700	1.000E-03	1	0
+4710	磁束密度	Magnetic Flux Density	gauss	Real	4700	1.000E-04	1	0
+4711	磁束密度	Magnetic Flux Density	mG	Real	4700	1.000E-07	1	0
+4712	磁束密度	Magnetic Flux Density	γ	Real	4700	1.000E-09	1	0
+4800	インダクタンス	Inductance	H	Real				
+4801	インダクタンス	Inductance	pH	Real	4800	1.000E-12	1	0
+4802	インダクタンス	Inductance	nH	Real	4800	1.000E-09	1	0
+4803	インダクタンス	Inductance	µH	Real	4800	1.000E-06	1	0
+4804	インダクタンス	Inductance	mH	Real	4800	1.000E-03	1	0
+4850	透磁率	Permeability	H/m	Real				
+5000	熱力学温度	Thermodynamic Temperature	K	Real				
+5100	セルシウス温度	Celsius Temperature	℃	Real	5000	1	1	-273.15
+5101	ファーレンハイト温度	Fahrenheit Temperature	℉	Real	5000	9	5	-459.67
+5110	温度	Temperature	°C	Real	5100			
+5111	温度	Temperature	degC	Real	5100			
+5112	温度	Temperature	degreeC	Real	5100			
+5115	温度	Temperature	°F	Real	5101			
+5116	温度	Temperature	degF	Real	5101			
+5117	温度	Temperature	degreeF	Real	5101			
+5200	熱容量/エントロピ	Heat Capacity/Entropy	J/K	Real				
+5300	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/g·K	Real				
+5301	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/kg·K	Real	5300	1	1.000E+03	0
+5310	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/g K	Real	5300			
+5311	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/kg K	Real	5301			
+5315	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/g・K	Real	5300			
+5316	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/kg・K	Real	5301			
+5320	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/g*K	Real	5310			
+5321	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/kg*K	Real	5311			
+5325	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/g-K	Real	5315			
+5326	比熱容量/比エントロピ	Specific Heat Capacity/Entropy	J/kg-K	Real	5316			
+5400	熱伝導率	Thermal Conductivity	W/m·K	Real				
+5401	熱伝導率	Thermal Conductivity	kcal/m·h·℃	Real	5400	4.18E+03	3.600E+03	0
+5402	熱伝導率	Thermal Conductivity	cal/cm·s·℃	Real	5400	4.184	1.000E-02	0
+5410	熱伝導率	Thermal Conductivity	W/m K	Real	5400			
+5411	熱伝導率	Thermal Conductivity	kcal/m h ℃	Real	5401			
+5412	熱伝導率	Thermal Conductivity	cal/m s ℃	Real	5402			
+5415	熱伝導率	Thermal Conductivity	W/m・K	Real	5400			
+5416	熱伝導率	Thermal Conductivity	kcal/m・h・℃	Real	5401			
+5417	熱伝導率	Thermal Conductivity	cal/m・s・℃	Real	5402			
+5420	熱伝導率	Thermal Conductivity	W/m*K	Real	5401			
+5421	熱伝導率	Thermal Conductivity	kcal/m*h*℃	Real	5402			
+5422	熱伝導率	Thermal Conductivity	cal/m*s*℃	Real	5410			
+5425	熱伝導率	Thermal Conductivity	W/m-K	Real	5411			
+5426	熱伝導率	Thermal Conductivity	kcal/m-h-℃	Real	5412			
+5427	熱伝導率	Thermal Conductivity	cal/m-s-℃	Real	5415			
+5500	熱膨張係数	Thermal Expansion Cofficient	1/K	Real				
+5501	熱膨張係数	Thermal Expansion Cofficient	1/℃	Real	5500	1	1	0
+5502	熱膨張係数	Thermal Expansion Cofficient	10^-6/K	Real	5500	1.00E-06	1	0
+5503	熱膨張係数	Thermal Expansion Cofficient	10^-6/℃	Real	5500	1.00E-06	1	0
+5504	熱膨張係数	Thermal Expansion Cofficient	ppm/K	Real	5502			
+5505	熱膨張係数	Thermal Expansion Cofficient	ppm/℃	Real	5502			
+6000	物理量	Amount of Substance	mol	Real				
+6100	モル濃度	Molar Concentration	mol/m3	Real				
+6101	モル濃度	Molar Concentration	mol/L	Real	6100	1.000E+03	1	0
+6200	モルエネルギ	Molar Energy	J/mol	Real				
+6300	モルエントロピ/モル熱容量	Molar Entropy/Molar Heat Capacity	J/mol·K	Real				
+6500	酵素活性	Catalytic Activity	kat	Real				
+6510	触媒活性濃度	Catalytic Activity Concentration	kat/m3	Real				
+7000	光度	Luminous Intensity	cd	Real				
+7001	光度	Luminous Intensity	mcd	Real	7000	1.000E-03	1	0
+7002	光度	Luminous Intensity	kcd	Real	7000	1.000E+03	1	0
+7010	輝度	Luminance	cd/m2	Real				
+7011	輝度	Luminance	kcd/m2	Real	7002	1.000E+03	1	0
+7100	光束	Luminous Flux	lm	Real				
+7101	光束	Luminous Flux	klm	Real	7100	1.000E+03	1	0
+7150	放射強度	Radiant Intensity	W/sr	Real				
+7160	放射輝度	Radiance	W/m2·sr	Real				
+7161	放射輝度	Radiance	W/m2sr	Real	7160			
+7162	放射輝度	Radiance	W/m2 sr	Real	7160			
+7163	放射輝度	Radiance	W/m2・sr	Real	7160			
+7164	放射輝度	Radiance	W/m2-sr	Real	7160			
+7200	照度	Illuminance	lx	Real				
+7201	照度	Illuminance	mlx	Real	7200	1.000E-03	1	0
+7202	照度	Illuminance	klx	Real	7200	1.000E+03	1	0
+7203	照度	Illuminance	Mlx	Real	7200	1.000E+06	1	0
+7300	放射能	Activity referred to Radionuclide	Bq	Real				
+7301	放射能	Activity referred to Radionuclide	kBq	Real	7300	1.000E+03	1	0
+7302	放射能	Activity referred to Radionuclide	MBq	Real	7300	1.000E+06	1	0
+7310	放射能	Activity referred to Radionuclide	Ci	Real	7300	3.700E+10	1	0
+7400	吸収線量	Absorbed Dose	Gy	Real				
+7401	吸収線量	Absorbed Dose	µGy	Real	7400	1.000E-06	1	0
+7402	吸収線量	Absorbed Dose	mGy	Real	7400	1.000E-03	1	0
+7410	吸収線量率	Absorbed Dose Rate	Gy/s	Real				
+7500	線量当量	Equivalent Dose	Sv	Real				
+7501	線量当量	Equivalent Dose	nSv	Real	7500	1.000E-09	1	0
+7502	線量当量	Equivalent Dose	µSv	Real	7500	1.000E-06	1	0
+7503	線量当量	Equivalent Dose	mSv	Real	7500	1.000E+03	1	0
+8000	パーセント	Percentage	%	Real				
+8001	パーセント	Percentage	wt%	Real		1	1	0
+8002	パーセント	Percentage	vol%	Real		1	1	0
+8003	パーセント	Percentage	mol%	Real		1	1	0
+8004	パーミル	Permille	‰	Real		100	1.000E+03	0
+8005	分率	Parts-per-million	ppm	Real		100	1.000E+06	0
+8006	分率	Parts-per-billion	ppb	Real		100	1.000E+09	0
+8007	分率	Parts-per-trillion	ppt	Real		100	1.000E+12	0
+8008	分率	Parts-per-quadrillion	ppq	Real		100	1.000E+15	0
+8100	ベル	Decibel	B	Real				
+8101	デシベル	Decibel	dB	Real		10	1	0
+8200	情報量	Amount of Information	bit	Int				
+8210	情報量	Amount of Information	Byte	Int	8200	8	1	0
+8211	情報量	Amount of Information	kB	Int	8210	1000	1	0
+8212	情報量	Amount of Information	MB	Int	8210	1000000	1	0
+8213	情報量	Amount of Information	GB	Int	8210	1000000000	1	0
+8214	情報量	Amount of Information	TB	Int	8210	1E+12	1	0
+8215	情報量	Amount of Information	PB	Int	8210	1E+15	1	0
+8220	データサイズ(IEC 80000-13)	Data Size (IEC 80000-13)	kiB	Int	8210	1024	1	0
+8221	データサイズ(IEC 80000-13)	Data Size (IEC 80000-13)	MiB	Int	8210	1048576	1	0
+8222	データサイズ(IEC 80000-13)	Data Size (IEC 80000-13)	GiB	Int	8210	1073741824	1	0
+8223	データサイズ(IEC 80000-13)	Data Size (IEC 80000-13)	TiB	Int	8210	1.09951E+12	1	0
+8224	データサイズ(IEC 80000-13)	Data Size (IEC 80000-13)	PiB	Int	8210	1.1259E+15	1	0
+8230	通信速度	Communication Speed	bps	Real				
+8231	通信速度	Communication Speed	kbps	Real	8230	1000	1	0
+8232	通信速度	Communication Speed	Mbps	Real	8230	1000000	1	0
+8233	通信速度	Communication Speed	Tbps	Real	8230	1000000000	1	0
+8234	通信速度	Communication Speed	Pbps	Real	8230	1E+12	1	0
+8300	通貨	Currency	JPY	Real				
+8301	通貨	Currency	USD	Real				
+8302	通貨	Currency	EUR	Real				
+8303	通貨	Currency	GBP	Real				
+8304	通貨	Currency	CNY	Real				
+8500	数量	Quantity (Count)	pcs	Int				
+8501	数量	Quantity (Count)	times	Int				
+8502	数量	Quantity (Count)	pulse	Int				
+8503	数量	Quantity (Count)	pixel	Int				
+8504	数量	Quantity (Count)	shot	Int				
+8540	人工	Manpower	man-hr	Real				
+8541	人工	Manpower	人工	Real	8540	1	1	0
+8590	数量	Quantity (Count)	piece	Int	8500			
+8591	数量	Quantity (Count)	pix	Int	8503			
+9999	体積流量	Volume flow rate	ml/min	Int				

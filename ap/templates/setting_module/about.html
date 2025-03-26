@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block header %}
+    {{ macros.page_title(title='About') }}
+{% endblock %}
+
+{% block midbody %}
+    {{ css | safe }}
+    <div class="card about">{{ content | safe }}</div>
+{% endblock %}
+
+{% block js %}
+    <script>
+        $(document).ready(() => {
+            // show load settings menu
+            handleLoadSettingBtns();
+        });
+    </script>
+{% endblock %}

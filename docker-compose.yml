@@ -1,0 +1,42 @@
+name: analysisplatformcloud_${APP_PORT}
+
+x-dn7-volumes: &dn7_volumes
+  # For dn7_db
+  - ./docker_data/database:/var/lib/postgresql/data
+
+  # For dn7_app
+  - ./docker_data/app/instance:/app/analysisinterface/instance
+  - ./docker_data/app/data:/app/analysisinterface/data
+  - ./docker_data/app/log:/app/analysisinterface/log
+  - ./docker_data/app/error:/app/analysisinterface/error
+  - ./docker_data/app/error:/app/analysisinterface/export_setting
+
+  # External Libs that necessary for dn7_app
+  - ./docker_data/R-Portable:/app/R-Portable
+
+services:
+  dn7_db:
+    image: postgres:15.3
+    volumes: *dn7_volumes
+    env_file:
+      - .env.default
+      - .env
+    environment:
+      - TZ=${DATABASE_TZ}
+    restart: unless-stopped
+
+  dn7_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - ${APP_PORT}:7770
+    volumes: *dn7_volumes
+    depends_on:
+      - dn7_db
+    env_file:
+      - .env.default
+      - .env
+    environment:
+      - TZ=${APP_TZ}
+    restart: unless-stopped

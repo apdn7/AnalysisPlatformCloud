@@ -1,0 +1,28 @@
+id	factory_factid	factory_name_jp	factory_name_en	factory_name_sys	factory_name_local	location_id	factory_abbr_jp	factory_abbr_en	factory_abbr_local
+									
+									
+1	Null	Null	Null	Null	Null	1	Null	Null	Null
+2		本社	Headquarters			109	DNJP		
+3		西尾製作所	Nishio Factory			109	西尾		
+4		善明製作所	Zenmyo Factory			109	善明		
+5		池田製作所	Ikeda Factory			109	池田		
+6		安城製作所	Anjo Factory			109	安城		
+7		高棚製作所	Takatana Factory			109	高棚		
+8		大安製作所	Daian Factory			109	大安		
+9		幸田製作所	Kota Factory			109	幸田		
+10		湖西製作所	Kosai Factory			109	湖西		
+11		豊橋製作所	Toyohashi Factory			109	豊橋		
+12		広島工場	Hiroshima Factory			109	広島		
+13		阿久比製作所	Agui Factory			109	阿久比		
+14		北九州製作所	Kitakyusyu Factory			109	北九州		
+15		豊橋東製作所	Toyohashi-Higashi Factory			109	豊橋東		
+16		東広島工場	Higashi-Hiroshima Factory			109	東広島		
+17		広瀬製作所	Hirose Factory			109	広瀬		
+18		デンソー・マニュファクチュアリング・ミシガン	Denso Manufacturing Michigan			228	DMMI		
+19		デンソー・マニュファクチュアリング・インドネシア	Denso Manufacturing Indonesia			98	DMIA		
+20		デンソー・マニュファクチュアリング・アセンズ・テネシー	Denso Manufacturing Athens Tennessee			228	DMAT		
+21		デンソー・マニュファクチュアリング・チェコ	Denso Manufacturing Czech			55	DMCZ		
+22		デンソー・マニュファクチュアリング・テネシー	Denso Manufacturing Tennessee			228	DMTN		
+23		デンソー・タイランド	Denso Thailand			213	DNTH		
+24		デンソー・マニュファクチュアリング・ベトナム	Denso Manufacturing Vietnam			236	DMVN		
+25		デンソー・メキシコ	Denso Mexico			153	DNMX		

@@ -1,0 +1,5 @@
+id	plant_id	prod_family_id	line_group_id	line_factid	line_sign	outsourcing_flag
+						
+						
+1	1	1	1	Null	Null	False
+2	1	2	2	Direct		False

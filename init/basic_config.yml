@@ -1,0 +1,27 @@
+!!omap
+- info: !!omap
+  - version: '1'
+  - port-no: 7770
+  - hide-setting-page: false
+  - language: en
+  - mode: 2    # 1: EdgeServer(ONLINE/OFFLINE) 2: STAND ALONE , 3: BRIDGE STATION WEB , 4: BRIDGE GRPC
+  - log_level: INFO
+- bridge_station: !!omap
+  - host: localhost
+  - port: 7890
+  - web_host: localhost
+  - web_port: 7889
+  - bridge_data: true # remove
+  - reps_id: 10000
+- redis: !!omap
+  - redis_host: localhost
+  - redis_port: 6379
+- database: !!omap
+  - dbname: postgres
+  - host: localhost
+  - port: 5432
+  - username: postgres
+  - password: password
+- setting_app: !!omap
+  - file_mode: false  # true: export to files and user confirm  /  false: insert directly to db
+  - browser_debug: false  # true: show log on console browser  /  false: do not show log

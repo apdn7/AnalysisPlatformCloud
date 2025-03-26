@@ -1,0 +1,12 @@
+.select-graph {
+    margin-top: 10px;
+}
+
+/* Freeze header of yoyakugo and disable all events */
+ul[id^='select2-yoyakugo'] li[id$='head'] {
+    position: sticky;
+    top: 0;
+    background: #222;
+    margin-top: -12px;
+    pointer-events: none;
+}

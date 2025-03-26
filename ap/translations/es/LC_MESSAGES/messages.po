@@ -1,0 +1,5744 @@
+#: ap/setting_module/controllers.py:120
+msgid "Saved"
+msgstr "Salvado"
+
+#: ap/setting_module/controllers.py:129
+msgid "Application Configuration"
+msgstr "Configuración de la aplicación"
+
+#: ap/templates/404.html:3
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: ap/templates/500.html
+msgid "Sorry, something went wrong"
+msgstr "Se ha producido un error"
+
+#: ap/templates/footer.html:3
+msgid "Analysis Interface Application"
+msgstr "Aplicación de enlace de datos y análisis"
+
+#: ap/templates/footer.html:6
+msgid "Choose language"
+msgstr "selecciona un idioma"
+
+#: ap/templates/setting_module/basic_config.html:9
+#: ap/templates/setting_module/db_config.html:7
+msgid "Register"
+msgstr "Registro"
+
+#: ap/templates/setting_module/db_config.html:9
+msgid "Reload"
+msgstr "Recargar"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Integer"
+msgstr "Entero"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Datetime"
+msgstr "Fecha y hora"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Date"
+msgstr "Date"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Time_"
+msgstr "Time"
+
+#: ap/templates/setting_module/db_config.html
+msgid "String"
+msgstr "Cuerda"
+
+#: ap/templates/setting_module/basic_config.html:20
+msgid "Title"
+msgstr "Título"
+
+#: ap/templates/setting_module/config.html:39
+#: ap/templates/setting_module/db_config.html:144
+#: ap/templates/setting_module/trace_config.html:81
+msgid "Please confirm"
+msgstr "por favor confirmar."
+
+#: ap/templates/setting_module/config.html:39
+#: ap/templates/setting_module/db_config.html:144
+#: ap/templates/setting_module/trace_config.html:81
+msgid "Confirmation"
+msgstr "Confirmation"
+
+#: ap/templates/setting_module/config.html:43
+msgid ""
+"Do you want to save changes and start to import data with configure at "
+"Process Config page?"
+msgstr ""
+"Guarde los datos y comience a importar datos con los contenidos "
+"establecidos en la página Configuración del proceso?"
+
+#: ap/templates/setting_module/config.html:46
+#: ap/templates/setting_module/db_config.html:133
+#: ap/templates/setting_module/db_config.html:181
+#: ap/templates/setting_module/db_config.html:215
+#: ap/templates/setting_module/trace_config.html:32
+#: ap/templates/setting_module/trace_config.html:61
+msgid "OK"
+msgstr "OK"
+
+#: ap/templates/setting_module/config.html:47
+#: ap/templates/setting_module/db_config.html:134
+#: ap/templates/setting_module/db_config.html:153
+#: ap/templates/setting_module/db_config.html:182
+#: ap/templates/setting_module/db_config.html:216
+#: ap/templates/setting_module/trace_config.html:33
+#: ap/templates/setting_module/trace_config.html:62
+#: ap/templates/setting_module/trace_config.html:89
+#: ap/templates/trace_data/trace_data.html
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ap/templates/setting_module/db_config.html:5
+msgid "Database Config"
+msgstr "Configuración de base de datos"
+
+#: ap/templates/setting_module/db_config.html:15
+#: ap/templates/setting_module/db_config.html:72
+#: ap/templates/setting_module/db_config.html:174
+#: ap/templates/setting_module/db_config.html:204
+msgid "Database Name"
+msgstr "Nombre de la base de datos"
+
+#: ap/templates/setting_module/db_config.html:16
+msgid "Database Type"
+msgstr "Tipo de base de datos"
+
+#: ap/templates/setting_module/db_config.html:17
+#: ap/templates/setting_module/db_config.html:87
+#: ap/templates/setting_module/db_config.html:111
+#: ap/templates/setting_module/db_config.html:164
+#: ap/templates/setting_module/db_config.html:194
+msgid "Config"
+msgstr "Configuración"
+
+#: ap/templates/setting_module/db_config.html:18
+#: ap/templates/setting_module/proc_config.html
+msgid "Comment"
+msgstr "Comentario"
+
+#: ap/templates/setting_module/db_config.html:104
+msgid "Add"
+msgstr "Agregar"
+
+#: ap/templates/setting_module/db_config.html:118
+msgid "Please choose database file"
+msgstr "Seleccione un archivo de base de datos."
+
+#: ap/templates/setting_module/db_config.html:121
+msgid "File name"
+msgstr "Nombre del archivo"
+
+#: ap/templates/setting_module/db_config.html:124
+msgid "Select"
+msgstr "Seleccione"
+
+#: ap/templates/setting_module/db_config.html:148
+#: ap/templates/setting_module/trace_config.html:85
+msgid "Do you want to delete this record?"
+msgstr "¿Quieres eliminar este disco?"
+
+#: ap/templates/setting_module/db_config.html:152
+#: ap/templates/setting_module/trace_config.html:72
+#: ap/templates/setting_module/trace_config.html:88
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ap/templates/setting_module/performance_check.html
+msgid "Start Time"
+msgstr "Hora de inicio"
+
+#: ap/templates/setting_module/performance_check.html
+msgid "End Time"
+msgstr "Hora de finalización"
+
+#: ap/templates/filter_visualization.html
+#: ap/templates/setting_module/performance_check.html
+msgid "Line"
+msgstr "Línea"
+
+#: ap/templates/setting_module/trace_config.html:3
+msgid "Data Link Config"
+msgstr "Configuración del enlace de datos"
+
+#: ap/templates/setting_module/trace_config.html:28
+msgid "Database"
+msgstr "Base de datos"
+
+#: ap/templates/setting_module/trace_config.html:70
+msgid "Import"
+msgstr "Importar"
+
+#: ap/templates/setting_module/trace_config.html:71
+msgid "Export"
+msgstr "Exportar"
+
+#: ap/templates/setting_module/db_config.html:170
+msgid "Host name"
+msgstr "Nombre de host"
+
+#: ap/templates/setting_module/db_config.html:172
+msgid "Port number"
+msgstr "Número de puerto"
+
+#: ap/templates/setting_module/db_config.html:170
+msgid "User name"
+msgstr "Nombre de usuario"
+
+#: ap/templates/setting_module/db_config.html:170
+msgid "Password"
+msgstr "Clave"
+
+#: ap/templates/setting_module/db_config.html:206
+msgid "Schema"
+msgstr "Esquema"
+
+#: ap/api/setting_module/controllers.py:111
+msgid "Connected"
+msgstr "&#10003; Tuve éxito."
+
+#: ap/api/setting_module/controllers.py:113
+msgid "Failed to connect"
+msgstr "&#10005; falló."
+
+#: ap/templates/setting_module/proc_config.html:5
+msgid "Process Config"
+msgstr "Configuración de procesos"
+
+#: ap/templates/templates/sidebar.html
+msgid "Process"
+msgstr "Proceso"
+
+#: ap/template/analyze/hotelling_tsquare.html
+#: ap/templates/setting_module/proc_config.html:15
+msgid "Process Name"
+msgstr "Nombre del proceso"
+
+#: ap/templates/setting_module/proc_config.html:17
+msgid "Table Name"
+msgstr "Nombre de la tabla"
+
+# ap/templates/setting_module/background_process.html
+#: ap/templates/setting_module/proc_config_modals.html:23
+msgid "Detail"
+msgstr "Detalle"
+
+#: ap/templates/setting_module/db_config_modals.html
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Show"
+msgstr "Avance"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Last Records"
+msgstr "Primeros cinco registros"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Setting Content"
+msgstr "Configuración de contenido"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Column Name"
+msgstr "Nombre de columna"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "English Name"
+msgstr "Nombre inglés"
+
+#: ap/template/analyze/hotelling_tsquare.html
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Shown Name"
+msgstr "Nombre para mostrar"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Coef"
+msgstr "coeficiente"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Operator"
+msgstr "Operador"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Zero is not allowed"
+msgstr "Ingrese un valor que no sea 0"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Operator is needed when input coef"
+msgstr "Operador de entrada."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Coef is needed when specify operator"
+msgstr "Coeficiente de entrada."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Please fill in English name textbox"
+msgstr "Entrada Nombre en inglés."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Please fill in Master name textbox"
+msgstr "Nombre de pantalla de entrada."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "English name is duplicated"
+msgstr "El nombre en inglés está duplicado."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "System is duplicated"
+msgstr "System is duplicated"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Show name is duplicated"
+msgstr "Show name is duplicated"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Empty shown name"
+msgstr "Todos los \"nombres de visualización\" requieren entrada."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Use English name"
+msgstr "Los campos con \"nombre de inglés\" en blanco se llenan automáticamente."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Select All"
+msgstr "Seleccionar todo"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Download All"
+msgstr "Download All"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Copy All"
+msgstr "Copy All"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Paste All"
+msgstr "Paste All"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Copy"
+msgstr "Copy"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Set"
+msgstr "Set"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "CopyButtonFunctionHoverMessage"
+msgstr "Open a modal that contains registered functions of this process."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "SetButtonFunctionHoverMessage"
+msgstr ""
+"Add a new function column that fully be inputted and defined into below "
+"table."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "NewButtonFunctionHoverMessage"
+msgstr "Open a modal that contains all functions with description."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "DeleteButtonFunctionHoverMessage"
+msgstr "Delete selected function columns."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "RegisterButtonFunctionHoverMessage"
+msgstr "Register all function columns in table into system."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "ReloadButtonFunctionHoverMessage"
+msgstr "Reload to get all function columns of the process into system."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Import Data"
+msgstr "Datos de importacion"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Do you want to import data"
+msgstr "¿Estás seguro de importar datos?"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Could not access"
+msgstr "No pudo acceder"
+
+#: ap/templates/trace_data/trace_data.html:50
+msgid "Click here to fix"
+msgstr "Haga clic aquí para solucionarlo."
+
+#: ap/templates/setting_module/trace_config.html:67
+msgid "Edit Edge"
+msgstr "Editar borde"
+
+#: ap/templates/setting_module/trace_config.html:73
+msgid "Prev Process"
+msgstr "Proceso previo"
+
+#: ap/templates/setting_module/trace_config.html:77
+msgid "Prev Column"
+msgstr "Columna anterior"
+
+#: ap/templates/setting_module/trace_config.html:84
+msgid "Post Process"
+msgstr "Proceso después de"
+
+#: ap/templates/setting_module/trace_config.html:88
+msgid "Post Column"
+msgstr "Columna post"
+
+#: ap/templates/setting_module/proc_config_modals.html:69
+msgid "As Datetime"
+msgstr "Como dateetime"
+
+#: ap/templates/setting_module/proc_config_modals.html:70
+msgid "As Serial"
+msgstr "Como serial"
+
+#: ap/templates/setting_module/proc_config_modals.html:70
+msgid "As Link ID"
+msgstr "Como enlace ID"
+
+#: ap/templates/macros.html
+msgid "Already registered"
+msgstr "Ya registrado"
+
+#: ap/templates/macros.html
+msgid "Fill in process name"
+msgstr "Ingrese el nombre del proceso"
+
+#: ap/templates/filter_visualization.html
+msgid "Filter/Graph"
+msgstr "Filtro/gráfico"
+
+#: ap/templates/filter_visualization.html
+msgid "Graph Config"
+msgstr "Configuración de gráficos"
+
+#: ap/templates/filter_visualization.html
+msgid "Line Filter Config"
+msgstr "Configuración de filtro de línea"
+
+#: ap/templates/filter_visualization.html
+msgid "Line Column"
+msgstr "Columna de línea"
+
+#: ap/templates/filter_visualization.html
+msgid "N/A"
+msgstr "N/A"
+
+#: ap/templates/filter_visualization.html
+msgid "Value"
+msgstr "Valor"
+
+#: ap/templates/filter_visualization.html
+msgid "Machine Filter Config"
+msgstr "Configuración de filtro de máquina"
+
+#: ap/templates/filter_visualization.html
+msgid "Machine ID Column"
+msgstr "Columna de máquina ID"
+
+#: ap/templates/filter_visualization.html
+msgid "Part No Filter Config"
+msgstr "Parte sin configuración de filtro"
+
+#: ap/templates/filter_visualization.html
+msgid "Part No Column"
+msgstr "Parte sin columna"
+
+#: ap/templates/filter_visualization.html
+msgid "Filter Name"
+msgstr "Nombre de filtro"
+
+#: ap/templates/filter_visualization.html
+msgid "Filter Condition"
+msgstr "Condición de filtro"
+
+#: ap/templates/filter_visualization.html
+msgid "Others Filter Config"
+msgstr "Otros Filtar Config"
+
+#: ap/templates/filter_visualization.html
+msgid "Target Column"
+msgstr "Columna objetivo"
+
+#: ap/templates/filter_visualization.html
+msgid "Visualization Config"
+msgstr "Configuración de visualización"
+
+#: ap/templates/filter_visualization.html
+msgid "Lower threshold"
+msgstr "Umbral inferior"
+
+#: ap/templates/filter_visualization.html
+msgid "Upper threshold"
+msgstr "Umbral superior"
+
+#: ap/templates/filter_visualization.html
+msgid "Lower process threshold"
+msgstr "Umbral de proceso inferior"
+
+#: ap/templates/filter_visualization.html
+msgid "Upper process threshold"
+msgstr "Umbral de proceso superior"
+
+#: ap/templates/filter_visualization.html
+msgid "y-axes range: min"
+msgstr "Rango de ejes y: min"
+
+#: ap/templates/filter_visualization.html
+msgid "y-axes range: max"
+msgstr "Rango de ejes y: Max"
+
+#: ap/templates/filter_visualization.html
+#: ap/templates/trace_data/categorical_plot.html
+#: ap/templates/trace_data/trace_data.html
+msgid "Part No"
+msgstr "Parte no"
+
+# ap/templates/setting_module/_filter_partno.html:46
+msgid "Ends With"
+msgstr "terminar con"
+
+# ap/templates/setting_module/_filter_partno.html:47
+msgid "Starts With"
+msgstr "Empezar con"
+
+# ap/templates/setting_module/_filter_partno.html:48
+msgid "Contains"
+msgstr "(Like Búsqueda)"
+
+# ap/templates/setting_module/_filter_partno.html:48
+msgid "Matches"
+msgstr "Aceptar"
+
+# ap/templates/setting_module/_filter_partno.html:48
+msgid "Regular expressions"
+msgstr "Expresiones regulares"
+
+#: ap/template/analyze/hotelling_tsquare.html
+#: ap/templates/trace_data/trace_data.html
+msgid "Display graph"
+msgstr "Muestra el gráfico"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "CSV Export"
+msgstr "CSV Exportar"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Process is required"
+msgstr "Process is required"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Column name is required"
+msgstr "Column name is required"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+#: ap/templates/templates/i18n.html
+msgid "Line is required"
+msgstr "Line is required"
+
+#: ap/templates/templates/i18n.html
+msgid "Mapping Config"
+msgstr "Mapping Config"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Master name is required"
+msgstr "Master name is required"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Duplicated master name"
+msgstr "Duplicated master name"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Machine value is required"
+msgstr "Machine value is required"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Duplicated machine value"
+msgstr "Duplicated machine value"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Save successfully"
+msgstr "Guardar con éxito"
+
+#: ap/templates/setting_module/_filter_machine.html:48
+msgid "Failed to save"
+msgstr "Error al guardar"
+
+#: ap/templates/setting_module/_filter_partno.html:48
+msgid "Target column is required"
+msgstr "Se requiere la columna objetivo"
+
+#: ap/templates/setting_module/_filter_partno.html:48
+msgid "Filter name is required"
+msgstr "Se requiere el nombre del filtro"
+
+#: ap/templates/setting_module/_filter_partno.html:48
+msgid "Condition is required"
+msgstr "Se requiere condición"
+
+#: ap/templates/setting_module/_filter_partno.html:48
+msgid "Duplicated filter name"
+msgstr "El nombre del filtro está duplicado."
+
+#: ap/templates/setting_module/_filter_partno.html:48
+msgid "Duplicated condition"
+msgstr "Las condiciones son duplicadas."
+
+#: ap/templates/setting_module/_filter_partno.html
+msgid "Default"
+msgstr "Defecto"
+
+#: ap/templates/setting_module/filter_visualization.html
+msgid "Process name"
+msgstr "Nombre del proceso"
+
+#: ap/templates/setting_module/_filter_others.html
+msgid "Add other filter"
+msgstr "Se agregó otros filtros"
+
+#: ap/templates/setting_module/db_config_modals.html:5
+msgid "CSV/TSV Import Config"
+msgstr "CSV/TSV Import Config"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Source"
+msgstr "Fuente"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Master Candidate"
+msgstr "Master Candidate"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Polling Frequency"
+msgstr "Ciclo de renovación"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Connect"
+msgstr "Conectar"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Once per hour"
+msgstr "Una vez por hora"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Once per day"
+msgstr "Una vez al día"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Specify datatype of columns"
+msgstr "Confirmación de datos"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Folder does not exist"
+msgstr "No hay carpeta."
+
+msgid "File does not exist"
+msgstr "No hay archivo."
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Exists"
+msgstr "Puedes conectarte."
+
+#: ap/templates/setting_module/_visualization.html
+msgid "Visualization value is required"
+msgstr "Complete el valor."
+
+#: ap/templates/setting_module/_visualization.html
+msgid "At least one setting value is required"
+msgstr "No hay contenido de configuración."
+
+#: ap/templates/setting_module/_visualization.html
+msgid "Setting is duplicated"
+msgstr "La configuración está duplicada."
+
+#: ap/api/setting_module/controllers.py
+msgid "Database Setting saved."
+msgstr "Configuración de la base de datos guardada."
+
+#: ap/api/setting_module/controllers.py
+msgid "Database Setting failed to save"
+msgstr "No se pudo guardar la configuración de la base de datos."
+
+#: ap/templates/macros.html
+msgid "Test connection"
+msgstr "Conexión de prueba"
+
+#: ap/templates/macros.html
+msgid "Start point"
+msgstr "Punto de partida"
+
+#: ap/template/analyze/hotelling_tsquare.html ap/templates/macros.html
+msgid "Date range"
+msgstr "Rango de fechas"
+
+#: ap/templates/macros.html
+msgid "Latest"
+msgstr "Más reciente"
+
+#: ap/templates/macros.html
+msgid "Auto Update"
+msgstr "Auto actualización"
+
+#: ap/templates/macros.html
+msgid "minute"
+msgstr "minuto"
+
+#: ap/templates/macros.html
+msgid "minutes"
+msgstr "minutos"
+
+#: ap/templates/macros.html
+msgid "hour"
+msgstr "hora"
+
+#: ap/templates/macros.html
+msgid "hours"
+msgstr "horas"
+
+#: ap/templates/macros.html
+msgid "Show value"
+msgstr "Variable objetivo"
+
+#: ap/templates/macros.html
+msgid "Filter"
+msgstr "Filtrar"
+
+#: ap/templates/macros.html
+msgid "X axis"
+msgstr "X eje"
+
+#: ap/templates/macros.html
+msgid "Timestamp"
+msgstr "Marca de tiempo"
+
+#: ap/templates/macros.html
+msgid "Index"
+msgstr "Índice"
+
+#: ap/templates/categorical_plot/categorical_plot_by_var.html
+msgid "Stratify Variables"
+msgstr "Estratificar variables"
+
+#: ap/templates/categorical_plot/categorical_plot_by_term.html
+msgid "Filters"
+msgstr "Filtros"
+
+#: ap/templates/sidebar.html
+msgid "Database/CSV"
+msgstr "Base de datos/CSV"
+
+#: ap/templates/sidebar.html
+msgid "Analyze"
+msgstr "Analizar"
+
+#: ap/templates/sidebar.html
+msgid "Graphical LASSO"
+msgstr "Gráfico LASSO"
+
+#: ap/templates/sidebar.html
+msgid "Histogram"
+msgstr "Histograma"
+
+#: ap/templates/sidebar.html
+msgid "Stratified Plot"
+msgstr "Trama estratificada"
+
+#: ap/templates/sidebar.html
+msgid "Full-points Plot"
+msgstr "Trama de puntos completos"
+
+#: ap/templates/sidebar.html
+msgid "Data Visualization"
+msgstr "Visualización de datos"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Please fill database name"
+msgstr "Ingrese el nombre de la base de datos."
+
+#: ap/templates/setting_module/db_config.html
+msgid "Please fill data source name"
+msgstr "Ingrese el nombre de la fuente de datos."
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Columns whose datatypes are not specified will not be imported."
+msgstr "Las columnas que no tienen tipo de datos no se importan."
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "At least one datetime column is required."
+msgstr "Se requiere al menos una columna de fecha y hora."
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "'{col}' is used for x-axis on charts."
+msgstr "Para la visualización, use '{col}' para el eje X."
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Continue?"
+msgstr "¿Estás seguro de continuar?"
+
+#: ap/templates/sidebar.html
+msgid "Table Viewer"
+msgstr "Visor de mesa"
+
+#: ap/templates/table_viewer/index.html
+msgid "Table"
+msgstr "Mesa"
+
+#: ap/templates/table_viewer/index.html
+msgid "Sort"
+msgstr "Clasificar"
+
+#: ap/templates/table_viewer/index.html
+msgid "Number of Data"
+msgstr "Número de datos"
+
+#: ap/templates/i18n.html ap/templates/table_viewer/index.html
+msgid "Descending"
+msgstr "Descendente"
+
+#: ap/templates/i18n.html ap/templates/table_viewer/index.html
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: trace_config.js
+msgid "All digits"
+msgstr "Combinación perfecta"
+
+#: trace_config.js
+msgid "Partial match"
+msgstr "Pareja parcial"
+
+#: trace_config.js
+msgid "th character"
+msgstr "#NAME?"
+
+# ap/templates/setting_module/trace_config.html
+msgid "Invalid digit selection"
+msgstr "Selección de dígitos no válido"
+
+# ap/templates/setting_module/trace_config.html
+msgid "i18nInvalidDeltaTime"
+msgstr "Delta time and cut off must be Integer"
+
+# ap/templates/setting_module/trace_config.html
+msgid "Can only add the master column to the master column"
+msgstr "Can only add the master column to the master column"
+
+# ap/templates/setting_module/trace_config.html
+msgid "Master column cannot link by substring"
+msgstr "Master column cannot link by substring"
+
+# ap/templates/setting_module/trace_config.html
+msgid "Character length for tracing is different"
+msgstr "La longitud del personaje utilizado para el enlace es diferente."
+
+# ap/templates/trace_data/trace_data.html
+msgid "No filter"
+msgstr "Sin filtro"
+
+# ap/templates/trace_data/trace_data.html
+msgid "All line"
+msgstr "Todas las líneas"
+
+# ap/templates/setting_module/db_config.html
+msgid "Status"
+msgstr "situación"
+
+# ap/templates/setting_module/db_config.html
+msgid "Job list"
+msgstr "Lista de trabajo"
+
+# ap/templates/setting_module/db_config.html
+msgid "All"
+msgstr "Todos"
+
+# ap/templates/setting_module/db_config.html
+msgid "Finished Importing"
+msgstr "Importación completada."
+
+# ap/templates/setting_module/db_config.html
+msgid "Importing"
+msgstr "Importador"
+
+# ap/templates/setting_module/db_config.html
+msgid "Failed Importing"
+msgstr "Importación fallida"
+
+# ap/templates/setting_module/db_config.html
+msgid ""
+"Imported data will be deleted. (Data will not be deleted until register "
+"button is clicked)"
+msgstr ""
+"Se eliminarán los datos cargados. ¿Está bien? (No se refleja ningún "
+"cambio hasta que se presione el botón de registro)"
+
+# ap/setting_module/controllers.py
+msgid "Job List"
+msgstr "Lista de trabajo"
+
+# ap/setting_module/controllers.py
+msgid "Failed Job List"
+msgstr "Failed Job List"
+
+# ap/templates/setting_module/background_process.html
+msgid "Job ID"
+msgstr "Identificación del trabajo"
+
+# ap/templates/setting_module/background_process.html
+msgid "Job Name"
+msgstr "Nombre del trabajo"
+
+# ap/templates/setting_module/background_process.html
+msgid "GEN_GLOBAL"
+msgstr "Generación de LinkedID"
+
+# ap/templates/setting_module/background_process.html
+msgid "SHOW_GEN_GLOBAL"
+msgstr "Mostrar trabajo de generación del enlace ID"
+
+# ap/templates/setting_module/background_process.html
+msgid "DEL_PROCESS"
+msgstr "Eliminación de información del proceso"
+
+# ap/templates/setting_module/background_process.html
+msgid "FACTORY_IMPORT"
+msgstr "Importar datos de fábrica"
+
+# ap/templates/setting_module/background_process.html
+msgid "FACTORY_PAST_IMPORT"
+msgstr "Importar datos de fábrica pasados"
+
+# ap/templates/setting_module/background_process.html
+msgid "SHOW_FACTORY_PAST_IMPORT"
+msgstr "Mostrar trabajo de importación de datos pasados ​​de fábrica"
+
+# ap/templates/setting_module/background_process.html
+msgid "CSV_IMPORT"
+msgstr "CSV Importar datos"
+
+# ap/templates/setting_module/background_process.html
+msgid "CLEAN_DATA"
+msgstr "Eliminar datos antiguos"
+
+# ap/templates/setting_module/background_process.html
+msgid "Started"
+msgstr "Hora de inicio"
+
+# ap/templates/setting_module/background_process.html
+msgid "Duration"
+msgstr "tiempo transcurrido"
+
+# ap/templates/setting_module/background_process.html
+msgid "Database/CSV "
+msgstr "Base de datos/CSV"
+
+# ap/templates/setting_module/background_process.html
+msgid "Succeed/Total"
+msgstr "Progreso"
+
+# ap/templates/setting_module/background_process.html
+msgid "Process "
+msgstr "Proceso"
+
+# ap/templates/trace_data/list_of_histograms.html
+msgid "List of Histograms"
+msgstr "Lista de histogramas"
+
+# ap/templates/trace_data/list_of_histograms.html
+msgid "Register as an outlier"
+msgstr "Regístrese como valor de brote"
+
+# ap/templates/trace_data/list_of_histograms.html
+msgid "Remove outlier flag"
+msgstr "Un atípico sin registro"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Hide outliers"
+msgstr "Esconder valores atípicos"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Show outliers"
+msgstr "Mostrar atípicos"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Check as an outlier"
+msgstr "Consulte Outniers"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "List of Histograms appear"
+msgstr "Mostrar lista de histogramas"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Last update time"
+msgstr "Última hora de actualización"
+
+# ap/templates/trace_data/list_of_histograms.html
+msgid "Removed outlier flag"
+msgstr "El registro atípico ha sido cancelado."
+
+# ap/templates/trace_data/list_of_histograms.html
+msgid "Registered as an outlier"
+msgstr "Registrado como un valor atípico"
+
+# ap/templates/trace_data/list_of_histograms.html
+msgid "Abnormal data point"
+msgstr "Parte aislada"
+
+# ap/templates/setting_module/db_config_modals.html
+msgid "Only once"
+msgstr "Sólo una vez"
+
+# ap/templates/setting_module/background_process.html
+msgid "Job Details"
+msgstr "Detalles del trabajo"
+
+# ap/templates/setting_module/background_process.html
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+# ap/templates/scatter_plot/scatter_plot.html
+msgid "Multi Scatter Plot"
+msgstr "Trama de múltiples dispersión"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Scatter Plot display"
+msgstr "Gráfico de dispersión"
+
+#: ap/templates/trace_data/categorical_plot.html
+msgid "Stratify by variables"
+msgstr "Estratificar por variables"
+
+#: ap/templates/trace_data/categorical_plot.html
+msgid "Variable"
+msgstr "Variable"
+
+#: ap/templates/trace_data/categorical_plot.html
+#: ap/templates/trace_data/trace_data.html
+msgid "Machine No"
+msgstr "Machine No"
+
+#: ap/templates/trace_data/categorical_plot.html
+msgid "Target period"
+msgstr "Período objetivo"
+
+#: ap/templates/trace_data/categorical_plot.html
+msgid "Frequency"
+msgstr "Frecuencia (recuento)"
+
+#: ap/templates/trace_data/categorical_plot.html
+msgid "Categorical variable"
+msgstr "Variable categórica"
+
+#: ap/templates/trace_data/categorical_plot.html
+msgid "Stratify by term"
+msgstr "Estratificar por término (directo)"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Anomaly Detection"
+msgstr "Detección de anomalías"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Hotelling&rsquo;s T&sup2;"
+msgstr "T&sup2;"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Principal Component Analysis"
+msgstr "Principal Component Analysis"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Principal Component Score of Target Data"
+msgstr "1. Puntuación del componente principal de los datos de prueba"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Principal Component Score of Training Data"
+msgstr "2. Puntuación del componente principal de los datos de capacitación"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Series Chart of T2 Statistics"
+msgstr "3. Gráfico en serie de estadísticas T2"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Series Chart of Q Statistics"
+msgstr "4. Gráfico de la serie de estadísticas Q"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Contribution Plot of T2 Statistics"
+msgstr "5. Gráfico de contribución de las estadísticas de T2"
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Contribution Plot of Q Statistics"
+msgstr "6. Gráfico de contribución de las estadísticas Q"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "Remove outlier"
+msgstr "Eliminar el valor atípico"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "Training data"
+msgstr "Datos de entrenamiento"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "Target data"
+msgstr "Prueba de datos"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "Yes"
+msgstr "Sí"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "No"
+msgstr "No"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "Data Type"
+msgstr "Tipo de datos"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "Example"
+msgstr "Ejemplo"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "ERROR"
+msgstr "Error"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "WARNING"
+msgstr "Advertencia"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "AllNA"
+msgstr ""
+"Dado que todas las filas han sido eliminadas por procesamiento de valor "
+"de déficit (eliminación de NA), no hay datos para analizar. Asegúrese de "
+"que el valor vacío, incluido NA, no esté seleccionado."
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "NoneNumeric"
+msgstr ""
+"No se puede analizar porque contiene datos distintos de los números. "
+"Asegúrese de haber seleccionado una columna que contenga una cadena o "
+"valor de categoría."
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "ZeroVariance"
+msgstr ""
+"No se puede analizar porque contiene datos con una varianza de 0. "
+"Asegúrese de que solo no se seleccione una columna de valor."
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "IntegerData"
+msgstr ""
+"Datos de categoría encontrados y valor entero esperado. Si este valor "
+"entero no es una escala de orden, escala de intervalo o escala de "
+"relación, los resultados del análisis pueden verse afectados "
+"negativamente."
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "ConfirmQuestion"
+msgstr "¿Seguro que continuará el análisis?"
+
+#: ap/template/categorical_plot/categorical_plot_main.html
+msgid "Search"
+msgstr "búsqueda"
+
+#: ap/template/base.html
+msgid "MedianLabel"
+msgstr "Median"
+
+#: ap/template/categorical_plot/categorical_plot_main.html
+msgid "Median_mean"
+msgstr ""
+"La mediana es una de las estadísticas típicas. Es un valor ubicado en el "
+"centro cuando los datos finitos se organizan en el orden ascendente. Por "
+"ejemplo, en el caso de cinco, la mediana de edad de la edad es la tercera"
+" edad en orden de edad. Si el número de datos es par, se usa el promedio "
+"de la aritmética brevitable central."
+
+#: ap/template/categorical_plot/categorical_plot_by_term.html
+#: ap/template/categorical_plot/categorical_plot_by_var.html
+msgid "Max"
+msgstr "Máximo"
+
+#: ap/template/categorical_plot/categorical_plot_main.html
+msgid "Summary of Distribution"
+msgstr "Resumen de distribución"
+
+#: ap/template/categorical_plot/categorical_plot_main.html
+msgid "N Number"
+msgstr "N número"
+
+#: ap/template/categorical_plot/categorical_plot_main.html
+msgid "Average"
+msgstr "Promedio"
+
+#: ap/template/base.html
+#: ap/template/categorical_plot/categorical_plot_main.html
+#: ap/templates/trace_data/trace_data.html
+msgid "Median"
+msgstr "¿Cuál es la mediana ..."
+
+#: ap/template/scatter_plot/scatter_plot.html
+msgid "Total"
+msgstr "Total"
+
+#: ap/template/scatter_plot/scatter_plot.html
+msgid "Frequence"
+msgstr "Frecuencia"
+
+#: ap/template/setting_module/performance_check.html
+msgid "End point"
+msgstr "Punto final"
+
+#: ap/template/setting_module/performance_check.html
+msgid "Time Series"
+msgstr "Series de tiempo"
+
+#: ap/template/setting_module/performance_check.html
+msgid "Pieces"
+msgstr "Piezas"
+
+#: ap/template/setting_module/performance_check.html
+msgid "Show number hits"
+msgstr "Número de enlace de datos"
+
+#: ap/template/setting_module/performance_check.html
+msgid "Seconds"
+msgstr "Segundos"
+
+#: ap/template/setting_module/performance_check.html
+msgid "Response Time"
+msgstr "Tiempo de respuesta"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Edit"
+msgstr "editar"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Back"
+msgstr "atrás"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Add Node"
+msgstr "Agregar nodo"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Add Edge"
+msgstr "Agregar borde"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Edit Node"
+msgstr "Editar nodo"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Add Description"
+msgstr "Haga clic en el espacio vacío para colocar un nuevo nodo."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Edge Description"
+msgstr "Haga clic en el nodo, arrastre el borde a otro nodo y conecte."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Edit Edge Description"
+msgstr "Haga clic en el punto de control, arrástrelo al nodo y conéctese."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Create Edge Error"
+msgstr "El borde no se puede agregar."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Delete Cluster Error"
+msgstr "El clúster no se puede eliminar."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Edit Cluster Error"
+msgstr "El clúster no se puede editar."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Master name or value is duplicate!"
+msgstr "El nombre o el valor de la pantalla se duplica."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Input is required, please fill them try again!"
+msgstr "Ingrese el nombre y el valor de la pantalla."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Line is required to save!"
+msgstr "Ingrese la columna de línea."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Hour(s)"
+msgstr "Horas"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "Data Information"
+msgstr "Información de datos"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "day"
+msgstr "Día"
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "week"
+msgstr "Semana"
+
+#: ap/template/base.html
+msgid "Load Setting Info"
+msgstr "Carga"
+
+#: ap/template/base.html
+msgid "Save Setting Info"
+msgstr "Ahorrar"
+
+#: ap/template/base.html
+msgid "Overwrite Save Setting Info"
+msgstr "Sobrescribir"
+
+#: ap/template/base.html
+msgid "Label Setting"
+msgstr "Ajuste"
+
+#: ap/template/base.html
+msgid "Since there is the same title setting, please change the title."
+msgstr "Cambie el título porque se establece el mismo título."
+
+#: ap/template/base.html
+msgid "Save Setting"
+msgstr "Guardar configuración"
+
+#: ap/template/base.html
+msgid "Create Screenshot"
+msgstr "Crear captura de pantalla"
+
+#: ap/template/base.html
+msgid "Download"
+msgstr "descargar"
+
+#: ap/template/base.html
+msgid "AbnormalGraphShowMsg"
+msgstr ""
+"Las razones por las cuales el gráfico no se puede mostrar es el "
+"siguiente. BREAK_LINE Verifique la situación. BREAK_LINE・ Los datos no se"
+" importan, o en el medio de la importación. BREAK_LINE・ No se vinculan "
+"datos, o en el medio del atado. BREAK_LINE・ La configuración del gráfico "
+"es inapropiada."
+
+#: ap/template/setting_module/db-config.html
+msgid "Warning"
+msgstr "Advertencia"
+
+#: ap/template/setting_module/db-config.html
+msgid "Invalid data in datetime column"
+msgstr ""
+"Los registros que contienen datos no válidos en la columna de datos de "
+"fecha no se importan."
+
+#: ap/template/setting_module/db-config.html
+msgid "Refer data file"
+msgstr ""
+"Puede consultar los archivos en la carpeta a continuación para obtener "
+"datos que no pudieran importarse."
+
+#: ap/template/scatter_plot/scatter_plot.html
+msgid "The Application do not connect internet and unable to upload usage."
+msgstr "El estado de uso no se puede cargar porque no está conectado a Internet."
+
+#: ap/template/scatter_plot/scatter_plot.html
+msgid "Please check the settings of network connection."
+msgstr "Verifique la conexión de red."
+
+#: ap/template/setting_module/trace_config.html
+msgid "If you link the data again, it takes a long time."
+msgstr "Tomará mucho tiempo vincular los datos nuevamente."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Are you sure that you want to re-link the data?"
+msgstr "¿Estás seguro de volver a conectar los datos?"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Abort"
+msgstr "Abortar"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Proceed"
+msgstr "Ejecutar"
+
+#: ap/template/setting_module/trace_config.html
+msgid "Confirm to return to the linking settings you registered the last time"
+msgstr ""
+"¿Seguro que recargará la configuración del enlace de datos registrada "
+"anteriormente?"
+
+#: ap/template/setting_module/db_config.html
+msgid "Importing data was started."
+msgstr "Comenzó a importar datos."
+
+#: ap/template/setting_module/db_config.html
+msgid "You can check the progress from the link below."
+msgstr "Puede verificar el progreso de la importación del siguiente enlace."
+
+#: ap/template/setting_module/db_config.html
+msgid "CheckErrorJob"
+msgstr "Consulte la página de la lista de trabajo para obtener un estado de error."
+
+#: ap/template/setting_module/trace_config.html
+msgid "Linking data was started."
+msgstr "Comenzó a vincular datos."
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Once per 3 minutes"
+msgstr "Una vez cada 3 minutos"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Once per 5 minutes"
+msgstr "Una vez cada 5 minutos"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Once per 10 minutes"
+msgstr "Una vez cada 10 minutos"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Optional function"
+msgstr "Función opcional"
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "File type"
+msgstr "Tipo de archivo"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "TSV Export"
+msgstr "TSV Exportar"
+
+#: ap/templates/trace_data/trace_data.html
+msgid ""
+"Because of the large number of selected records, graphs are displayed "
+"with limitation of number of records per one graph to 50,000."
+msgstr ""
+"Debido a la gran cantidad de registros seleccionados y al tiempo "
+"requerido para mostrar el gráfico, el número de registros por gráfico se "
+"limitó a 50,000."
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Time series chart"
+msgstr "Gráfico de series de tiempo"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Category value"
+msgstr "Valor de categoría"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "TraceResultLimited"
+msgstr ""
+"Dado que el número de registros en el período especificado es de más de "
+"5,000, el enlace BREAK_LINE está vinculado dentro de ± 14 días del "
+"período especificado. Si no desea limitar el rango de enlace, ajuste la "
+"duración para reducir el número de registros de BREAK_LINE."
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Setting scale"
+msgstr "Escala de configuración"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Common scale"
+msgstr "Escala común"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Threshold line"
+msgstr "Línea umbral"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Auto scale"
+msgstr "Auto escala"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Being used scale"
+msgstr "Siendo escala de uso"
+
+#: ap/template/base.html
+msgid "Pn_proc"
+msgstr "Pn de proceso"
+
+#: ap/template/base.html
+msgid "P_proc"
+msgstr "P_PROC"
+
+#: ap/template/base.html
+msgid "maxValue"
+msgstr "Máximo"
+
+#: ap/template/base.html
+msgid "minValue"
+msgstr "Mínimo"
+
+#: ap/template/base.html
+msgid "None"
+msgstr "Ninguna"
+
+#: ap/template/base.html
+msgid "Summary"
+msgstr "Resumen"
+
+#: ap/template/base.html
+msgid "Count"
+msgstr "Contar"
+
+#: ap/template/base.html
+msgid "Basic statistics"
+msgstr "Estadística básica"
+
+#: ap/template/base.html
+msgid "Non parametric"
+msgstr "No paramétrico"
+
+#: ap/template/base.html
+msgid "Quality of Data"
+msgstr "Calidad de datos"
+
+#: ap/template/categorical_plot/categorical_plot_by_var.html
+msgid "Viewer"
+msgstr "Espectador"
+
+# ap/template/setting_module/config.html
+msgid "ImportData"
+msgstr "Datos de importacion"
+
+# ap/template/setting_module/trace_config.html
+msgid ""
+"Based on the set config information, generating the ID for linking the "
+"data will be started."
+msgstr ""
+"El proceso de enlace de datos se iniciará en función de la configuración "
+"actual."
+
+# ap/template/setting_module/trace_config.html
+msgid ""
+"It may take time if there is a lot of data to link, but is it okay to "
+"start the process?"
+msgstr ""
+"Puede llevar tiempo si hay muchos datos para vincular. ¿Está bien "
+"comenzar?"
+
+# ap/template/setting_module/trace_config.html
+msgid ""
+"(For data that is automatically and regularly imported, the ID for "
+"linking is automatically generated.)"
+msgstr ""
+"* Para los datos que se importan automáticamente y periódicamente, el "
+"enlace ID se genera automáticamente."
+
+# ap/template/setting_module/db_config_modals.html
+msgid "Data Source Name"
+msgstr "Nombre de fuente de datos"
+
+# ap/template/setting_module/db_config_modals.html
+msgid "Data Source Type"
+msgstr "Tipo de fuente de datos"
+
+# ap/template/setting_module/db_config_modals.html
+msgid "V2 Measurement Data"
+msgstr "V2 Measurement Data"
+
+# ap/template/setting_module/db_config_modals.html
+msgid "V2 History Data"
+msgstr "V2 History Data"
+
+# ap/template/setting_module/db_config_modals.html
+msgid "Measurement Source"
+msgstr "Measurement Source"
+
+# ap/template/setting_module/db_config_modals.html
+msgid "History Source"
+msgstr "History Source"
+
+#: ap/templates/setting_module/config.html:43
+msgid "Do you want to save changes?"
+msgstr "¿Estás seguro de guardar los cambios?"
+
+# ap/template/setting_module/db_config_modals.html
+msgid "Force to OS locale time zone."
+msgstr ""
+"Información forzada del sistema operativo a la configuración de la zona "
+"horaria."
+
+# ap/template/setting_module/db_config_modals.html
+msgid "Advanced Setting"
+msgstr "Configuración avanzada"
+
+#: ap/templates/setting_module/config.html:43
+msgid "ProceedToProcessConfig"
+msgstr ""
+"Las configuraciones se guardan para el archivo de base de datos /CSV de "
+"la importación de datos. Vaya a la página de configuración, establezca "
+"las columnas de los datos de importación para importar los datos."
+
+#: ap/template/analyze/hotelling_tsquare.html
+msgid "2 or more variables should be selected for PCA"
+msgstr ""
+"Una detección anormal de PCA requiere al menos dos variables. Seleccione "
+"dos o más variables."
+
+#: ap/templates/setting_module/trace_config.html:43
+msgid "Please choose at least one column"
+msgstr "Seleccione al menos una columna"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Category value with narrow width of box is not shown."
+msgstr "Las variables de categoría que reducen el ancho de la caja no se muestran."
+
+#: ap/templates/filter_visualization.html
+msgid "Starting Digit"
+msgstr "Dígito inicial"
+
+#: ap/templates/templates/sidebar.html
+msgid "Ridgeline Plot"
+msgstr "Trama de Ridgeline"
+
+#: ap/template/base.html
+msgid "Confirm Shutdown App"
+msgstr ""
+"Detenga la aplicación (servidor Edge). Si se detiene, cualquier otro "
+"usuario no podrá usar también, así que comuníquese con el administrador. "
+"<br> En caso de final normal, cancele aquí y simplemente cierre el "
+"navegador."
+
+#: ap/template/base.html
+msgid "Jobs Stopped"
+msgstr ""
+"Todo el trabajo ha sido detenido. Puede cerrar con seguridad su navegador"
+" y consola."
+
+#: ap/template/setting_module/db_config_modals.html
+#: ap/templates/templates/sidebar.html
+msgid "Data Source Config"
+msgstr "Configuración de fuente de datos"
+
+#: ap/template/setting_module/db_config_modals.html
+msgid "Data Source Import Config"
+msgstr "Configuración de importación de fuente de datos"
+
+# ap/template/setting_module/db_config_modals.html
+msgid ""
+"string columns are detected. There is a possibility that numeric columns "
+"are mis-estimated. Please check data type."
+msgstr ""
+": Columnas encontraron pocas columnas de caracteres. Verifique que la "
+"columna de tipo numérico, etc. pueda ser reconocido erróneamente."
+
+# ap/template/setting_module/master_config.html
+msgid "Filter Item"
+msgstr "Elemento de filtro"
+
+# ap/template/setting_module/master_config.html
+msgid "Filter Value"
+msgstr "Valor de filtro"
+
+# ap/template/setting_module/master_config.html
+msgid "Valid from"
+msgstr "Fecha de vencimiento (inicio)"
+
+# ap/template/setting_module/master_config.html
+msgid "Valid to"
+msgstr "Fecha de vencimiento (final)"
+
+#: ap/templates/templates/sidebar.html
+msgid "Master"
+msgstr "Master"
+
+#: ap/templates/templates/base.html
+msgid "Data Type Error Warning"
+msgstr ""
+"Los datos no pudieron importarse debido a errores de configuración de "
+"tipo de datos de columna. Nombre de fuente de datos __param__ CSV/TSV "
+"Verifique la configuración del tipo de datos en la vista previa de datos "
+"de la página de configuración de lectura. Elimine la configuración de "
+"paso que no se pudo importar y establecer la configuración."
+
+#: ap/templates/templates/base.html
+msgid "Import Empty File Warning"
+msgstr ""
+"Había un archivo sin datos. Verifique el contenido del archivo. <br>: "
+"__param__"
+
+#: ap/template/setting_module/master_config.html
+msgid "Data have to be input in Act from or Act to."
+msgstr "Ingrese al menos un valor del período de validez desde o a."
+
+#: ap/template/ridgeline_plot/ridgeline_plot.html
+msgid "Divide by category"
+msgstr "Dividir por categoría"
+
+#: ap/template/ridgeline_plot/ridgeline_plot.html
+msgid "Divide by term (Cyclic)"
+msgstr "Dividir por término (cíclico)"
+
+#: ap/template/ridgeline_plot/ridgeline_plot.html
+msgid "Divide by term (Direct)"
+msgstr "Dividir por término (directo)"
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Invalid Cyclic Term Interval"
+msgstr ""
+"El valor del intervalo ingresado no es válido. Ingrese varios 0.1 o más, "
+"720 o menos, o -720 o más, y -0.1 o menos."
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Invalid Cyclic Term Window Length"
+msgstr ""
+"La `longitud de ventana 'especificada no es válida. El valor debe estar "
+"entre 0.1 y 48."
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Invalid Cyclic Term Number of Ridge Lines"
+msgstr ""
+"El número de la entrada Ridgeline no es válido. Ingrese un entero de 1 o "
+"más y 240 o menos. (Prefiere usar alrededor de 100)"
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Start data & time"
+msgstr "Iniciar datos y tiempo"
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Interval"
+msgstr "Intervalo"
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Window length"
+msgstr "Longitud de la ventana"
+
+# ap/template/setting_module/master_config.html
+msgid "Type"
+msgstr "Escribe"
+
+# ap/template/setting_module/master_config.html
+msgid "Name"
+msgstr "Nombre"
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Few data point in a category in RLP"
+msgstr ""
+"Tenga en cuenta que si el número de puntos de datos en una categoría es "
+"inferior a 50, la precisión del gráfico puede disminuir."
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Display Cross hair cursor (Click)"
+msgstr "Mostrar cursor de pelo cruzado (haga clic)"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Display Multi cross hair cursor (Double click)"
+msgstr "Mostrar cursor de cabello múltiple (doble clic)"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Display list of histograms"
+msgstr "Mostrar lista de histogramas"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Cancel checked outlier"
+msgstr "Cancelar cheque atípico"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Please fill another data source name"
+msgstr "`Nombre de fuente de datos especificado ya existe."
+
+#: ap/templates/templates/i18n.html
+msgid "CSV Template is error when import"
+msgstr ""
+"La importación de datos falló porque se encontró un archivo con un nombre"
+" de columna diferente en la fuente de datos. Verifique el contenido del "
+"archivo y configure la configuración de importación de la fuente de datos"
+" nuevamente."
+
+#: ap/templates/templates/i18n.html
+msgid "Predicted number of records to be linked"
+msgstr "Número previsto de registros que se vincularán"
+
+#: ap/templates/templates/i18n.html
+msgid "Number of samples"
+msgstr "Número de muestras"
+
+#: ap/templates/templates/i18n.html
+msgid "Number of records to be linked"
+msgstr "Número de registros a vincular"
+
+#: ap/templates/templates/i18n.html
+msgid "Number of total records"
+msgstr "Número de registros totales"
+
+msgid "MSP Corr"
+msgstr "Corr"
+
+#: ap/templates/templates/i18n.html
+msgid "Please name the folder in which csv/tsv files are saved as \"YYYYMMDD\""
+msgstr ""
+"Nombra la carpeta en la que se guardan los archivos CSV/TSV como "
+"\"yyyymmdd\\"
+
+#: ap/templates/setting_module/trace_config.html
+msgid "Prediction"
+msgstr "Predicción"
+
+#: ap/templates/sidebar.html
+msgid "Filter Config"
+msgstr "Configuración de filtro"
+
+#: ap/templates/sidebar.html
+msgid "Master Config"
+msgstr "Configuración maestra"
+
+# ap/template/setting_module/master_config.html
+msgid "From Filter Config"
+msgstr "De Filter Config"
+
+# ap/template/setting_module/master_config.html
+msgid "Show all"
+msgstr "Mostrar todo"
+
+#: ap/templates/setting_module/proc_config.html
+msgid "As Key (Option)"
+msgstr "Como clave (opción)"
+
+#: ap/templates/templates/i18n.html
+msgid "PCA delete NA"
+msgstr ""
+"Eliminado REMOVED_COUNT de valor de déficit, valor anormal y valor "
+"atípico de TOTAL_COUNT en original."
+
+#: ap/templates/templates/i18n.html
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: ap/templates/sidebar.html
+msgid ""
+"Compare data distribution with histograms and estimated density lines. "
+"Split the graph with  stratified variables."
+msgstr ""
+"Compare la distribución de datos con el histograma y la estimación de "
+"densidad. El gráfico está dividido por la variable estratificada. También"
+" está dividido por faceta."
+
+#: ap/templates/sidebar.html
+msgid "Plot all data points with time axis or ID axis."
+msgstr "Traza todo el número de datos sobre el eje de tiempo o el eje ID."
+
+#: ap/templates/sidebar.html
+msgid ""
+"Displays a scatter chart matrix. You can create a matrix between up to "
+"four target variables."
+msgstr ""
+"Matriz de trazado de dispersión de visualización. Puede usar de 2 a 7 "
+"variables objetivo."
+
+#: ap/templates/sidebar.html
+msgid ""
+"This function visualizes “unusual” and analyzes its factors by Principal "
+"Component Analysis."
+msgstr ""
+"Mediante el análisis de componentes principales, se realizan la "
+"visualización de \"diferentes\" y su análisis factorial. Ingrese los "
+"datos normales como datos del maestro y visualice si los datos actuales "
+"son la misma situación que sus datos normales (T2/Q). Si tiene una "
+"situación diferente, puede verificar los factores principales en el "
+"gráfico de contribución."
+
+# ap/template/setting_module/categorical_plot.html
+msgid "Stratified Category Filter: Limits data to be displayed to a subset."
+msgstr ""
+"Filtro de categoría estratificado: limita los datos que se mostrarán en "
+"un subconjunto. (Categoría: número de pieza, estación no, etc.)"
+
+# ap/template/setting_module/trace_data.html
+msgid "Category variables that appears as a label at the head of graphs."
+msgstr ""
+"Las variables de categoría (como el número de pieza, la estación no, "
+"etc.) se muestran como etiquetas en la parte superior de las parcelas "
+"para encontrar puntos cambiantes."
+
+# ap/template/setting_module/trace_data.html
+msgid "Graph Filter: Limits data to be displayed to a subset."
+msgstr "Filtro gráfico: limita los datos que se mostrarán en un subconjunto."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Set training data to be regarded as normal situation."
+msgstr ""
+"Establezca los datos de aprendizaje interpretados como una situación "
+"normal. Establezca la sección de datos que no contiene ningún datos NG. "
+"Si se incluyen, aquellos que están cerca de los datos NG también se "
+"juzgan como datos normales."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Set test data to be judged."
+msgstr "Establezca datos de prueba para ser juzgados."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid "Item Filter: Limits data (analyse & display) to be displayed to a subset."
+msgstr ""
+"Filtro de elementos: Limita los datos (analizar y visualización) que se "
+"mostrarán en un subconjunto."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid ""
+"This is aggregate 2-dimensional plot (dimensional compression by "
+"principal components) of multidimensional test data."
+msgstr ""
+"Es una pantalla agregada bidimensional (compresión dimensional por "
+"componentes principales) de datos de verificación multidimensionales. Si "
+"los datos están en el centro, se pueden interpretar como lo normal."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid ""
+"This is aggregate 2-dimensional plot (dimensional compression by "
+"principal components) of multidimensional training data."
+msgstr ""
+"Es una pantalla agregada bidimensional (compresión dimensional por "
+"componentes principales) de datos de aprendizaje multidimensional. El "
+"objetivo central está determinado por los datos de aprendizaje, por lo "
+"que la mayoría de los datos de aprendizaje deben estar en el objetivo."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid ""
+"This is T2 statistic plot (monitor essential part [principal component] "
+"of this data)."
+msgstr ""
+"Una parcela de la estadística T2, que monitorea las anomalías en el "
+"componente principal de estos datos. Los datos de aprendizaje se trazan "
+"en blanco y en la porción X negativa. La gráfica amarilla son los datos "
+"de validación. Cuanto más altos sean los datos de validación con los "
+"datos blancos, más probable es que se desvíe la situación. Haga clic en "
+"el punto de datos para ver el gráfico de contribución de qué elementos "
+"constituyen la situación."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid ""
+"This is Q statistic plot (ｍonitor non-essential parts [residual] of this "
+"data)."
+msgstr ""
+"Una parcela de la estadística Q (monitoreo de anomalías en la parte menor"
+" de estos datos, residual). Los datos de aprendizaje se trazan en blanco "
+"y en la porción X negativa. La gráfica amarilla son los datos de "
+"validación. Cuanto más altos sean los datos de validación con los datos "
+"blancos, más probable es que se desvíe la situación. Haga clic en el "
+"punto de datos para ver el gráfico de contribución de qué elementos "
+"constituyen la situación."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid ""
+"This is an ordered barplot of variables that contribute to the state at "
+"the point selected in T2 statistic plot."
+msgstr ""
+"El orden de qué variables contribuyen a la situación en el punto "
+"seleccionado en la gráfica estadística T2. Cuanto más larga sea la "
+"longitud, más probable es que sea la causa."
+
+# ap/template/analyze/hotelling_tsquare.html
+msgid ""
+"This is an ordered barplot of variables that contribute to the state at "
+"the point selected in Q statistic plot."
+msgstr ""
+"El orden de qué variables contribuyen a la situación en el punto "
+"seleccionado en la gráfica estadística Q. Cuanto más larga sea la "
+"longitud, más probable es que sea la causa."
+
+#: ap/templates/templates/i18n.html
+msgid "Overflow Lower"
+msgstr "Número de puntos de datos con un valor menor o igual a Q1 - 4.5 * IQR"
+
+#: ap/templates/templates/i18n.html
+msgid "Overflow Upper"
+msgstr "Número de puntos de datos con un valor mayor o igual a Q3 + 4.5 * IQR"
+
+#: ap/templates/templates/i18n.html
+msgid "NTotal"
+msgstr ""
+"Número total de datos que incluyen NA (no disponible), NaN (no un número)"
+" y Inf± (infinito) en el período seleccionado."
+
+#: ap/templates/templates/i18n.html
+msgid "OutCL"
+msgstr ""
+"Out of Control Line: Porcentaje de datos fuera del umbral superior e "
+"inferior (recuento) en el período seleccionado"
+
+#: ap/templates/templates/i18n.html
+msgid "OutAL"
+msgstr ""
+"Out of Action Line: Porcentaje de datos fuera del umbral de límite "
+"superior e inferior (recuento) en el período seleccionado"
+
+#: ap/templates/templates/i18n.html
+msgid "PNA"
+msgstr "Porcentaje de NA (no disponible) en el período seleccionado (recuento)"
+
+#: ap/templates/templates/i18n.html
+msgid "PNaN"
+msgstr "Porcentaje de NaN (no un número) en el período seleccionado (recuento)"
+
+#: ap/templates/templates/i18n.html
+msgid "PInfPlus"
+msgstr "Porcentaje de Inf+ (más infinito) en el período seleccionado (recuento)"
+
+#: ap/templates/templates/i18n.html
+msgid "PInfMinus"
+msgstr "Porcentaje de Inf- (menos infinito) en el período seleccionado (recuento)"
+
+#: ap/templates/templates/i18n.html
+msgid "PTotal"
+msgstr ""
+"El porcentaje total de datos fuera del valor umbral, NA (no disponible), "
+"NaN (no un número) y Inf± (infinito) en el período seleccionado "
+"(recuento)"
+
+#: ap/templates/templates/i18n.html
+msgid "N"
+msgstr ""
+"Número de datos excluyendo NA (no disponible), NaN (no un número) y Inf± "
+"(infinito) en el período seleccionado."
+
+#: ap/templates/templates/i18n.html
+msgid "P95"
+msgstr "Percentil 95"
+
+#: ap/templates/templates/i18n.html
+msgid "P75 Q3"
+msgstr "Percentil 75 (tercer cuartil)"
+
+#: ap/templates/templates/i18n.html
+msgid "P25 Q1"
+msgstr "Percentil 25 (primer cuartil)"
+
+#: ap/templates/templates/i18n.html
+msgid "P5"
+msgstr "Quinto percentil"
+
+#: ap/templates/templates/i18n.html
+msgid "IQR"
+msgstr ""
+"Rango intercuartil (valor representativo de la variabilidad de la "
+"distribución: IRQ = Q3 - Q1 ≒ 1.349σ@ distribución normal)"
+
+#: ap/template/base.html
+msgid "HoverMedian"
+msgstr "Mediana (percentil 50)"
+
+#: ap/templates/macros.html
+msgid "CHMMax"
+msgstr "Max"
+
+#: ap/templates/macros.html
+msgid "CHMMin"
+msgstr "Min"
+
+#: ap/templates/macros.html
+msgid "CHMMean"
+msgstr "Mean"
+
+#: ap/templates/macros.html
+msgid "CHMStd"
+msgstr "σ"
+
+#: ap/templates/macros.html
+msgid "CHMRange"
+msgstr "Range (max-min)"
+
+#: ap/templates/macros.html
+msgid "CHMCount"
+msgstr "Count"
+
+#: ap/templates/macros.html
+msgid "CHMMedian"
+msgstr "Median"
+
+#: ap/templates/macros.html
+msgid "CHMCountPerHour"
+msgstr "Conteos/hora"
+
+#: ap/templates/macros.html
+msgid "CHMCountPerMin"
+msgstr "Conteo/minuto"
+
+#: ap/templates/macros.html
+msgid "CHMTimePerCount"
+msgstr "Tiempo de ciclo [s]"
+
+#: ap/templates/macros.html
+msgid "CHMIqr"
+msgstr "IQR (Q3-Q1)"
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Division number"
+msgstr "Número de división"
+
+#: ap/templates/templates/i18n.html
+msgid "Cycle"
+msgstr "Ciclo de visualización"
+
+#: ap/templates/templates/i18n.html
+msgid "Step"
+msgstr "Visualización"
+
+#: ap/templates/templates/i18n.html
+msgid "Calendar Heat Map"
+msgstr "Mapa de calor de calenda"
+
+#: ap/templates/templates/i18n.html
+msgid "Too Many Sensors"
+msgstr ""
+"Las variables objetivo no se pueden seleccionar por MAX_NUM_SENSOR o más."
+" Seleccione la variable de destino."
+
+#: ap/templates/templates/i18n.html
+msgid "Real"
+msgstr "Real (flotante)"
+
+#: ap/templates/templates/i18n.html
+msgid "Cat."
+msgstr "Aparte de los números reales"
+
+#: ap/templates/templates/i18n.html
+msgid "RidgeLine Plot Hover"
+msgstr ""
+"La distribución se puede visualizar calculando para cada variable "
+"categórica (variables cualitativas, número de lote, etc.) o de fecha y "
+"hora, y mostrándolas una al lado de la otra. Un método de visualización "
+"que permite el análisis de grupos cruzados (comparación entre lotes, "
+"días, cambios, etc.) de datos sin ID discreto."
+
+#: ap/templates/templates/i18n.html
+msgid "Master Config Hover"
+msgstr "Establezca el umbral que se dibujará en gráficos."
+
+#: ap/templates/templates/i18n.html
+msgid "Scatter Plot display Hover"
+msgstr ""
+"Si la dispersión está encendida, puedes mostrar la trama de dispersión "
+"con él. El diagrama de dispersión entre el elemento actual y el siguiente"
+" elemento de fila. Arrastre y deje caer las tarjetas de la trama de las "
+"parcelas respectivas con el mouse para cambiar el eje X y el eje y del "
+"diagrama de dispersión."
+
+#: ap/templates/templates/i18n.html
+msgid "RLP Show value Hover"
+msgstr ""
+"Un elemento de datos (como una variable numérica o un valor de medición) "
+"que crea una distribución de datos. Estos datos se trazan en la trama. Se"
+" pueden seleccionar hasta 20 elementos."
+
+#: ap/templates/templates/i18n.html
+msgid "Start data & time Hover"
+msgstr ""
+"Introduzca el inicio dateTime para mostrar la gráfica de Ridgeline para "
+"cada vez más."
+
+#: ap/templates/templates/i18n.html
+msgid "Target period Hover"
+msgstr ""
+"Ingrese directamente el período para mostrar la gráfica de Ridgeline para"
+" cada vez más."
+
+#: ap/templates/templates/i18n.html
+msgid "Optional function Hover"
+msgstr ""
+"Puede seleccionar opciones para importar datos del archivo CSV/TSV que "
+"requiere un manejo especial, como la conversión de estructuras de datos."
+
+#: ap/templates/templates/i18n.html
+msgid "Specify datatype of columns Hover"
+msgstr ""
+"Al presionar el botón de vista previa a continuación, se mostrará parte "
+"de los datos en el archivo para que pueda verificar el contenido de él."
+
+#: ap/templates/templates/i18n.html
+msgid "As Link ID Hover"
+msgstr ""
+"Seleccione el enlace ID que se utilizará como condición para el enlace de"
+" datos. También puede seleccionar varios elementos."
+
+#: ap/templates/templates/i18n.html
+msgid "As Key (Option) Hover"
+msgstr ""
+"Cuando su aplicación importa periódicamente datos, puede seleccionar una "
+"columna de fecha y hora que se use preferentemente como clave de "
+"DateTime."
+
+#: ap/templates/templates/i18n.html
+msgid "Operator Hover"
+msgstr ""
+"Si selecciona un operador e ingresa un número en 'Factor', el valor en el"
+" gráfico se calculará utilizando el operador y el factor especificados."
+
+#: ap/templates/templates/i18n.html
+msgid "Coef Hover"
+msgstr ""
+"Si selecciona un operador e ingresa un número en 'Factor', el valor en el"
+" gráfico se calculará utilizando el operador y el factor especificados."
+
+#: ap/templates/templates/i18n.html
+msgid "Prediction Hover"
+msgstr ""
+"Es posible predecir cuántos datos estarán vinculados por las condiciones "
+"de enlace establecidas actualmente."
+
+#: ap/templates/templates/i18n.html
+msgid "Reload Hover"
+msgstr ""
+"Descarte la condición de enlace de datos establecida actualmente y llama "
+"a la condición registrada previamente."
+
+#: ap/templates/templates/i18n.html
+msgid "Register Trace Config Hover"
+msgstr ""
+"ID se genera internamente para asociar datos con las condiciones de "
+"enlace establecidas."
+
+#: ap/templates/templates/i18n.html
+msgid "Load Setting Info Hover"
+msgstr "Lea la configuración guardada."
+
+#: ap/templates/templates/i18n.html
+msgid "Save Setting Info Hover"
+msgstr "Guarde la última configuración que ingresó."
+
+#: ap/templates/templates/i18n.html
+msgid "Create Screenshot Hover"
+msgstr "Guarde la pantalla como un archivo PNG."
+
+#: ap/templates/templates/i18n.html
+msgid "Do you want to delete this setting?"
+msgstr "¿Quieres eliminar esta configuración?"
+
+#: ap/templates/templates/i18n.html
+msgid "Min"
+msgstr "Min"
+
+#: ap/templates/templates/macros.html
+msgid "Show value (Real/Float)"
+msgstr "Variable objetivo (número real)"
+
+#: ap/templates/templates/macros.html
+msgid "Show value (Category)"
+msgstr "Variable objetivo (categoría)"
+
+#: ap/templates/templates/i18n.html
+msgid "Index ordering"
+msgstr "Orden de índice"
+
+#: ap/templates/templates/i18n.html
+msgid "Column"
+msgstr "Columna"
+
+#: ap/templates/i18n.html
+msgid "Order"
+msgstr "Ordenar"
+
+#: ap/templates/i18n.html
+msgid "Priority PRIORITY"
+msgstr "Prioridad"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Ordering"
+msgstr "Pedido"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Variables"
+msgstr "Variables"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Real and categorical"
+msgstr "Real y categórico solo"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Real only"
+msgstr "REAL SOLO"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Categorical only"
+msgstr "Solo categórico"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "In set order"
+msgstr "En orden"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "In process order"
+msgstr "En orden de proceso"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "In order of corr"
+msgstr "In order of corr"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Corr threshold (abs)"
+msgstr "Umbral de correlación (ABS)"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Response variable"
+msgstr "Seleccione a la variable objetiva"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Cycle Time Analysis"
+msgstr "Cycle Time Analysis"
+
+#: ap/templates/templates/i18n.html
+msgid "Objective variable"
+msgstr "Variable objetiva"
+
+#: ap/templates/templates/i18n.html
+msgid "Explanatory variable"
+msgstr "Variable explicativa"
+
+#: ap/templates/templates/i18n.html
+msgid "Non-NA ratio"
+msgstr "Relación disponible"
+
+#: ap/templates/templates/i18n.html
+msgid "Sankey Diagram"
+msgstr "Diagrama hundido"
+
+#: ap/templates/templates/i18n.html
+msgid "Exact match"
+msgstr "Partido (Partido perfecto)"
+
+#: ap/templates/templates/i18n.html
+msgid "OR search"
+msgstr "OR Búsqueda"
+
+#: ap/templates/templates/i18n.html
+msgid "AND search"
+msgstr "AND Búsqueda"
+
+#: ap/templates/templates/i18n.html
+msgid ""
+"Real numbers have been removed because real numbers cannot be entered in "
+"parallel coordination for categorical data."
+msgstr ""
+"Dado que la gráfica de coordenadas paralelas no puede tratar números "
+"reales, se han eliminado datos de números reales."
+
+#: ap/templates/templates/i18n.html
+msgid "Search Options"
+msgstr ""
+"General Search Options&#013・AND Search (including multiple words "
+"[delimiter:blank] at the same time) ex.A B → A B,AB,AcB,…&#013;・OR  "
+"Search (including multiple words [delimiter:blank])        ex.A B → "
+"A,B,Ac,cB,A B,AB,AcB,…&#013;・Partial Match (with start digit) ex, 34 from"
+" dig.5: JP1234,112234 / 123 from dig.3: JP1234,001234&#013;・Perfect Match"
+" ex.AB → AB only (×: aB, 0AB, ABAB,…)&#013;・Start with    ex.A → "
+"A,AB,AcB,A000,A12,A_0,… (×:aAB,0AB,_AB,…)&#013;・End   with    ex.A → "
+"A,BA,BcA,000A,12A,0_A,… (×:aAB,B0A,A_B,…)&#013;&#013;Regular Expression: "
+"Specify the format, such as serial, in detail&#013;　\\d{10} :10-digit "
+"number                 ex.1234567890,0987654321&#013;　7\\d{9} :10-digit "
+"number starting with 7 ex.7123456789&#013;　\\d{3,5}:3-5 digit number"
+"                ex.123,4567,89012,… (×:12,ABC,123456,…)&#013;　\\w{5}  "
+":5-digit alphabet/_/number[a-zA-Z_0-9](hereinafter referred to as "
+"letter)&#013;　\\w{3}-\\d{4}:3-digit letter + hyphen + 4-digit number"
+"                  ex.AB3-1234&#013;　JP\\d{10}    :12-digit number "
+"starting with JP (DNJP part number, etc.) ex.JP1234567890&#013;　"
+"(JP|EN)\\d{2}:4-digit character starting with JP or EN                  "
+"ex.JP12,EN34&#013;"
+
+#: ap/templates/templates/i18n.html
+msgid "Re-register"
+msgstr "Renegación"
+
+#: ap/templates/templates/i18n.html
+msgid "Register the corrected contents such as Shown Name."
+msgstr "Registre la información editada como el nombre de la pantalla."
+
+#: ap/templates/templates/i18n.html
+msgid "Do you want to register with the modified contents?"
+msgstr "¿Quieres registrarte con el contenido modificado?"
+
+#: ap/templates/templates/i18n.html
+msgid "If you change Link ID, please reset Data Link Config."
+msgstr "Si cambia el enlace ID, restablezca la configuración del enlace de datos."
+
+# co-occurrence
+msgid "Co-occurrence Graph"
+msgstr "Gráfico de concurrencia"
+
+# co-occurrence
+msgid "Data file"
+msgstr "Archivo de datos"
+
+# co-occurrence
+msgid "Aggregated by"
+msgstr "Agregado por"
+
+# co-occurrence
+msgid "Hour"
+msgstr "Hora"
+
+# co-occurrence
+msgid "Day"
+msgstr "Día"
+
+#: ap/templates/templates/i18n.html
+msgid "Edit Mode"
+msgstr "Modo de edición"
+
+#: ap/templates/templates/i18n.html
+msgid "Setting Mode"
+msgstr "Modo de ajustes"
+
+#: ap/templates/templates/i18n.html
+msgid "The error data highlighed in red will be lost. Do you want to continue?"
+msgstr ""
+"Se eliminarán los datos no válidos resaltados de rojo. ¿Estás seguro de "
+"cambiar al modo de configuración?"
+
+#: ap/templates/i18n.html
+msgid "Priority"
+msgstr "prioridad"
+
+#: ap/templates/templates/i18n.html
+msgid ""
+"A same column name was found in the English name column and was handled "
+"automatically. Please check the column names."
+msgstr ""
+"Se detectó un nombre de inglés duplicado, por lo que el número de serie "
+"se agregó automáticamente. Verifique los nombres de las columnas."
+
+#: ap/templates/templates/i18n.html
+msgid "Aggregate by"
+msgstr "Unidades de agregación"
+
+#: ap/templates/templates/i18n.html
+msgid ""
+"Data file with datetime on first column, and flags/number of occurrence "
+"(0, 1, 2...) of alarms on subsequent column(s)."
+msgstr ""
+"La primera columna es DateTime, y la segunda columna y las columnas "
+"posteriores son un valor, como los indicadores de notificación de "
+"alarma/recuento de ocurrencias (0,1,2 ...)."
+
+#: ap/templates/templates/i18n.html
+msgid "Aggregate co-occurrence relationships by hour/day."
+msgstr "Relaciones agregadas de concurrencia por hora/día."
+
+#: ap/templates/templates/i18n.html
+msgid "Threshold"
+msgstr "Umbral de visualización"
+
+#: ap/templates/templates/i18n.html
+msgid "Threshold description"
+msgstr ""
+"Si selecciona un valor inferior a 100%%, ocultará una pequeña relación de"
+" concurrencia. (Predeterminado: dibuja una línea si hay incluso una vez)"
+
+#: ap/templates/sidebar.html
+msgid ""
+"Identify and visualize directly/indirectly correlated variables of "
+"objective(s)"
+msgstr ""
+"Identificar y visualizar variables que estén correlacionadas directa o "
+"indirectamente con la variable objetivo."
+
+#: ap/templates/templates/sankey_plot/sankey_plot.html
+msgid ""
+"Identify the explanatory variables that are correlated with the "
+"variable(s) specified here."
+msgstr ""
+"Visualice la correlación entre las variables especificadas aquí. Se "
+"pueden seleccionar hasta 60 elementos."
+
+#: ap/templates/templates/sankey_plot/sankey_plot.html
+msgid "Candidate variables that are correlated with objective variable(s)."
+msgstr "Variables candidatas que están correlacionadas con variables objetivas."
+
+#: ap/templates/templates/i18n.html
+msgid "of all edges"
+msgstr "de todos los bordes"
+
+#: ap/templates/templates/i18n.html
+msgid "Layout"
+msgstr "Diseño"
+
+#: ap/templates/templates/i18n.html
+msgid "Circle"
+msgstr "Circulo"
+
+#: ap/templates/templates/i18n.html
+msgid "Auto"
+msgstr "Automático"
+
+#: ap/templates/templates/i18n.html
+msgid "Available ratio"
+msgstr "Eficiencia"
+
+msgid "Set threshold"
+msgstr "Control Line: Verifique al dibujar niveles de gestión como líneas estándar"
+
+#: ap/templates/footer.html:3
+msgid "Analysis Platform"
+msgstr "Plataforma de análisis"
+
+#: ap/templates/templates/i18n.html
+msgid "Pareto Chart"
+msgstr "Diagrama de Pareto"
+
+#: ap/templates/templates/i18n.html
+msgid "Total Occurrences"
+msgstr "Número de ocurrencia"
+
+#: ap/templates/templates/i18n.html
+msgid "Cumulative Ratio [%]"
+msgstr "Relación acumulativa [%]"
+
+#: ap/templates/sidebar.html
+msgid ""
+"Visualize long-term data such as annual variations in processes and "
+"parameters that can vary depending on days of the week or shifts, etc."
+msgstr ""
+"Visualice los parámetros que pueden variar con los datos durante un largo"
+" período de tiempo, como variaciones anuales en los procesos, días de la "
+"semana, cambios, etc."
+
+#: ap/templates/sidebar.html
+msgid ""
+"Visualize the correlation between a large number of variables with "
+"respect to target variable."
+msgstr ""
+"Visualice la correlación entre una gran cantidad de variables con "
+"respecto a la variable objetivo."
+
+#: ap/templates/sidebar.html
+msgid ""
+"Visualize co-occurrence (relationships that focus on how often one "
+"phenomenon and another occur at the same time) of faults/alarms."
+msgstr ""
+"Visualice la concurrencia de fallas, alarmas, eventos, etc. (relación "
+"centrada en la frecuencia de la ocurrencia simultánea de un fenómeno y "
+"otro)."
+
+#: ap/templates/header.html
+msgid ""
+"Digital Native QC 7 Tools: 7 QC tools compatible with DX developed as "
+"tools to support QC activities suitable for the digital native era."
+msgstr ""
+"VacíoDigital Native QC 7 Tools : "
+"デジタルネイティブ時代にふさわしいQC活動を支えるツールとして開発された、DXに対応したQC7つ道具。"
+
+#: ap/templates/header.html
+msgid ""
+"Analysis Platform : That makes it easy to data link, visualize, "
+"statistical analysis, and machine learning."
+msgstr ""
+"Analysis Platform: una herramienta simple para mapeo de datos, "
+"visualización, análisis estadístico y aprendizaje automático."
+
+#: ap/templates/trace_data/trace_data.html
+msgid ""
+"Enter target item of data (quantitative variable like measurement value) "
+"to be plotted on the graph. Select the process and item you want to plot "
+"on the graph."
+msgstr ""
+"Especifica los datos (por ejemplo, variables numéricas: valor de "
+"medición) para el gráfico. Seleccione los procesos y elementos que se "
+"trazarán en la gráfica. Se pueden seleccionar hasta 20 elementos."
+
+#: ap/templates/categorical_plot/categorical_plot.html
+msgid ""
+"Enter target item of data (quantitative variable like measurement value) "
+"to create data distributions. This data is plotted on the graph."
+msgstr ""
+"Especifica los datos (por ejemplo, variables numéricas: valor de "
+"medición) para el gráfico. Seleccione los procesos y elementos que se "
+"trazarán en la gráfica. Se pueden seleccionar hasta 8 elementos."
+
+#: ap/templates/heatmap/heatmap.html
+msgid ""
+"Enter target item of data (quantitative variable like measurement value "
+"and category variable like part number) to visualize pattern. This data "
+"is plotted on the graph. It can be selected up to ten items."
+msgstr ""
+"Vacío可視化したいパターンを生成するデータ(量的変数：測定値など、カテゴリ変数 : "
+"品番など)の項目です。このデータがグラフにプロットされます。最大18項目選択できます。"
+
+#: ap/templates/multiple_scatter_plot/multiple_scatter_plot.html
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid ""
+"Enter target item of data (quantitative variable like measurement value) "
+"to visualize the correlation between variables. This data is plotted on "
+"the graph. It can be selected up to four items."
+msgstr ""
+"El elemento de datos que visualiza la correlación entre variables "
+"(variables cuantitativas: valores de medición, etc.). Estos datos se "
+"trazan en la tabla. De 2 a 7 parámetros se pueden seleccionar."
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid ""
+"Enter target item of quantitative variable (like measurement value) in "
+"data to visualize the correlation between variables. This data is plotted"
+" on the graph."
+msgstr ""
+"Seleccione el elemento para visualizar la correlación entre variables. Se"
+" pueden seleccionar hasta 60 elementos."
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid ""
+"Enter target item of category variable (like part number) in data to "
+"visualize the correlation between variables. This data is plotted on the "
+"graph."
+msgstr ""
+"Elementos de variables de categoría (como números de pieza) para "
+"visualizar la correlación entre variables."
+
+#: ap/templates/setting_module/db_config.html
+msgid "Maximize card"
+msgstr "Maximizar la tarjeta"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Minimize card"
+msgstr "Minimizar la tarjeta"
+
+#: ap/templates/templates/i18n.html
+msgid "If you change this setting, you must reset Data Link Config."
+msgstr ""
+"Si se cambia esta configuración, es necesario restablecer la "
+"configuración del enlace de datos."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Auto Select"
+msgstr "Selección automática"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Import the file name without the extension as data."
+msgstr "Import the file name without the extension as data."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Select all to the right"
+msgstr "Seleccione todo a la derecha"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Unselect all to the right"
+msgstr "Deseleccionar todo a la derecha"
+
+#: ap/templates/templates/i18n.html
+msgid "All Real from here"
+msgstr "Todo real (flotante) desde aquí"
+
+#: ap/templates/templates/i18n.html
+msgid "All Integer from here"
+msgstr "Todo entero desde aquí"
+
+#: ap/templates/templates/i18n.html
+msgid "All String from here"
+msgstr "Toda cadena de aquí"
+
+#: ap/templates/templates/i18n.html
+msgid "LimitedHeatMap"
+msgstr ""
+"Debido a la gran cantidad de registros seleccionados y el tiempo "
+"requerido para mostrar el gráfico, el número de celdas por gráfico se "
+"limitó a 10,000. Si desea ver todos los datos para el período objetivo "
+"BREAK_LINE, aumente el intervalo de visualización o reduzca el período "
+"objetivo para reducir el número de celdas."
+
+#: ap/templates/templates/i18n.html
+msgid "Serial"
+msgstr "De serie"
+
+#: ap/templates/templates/i18n.html
+msgid "You can adjust the scale of the graph by right clicking on the graph."
+msgstr "Puede ajustar la escala de la gráfica haciendo clic derecho en la trama."
+
+#: ap/templates/templates/i18n.html
+msgid "Graph scale"
+msgstr "Escala gráfica"
+
+#: ap/templates/templates/i18n.html
+msgid "Setting View"
+msgstr "Modo de ajustes"
+
+#: ap/templates/templates/i18n.html
+msgid "Number_of_data_that_are_not_linked"
+msgstr "Número de elementos de datos que no se pueden vincular"
+
+# ap/templates/scatter_plot/scatter_plot.html
+msgid "Only scatter plot"
+msgstr "Gráfico de dispersión"
+
+# ap/templates/scatter_plot/scatter_plot.html
+msgid "with shading"
+msgstr "con contorno"
+
+#: ap/templates/setting_module/master_cfg.html
+msgid "Saving"
+msgstr "Ahorro"
+
+#: ap/templates/templates/i18n.html
+msgid "The application could not read file and preview data."
+msgstr ""
+"Vacíoファイルの読み取りができず、データのプレビューができませんでした。ファイルのヘッダなどのフォーマットに問題がないか確認をしてください。BREAK_LINEファイル名"
+" : FILE_NAME BREAK_LINEフォルダ : FOLDER"
+
+#: ap/templates/modals.html
+msgid "Load Setting"
+msgstr "Ajuste de carga"
+
+#: ap/templates/modals.html
+msgid "Share/Private"
+msgstr "Compartir/privado"
+
+#: ap/templates/modals.html
+msgid "Description"
+msgstr "Descripción"
+
+#: ap/templates/modals.html
+msgid "Created by"
+msgstr "Creado por"
+
+#: ap/templates/modals.html
+msgid "Use/Load"
+msgstr "Usar/cargar"
+
+#: ap/templates/modals.html
+msgid "Load"
+msgstr "Carga"
+
+#: ap/templates/templates/i18n.html
+msgid "Ratio of availability of data link"
+msgstr ""
+"Número de datos que no pudieron estar vinculados al proceso de punto de "
+"partida (porcentaje de enlace)"
+
+#: ap/templates/modals.html
+msgid "Save Date & Time"
+msgstr "Guardar fecha y hora"
+
+#: ap/templates/modals.html
+msgid "Share information"
+msgstr "Compartir configuraciones"
+
+#: ap/templates/modals.html
+msgid "Save"
+msgstr "ahorrar"
+
+#: ap/templates/i18n.html
+msgid ""
+"The maximum file size is 10MB. Please reduce the file size and retry "
+"again."
+msgstr ""
+"El límite de tamaño del archivo es de 10 MB. Reduzca el tamaño del "
+"archivo y vuelva a intentarlo."
+
+#: ap/templates/modals.html
+msgid "If checked, the set date & time will also be saved."
+msgstr "Si se verifica, también se guardan la hora de fecha y hora especificada."
+
+#: ap/templates/modals.html
+msgid "If checked, the settings can be shared."
+msgstr "Verifique para compartir esta configuración."
+
+#: ap/templates/modals.html
+msgid "Confirm to save your setting."
+msgstr "Guarde la configuración."
+
+#: ap/templates/modals.html
+msgid "Do you want to overwrite the setting?"
+msgstr "¿Estás seguro de sobrescribir la configuración?"
+
+# ap/templates/modals.html
+#: ap/templates/modals.html
+msgid "Shared"
+msgstr "Cuota"
+
+# ap/templates/modals.html
+#: ap/templates/modals.html
+msgid "Private"
+msgstr "Privado"
+
+#: ap/templates/modals.html
+msgid "Created at"
+msgstr "Creado en"
+
+# ap/templates/modals.html
+#: ap/templates/modals.html
+msgid "Close"
+msgstr "Cerca"
+
+#: ap/templates/i18n.html
+msgid "Order set"
+msgstr "Conjunto de pedidos"
+
+#: ap/templates/i18n.html
+msgid "From"
+msgstr "Iniciar la tiempo de fecha"
+
+#: ap/templates/i18n.html
+msgid "To"
+msgstr "Finalizar la hora de fecha"
+
+#: ap/templates/ridgeline_plot/ridgeline_by_category.html
+#: ap/templates/ridgeline_plot/ridgeline_by_cyclic_term.html
+#: ap/templates/ridgeline_plot/ridgeline_by_direct_term.html
+msgid "Show x-axis labels"
+msgstr "Mostrar etiquetas de eje X"
+
+#: ap/templates/ridgeline_plot/ridgeline_by_cyclic_term.html
+msgid "Datetime Range"
+msgstr "Rango de fecha y hora"
+
+#: ap/templates/co_occurrence/co_occurrence_csv.html
+msgid "Drag and drop file here"
+msgstr "Arrastre y suelte el archivo aquí"
+
+#: ap/templates/co_occurrence/co_occurrence_csv.html
+msgid "Or"
+msgstr "O"
+
+#: ap/templates/co_occurrence/co_occurrence_csv.html
+msgid "Choose a file"
+msgstr "Selecciona archivos"
+
+#: ap/templates/co_occurrence/co_occurrence_csv.html
+msgid "Value cannot be displayed"
+msgstr "No se puede mostrar"
+
+#: ap/templates/i18n.html
+msgid ""
+"The processing was interrupted due to the large amount of data and the "
+"processing time. Please review the date and time settings, etc., and then"
+" display the graph again."
+msgstr ""
+"El procesamiento se interrumpió debido a la gran cantidad de datos y al "
+"largo tiempo de procesamiento. Revise la configuración de DateTime y "
+"muestre el gráfico nuevamente."
+
+#: ap/templates/co_occurrence/co_occurrence_csv.html
+msgid "CSV file output has started. Please wait until the file is downloaded."
+msgstr "Salida del archivo CSV. Espere mientras se descarga el archivo."
+
+#: ap/templates/co_occurrence/co_occurrence_csv.html
+msgid "TSV file output has started. Please wait until the file is downloaded."
+msgstr "Salida del archivo TSV. Espere mientras se descarga el archivo."
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Auto range"
+msgstr "Rango automático"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Full range"
+msgstr "Rango completo"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Index Ordering Setting"
+msgstr "Configuración de orden de índice"
+
+#: ap/templates/i18n.html
+msgid "Open"
+msgstr "Abierto"
+
+#: ap/templates/modal.html
+msgid "Del"
+msgstr "Borrar"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Thin data shown"
+msgstr ""
+"Dado que el número de puntos de datos por gráfico es superior a 12,000, "
+"el número de puntos de datos se limitó a Máx 12,000. Si desea ver todos "
+"los datos, establezca un período de destino más corto."
+
+#: ap/templates/categorical_plot/categorical_plot_main.html
+msgid "Stratify by term (Cyclic)"
+msgstr "Estratificar por término (cíclico)"
+
+#: component.js
+msgid "Facet"
+msgstr "Faceta"
+
+#: component.js
+msgid ""
+"Category expansion is performed to divide the graph using the data of the"
+" selected item."
+msgstr "Realiza la categoría que se divide con el elemento seleccionado."
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Exception Estimation"
+msgstr "Estimación de excepción"
+
+#: ap/templates/templates/i18n.html
+msgid "NIQR"
+msgstr ""
+"Rango intercuartil normalizado (índice asociar IQR con distribución "
+"normal, NIQR = 0.7413 × IQR)"
+
+#: ap/templates/templates/i18n.html
+msgid "Mode"
+msgstr "El modo es el valor más frecuente."
+
+#: ap/templates/templates/i18n.html
+msgid "With outlier"
+msgstr "con atípico"
+
+#: ap/templates/templates/i18n.html
+msgid "Without outlier"
+msgstr "sin atípico"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "MedianVal"
+msgstr "Median"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "MaxVal"
+msgstr "Max"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "MinVal"
+msgstr "Min"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Custom"
+msgstr "Disfraz"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Today"
+msgstr "Este Dia"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Yesterday"
+msgstr "El dia de ayer"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Last 7 Days"
+msgstr "Los últimos 7 días"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Last 30 Days"
+msgstr "Últimos 30 días"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "This Month"
+msgstr "Este mes"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "-1 Month"
+msgstr "-1 mes"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "+3 Months"
+msgstr "+3 meses"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "Week No"
+msgstr "Semana"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "monthNames"
+msgstr "01_02_03_04_05_06_07_08_09_10_11_12"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "dayNames"
+msgstr "Sun_Mon_Tue_Wed_Thu_Fri_Sat"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "DayOf7DaysAgo"
+msgstr "Hace 7 días"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "DayOf30DaysAgo"
+msgstr "Hace 30 días"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "FirstDayOfThisMonth"
+msgstr "PUjeción de día de este mes"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "LastDayOfThisMonth"
+msgstr "Último día de este mes"
+
+#: ap/templates/trace_data/trace_data.html
+msgid "-3 Months"
+msgstr "-3 meses"
+
+#: ap/templates/templates/modal.html
+msgid "Updated at"
+msgstr "Actualizado en"
+
+#: ap/templates/i18n.html
+msgid "Partial Corr"
+msgstr "Partial Corr"
+
+#: ap/templates/i18n.html
+msgid "Since it is visualized in high-speed mode, the data points are omitted."
+msgstr ""
+"Los puntos de datos se resumen con el modo rápido. Si desea obtener "
+"gráfico sin omitir los datos, ajuste el período de destino más corto."
+
+#: ap/templates/macros.html
+msgid "Range of Y axis"
+msgstr "Rango de eje Y"
+
+#: ap/tenplates/i18n.html
+msgid "OutlierVal"
+msgstr "Parte aislada"
+
+#: ap/templates/macros.html
+msgid "Exception Estimation Explanation"
+msgstr ""
+"Vacío'99999', '-9.9999', '2222222'のような値をinf, -inf, "
+"NAのような例外値として扱いたい場合、チェックを入れてください。\n"
+"    ・実数の'99999', '9.99999'など => inf\n"
+"    ・実数の'-99999', '-9.99999'など => -inf\n"
+"    ・整数, 文字列の'99999', '9.99999', '222222'など => NA"
+
+#: ap/templates/i18n.html
+msgid "Search process name"
+msgstr "Búsqueda de procesos"
+
+#: ap/tenplates/header.html
+msgid "Bookmark"
+msgstr "Marcador"
+
+#: ap/templates/i18n.html
+msgid "Sensor Type Explanation"
+msgstr ""
+"Vacío以下のデータ型を示します。\n"
+"    ・CT [sec] : サイクルタイム\n"
+"    ・Real : 実数(Floatと同じ意味)\n"
+"    ・Int : 整数(Integer)\n"
+"    ・Str : 文字列(String)\n"
+
+#: ap/templates/i18n.html
+msgid "Cycle time"
+msgstr "Tiempo del ciclo"
+
+#: ap/templates/i18n.html
+msgid "Float"
+msgstr "Número Real"
+
+#: ap/templates/i18n.html
+msgid "Objective"
+msgstr "Variable objetiva"
+
+#: ap/templates/i18n.html
+msgid "Objective Explain"
+msgstr ""
+"El coeficiente de correlación se calcula utilizando esta variable como la"
+" variable objetivo. La variable objetivo especificada aquí también se "
+"muestra junto con una barra de color en el extremo derecho de la gráfica."
+" Si desea cambiar las variables de destino en la gráfica, puede cambiar "
+"entre ellas haciendo clic derecho en cada nombre de variable."
+
+#: ap/templates/i18n.html
+msgid "Category limited MSG"
+msgstr ""
+"Los datos no se ahogaron porque hay demasiadas categorías. BREAK_LINE "
+"Verifique y, si es necesario, revise el período objetivo más corto."
+
+#: ap/templates/macros.html
+msgid "Filter Setting"
+msgstr "Configuración de filtro"
+
+#: ap/templates/macros.html
+msgid "Label (Category value)"
+msgstr "Etiqueta (variables de categoría)"
+
+#: ap/templates/i18n.html
+msgid "Copied"
+msgstr "Copiado"
+
+#: ap/templates/i18n.html
+msgid "Pasted"
+msgstr "Pegado"
+
+#: ap/templates/i18n.html
+msgid "Copy config"
+msgstr "Copiar configuración"
+
+#: ap/templates/i18n.html
+msgid "Paste config"
+msgstr "Pegar Configuración"
+
+#: ap/templates/macros.html
+msgid ""
+"If you do not select start process, the process of the first target "
+"variable will be start process."
+msgstr "Sin configuración de origen, el primer objetivo se selecciona como origen."
+
+#: ap/templates/macros.html
+msgid "Export data"
+msgstr "Exportar datos"
+
+#: ap/templates/i18n.html
+msgid "Not use"
+msgstr "No utilice"
+
+#: ap/templates/i18n.html
+msgid "Not use warning"
+msgstr "Los datos no se dibujan porque hay demasiadas categorías."
+
+#: ap/templates/i18n.html
+msgid "Not use request"
+msgstr ""
+"Verifique y, si es necesario, revise la configuración del período "
+"objetivo."
+
+#: ap/templates/macros.html
+msgid "Divide by data number (Cyclic)"
+msgstr "Divide por recuento de datos (cíclico)"
+
+#: ap/templates/macros.html
+msgid "Number of data"
+msgstr "Número de datos"
+
+#: ap/templates/i18n.html
+msgid "Div"
+msgstr "Div"
+
+#: ap/templates/i18n.html
+msgid "Color explanation"
+msgstr ""
+"Vacíoグラフにプロットされた点の色は、選択したアイテムのデータを使用して色分けされます。ただし、以下の場合は色分けできません。\n"
+"(i) ｘもしくはyのどちら一方のデータタイプが文字列で、色分けで選択した変数のデータタイプが文字列でない場合\n"
+"(ii)ｘとy両方のデータタイプが文字列の場合"
+
+#: ap/templates/i18n.html
+msgid "Objective variable is NOT selected."
+msgstr "Seleccione la variable de propósito."
+
+#: ap/templates/macros.html
+msgid "Non-Divided / Divide by Category"
+msgstr "Sin descomposición / categoría descomposición"
+
+# ap/templates/scatter_plot/scatter_plot.html
+#: ap/templates/scatter_plot.html
+msgid "Scatter Plot"
+msgstr "Gráfico de dispersión"
+
+#: ap/templates/i18n.html
+msgid "SCP choose color variable warning message"
+msgstr ""
+"Si el tipo de datos X o Y es String, no puede usar variables de no cuerda"
+" para la configuración de color."
+
+#: ap/templates/i18n.html
+msgid "Changed to the max number division automatically."
+msgstr ""
+"Se detectó el valor fuera del rango permitido, por lo que se decidió "
+"automáticamente el rango mínimo o máximo válido. Cambie la configuración "
+"según sea necesario."
+
+#: ap/templates/setting_module/trace_config.html
+msgid "Right drag & drop: data link setting"
+msgstr "Haga clic derecho: Configuración de enlace de datos/editar/eliminar"
+
+#: ap/templates/i18n.html
+msgid "Elapsed Time"
+msgstr "Tiempo transcurrido"
+
+#: ap/templates/i18n.html
+msgid "Time"
+msgstr "Pedido de tiempo"
+
+#: ap/templates/i18n.html
+msgid "Setting Order"
+msgstr "Configuración del orden de datos"
+
+#: ap/templates/i18n.html
+msgid "Warning Full Disk"
+msgstr ""
+"Elimine datos innecesarios porque la capacidad del disco duro de "
+"`__SERVER_INFO__` ha alcanzado __SERVER_INFO__ %%."
+
+#: ap/templates/i18n.html
+msgid "Error Full Disk"
+msgstr ""
+"El puerto de datos se detuvo porque la capacidad del disco duro de "
+"`__SERVER_INFO__` alcanzó __SERVER_INFO__ %%. Si se eliminan los datos "
+"innecesarios y aumenta la capacidad vacía, los datos se reanudarán."
+
+#: ap/templates/macros.html
+msgid "Division number Hover RLP"
+msgstr ""
+"Ingrese el número de distribuciones que se mostrarán (número de "
+"divisiones). Ingrese un entero de 2 o 240 o menos."
+
+#: ap/templates/macros.html
+msgid "Division number Hover StP"
+msgstr ""
+"Ingrese el número de distribuciones que se mostrarán (número de "
+"divisiones). Ingrese un entero de 1 o más 32 o menos."
+
+#: ap/templates/i18n.html
+msgid "Reduce number of violin messenger"
+msgstr "Hay demasiados violines por trama, por lo que se limitó automáticamente."
+
+#: ap/templates/i18n.html
+msgid "Reduce number of data per graph messenger"
+msgstr ""
+"Debido a la gran cantidad de registros seleccionados, el número de "
+"gráficos es limitado desde la fecha más antigua hasta el recuento de "
+"límites."
+
+#: ap/templates/templates/i18n.html
+msgid "I Accept"
+msgstr "Acepto"
+
+#: ap/templates/i18n.html
+msgid "Decline"
+msgstr "Rechazar"
+
+#: ap/templates/i18n.html
+#, fuzzy
+msgid "Download New Version"
+msgstr "Conversion"
+
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid "Backwards"
+msgstr "Hacia atrás"
+
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid "Forwards"
+msgstr "Forwards"
+
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid "Number of graph on column"
+msgstr "Número de trama en la columna"
+
+#: ap/templates/i18n.html
+msgid "Label Variable Description"
+msgstr ""
+"Las variables categóricas (número de pieza, estación no, etc.) que se "
+"muestran como etiquetas en la parte superior de la gráfica se utilizan "
+"para visualizar los puntos de cambio (conmutación de número de pieza, "
+"etc.) de las variables cualitativas."
+
+#: hisview2/templates/analyze/hotelling_tsquare.html
+msgid "PCA Target Variable Explain"
+msgstr ""
+"Seleccione los elementos que se analizarán (variables cuantitativas: "
+"valor de medición, etc.). Se pueden seleccionar hasta 60 elementos."
+
+#: ap/templates/i18n.html
+msgid "Order set explain"
+msgstr ""
+"Seleccione elementos para ordenar datos. También puede seleccionar varios"
+" elementos."
+
+#: ap/templates/i18n.html
+msgid "SCP choose latest in case division by data number"
+msgstr ""
+"Los datos antiguos desbordados no se muestran porque el DateTime cuenta "
+"con los últimos datos con límite de visualización."
+
+#: ap/templates/i18n.html
+msgid "Limit number of graphs"
+msgstr ""
+"El número de trama se limitó a NUMBER. Si desea mostrar todo, reviva la "
+"configuración."
+
+#: ap/templates/i18n.html
+msgid "Limit number of graphs displayed in one tab"
+msgstr ""
+"El número de trama en una sola pestaña se limitó a NUMBER. Si desea "
+"mostrar todo, reviva la configuración."
+
+#: ap/templates/i18n.html
+msgid "Available to select min and max sensors at time"
+msgstr ""
+"El número de variables objetivo para seleccionar es mínimo mínimo y "
+"máximo máximo. Verifique el número de variables objetivo y corrija la "
+"configuración."
+
+#: ap/templates/i18n.html
+msgid "Available to select max sensors at time"
+msgstr ""
+"El número de variables objetivo para seleccionar es hasta el máximo "
+"máximo. Verifique el número de variables objetivo y corrija la "
+"configuración."
+
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid "SCP Page title description"
+msgstr "NA変数間の関係を散布図やバイオリンプロット、カレンダーヒートマップで可視化できます。"
+
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid "SCP show value description"
+msgstr ""
+"NA変数間の関係を可視化するx, yを選択する項目です。それぞれ1つずつ選択できます。最初に選択した変数がxとなります。\n"
+"選択したデータのTypeによって描写方法が変わります。\n"
+"x, y両変数ともInt or Real              → 散布図\n"
+"x, yの一方がInt or Real、もう一方がStr   → バイオリンプロット\n"
+"x, y両変数ともStr                      → カレンダーヒートマップ "
+
+#: ap/template/header.html
+msgid "New"
+msgstr "New"
+
+#: ap/templates/modal.html
+msgid "Do you want to save settings changes?"
+msgstr "Do you want to save changes?"
+
+#: ap/templates/modal.html
+msgid "Do not save"
+msgstr "Don't save"
+
+#: ap/templates/i18n.html
+msgid "Violins with a large amount of data are drawn by thinning out the data."
+msgstr "Violins with a large amount of data are drawn by thinning out the data."
+
+#: ap/templates/i18n.html
+msgid "Front end process timeout message"
+msgstr ""
+"The process is taking a long time. Please wait as it is, or abort the "
+"process by closing the tab on the web page."
+
+#: ap/templates/i18n.html
+msgid "Please select one Facet at lease for Stratified by variables mode!"
+msgstr "Please select one Facet at lease for Stratified by variables mode!"
+
+#: ap/templates/i18n.html
+msgid "User Setting Open Explaining"
+msgstr "Move to the corresponding page and draw the graph with the saved settings."
+
+#: ap/templates/i18n.html
+msgid "User Setting Read Explaining"
+msgstr "Reads the settings saved on the current page."
+
+#: ap/templates/i18n.html
+msgid "User Setting Edit Explaining"
+msgstr "Edit the title, priority, description, etc. of the saved settings."
+
+#: ap/templates/i18n.html
+msgid "Unselect Facet In Variable Division StP"
+msgstr ""
+"If you select \"Facet\" item in pull-down menu of show value, you can "
+"stratify the graph using the selected item."
+
+#: ap/templates/i18n.html
+msgid "Daterangepicker ranges hover message"
+msgstr ""
+"Click : Date & time selection only \n"
+"Double click : Date & time selection and apply"
+
+#: ap/templates/i18n.html
+msgid "Not applicable"
+msgstr "Not applicable"
+
+#: ap/templates/modal.html
+msgid "Do you want to abort the process?"
+msgstr "Do you want to abort the process?"
+
+#: ap/templates/i18n.html
+msgid "Copy to the clipboard was successful"
+msgstr "Copy to the clipboard was successful."
+
+#: ap/templates/i18n.html
+msgid "Failed to copy to clipboard"
+msgstr "Failed to copy to clipboard."
+
+#: ap/templates/i18n.html
+msgid "Success pasting from the clipboard"
+msgstr "Success pasting from the clipboard."
+
+#: ap/templates/i18n.html
+msgid "Failed to paste from clipboard"
+msgstr "Failed to paste from clipboard."
+
+#: ap/templates/i18n.html
+msgid "Target variable"
+msgstr "Target variable"
+
+#: ap/templates/sankey_plot.html
+msgid "Mean absolute error"
+msgstr "Mean absolute error"
+
+#: ap/templates/sankey_plot.html
+msgid "Adjusted R2"
+msgstr "Adjusted R2"
+
+#: ap/templates/i18n.html
+msgid "Fitted"
+msgstr "Fitted"
+
+#: ap/templates/i18n.html
+msgid "Actual"
+msgstr "Actual"
+
+#: ap/templates/i18n.html
+msgid "Residuals"
+msgstr "Residuals"
+
+#: ap/templates/i18n.html
+msgid "Index vs Residuals"
+msgstr "Index vs Residuals"
+
+#: ap/templates/i18n.html
+msgid "Actual vs Fitted Values"
+msgstr "Actual vs Fitted Values"
+
+#: ap/templates/i18n.html
+msgid "K sep: Real"
+msgstr "K sep: Real"
+
+#: ap/templates/i18n.html
+msgid "K sep: Int"
+msgstr "K sep: Int"
+
+#: ap/templates/i18n.html
+msgid "K sep: EU Real"
+msgstr "K sep: EU Real"
+
+#: ap/templates/i18n.html
+msgid "K sep: EU int"
+msgstr "K sep: EU int"
+
+#: ap/templates/templates/i18n.html
+msgid "Copy to all right column"
+msgstr "Copy to all right column"
+
+#: ap/templates/i18n.html
+msgid "Edit user setting confirm"
+msgstr ""
+"_TITLE_ already exists.\n"
+"Do you want to overwrite?"
+
+#: ap/templates/i18n.html
+msgid "MAEInfo"
+msgstr ""
+"Mean absolute error (MAE) is an average of absolute value of the "
+"residuals. Small MAE indicates that the model is well fitted to the "
+"training data"
+
+#: ap/templates/i18n.html
+msgid "R2Info"
+msgstr ""
+"Adjusted R2 takes value from 0 to 1, and high value indicates that the "
+"model is well fitted to the training data.\n"
+"Generally, ordinal R2 improves by just adding new explanatory variables. "
+"Adjusted R2 is adjusted by the number of explanatory variables."
+
+# ap/templates/trace_data/list_of_histograms.html
+#: ap/templates/macros.html
+msgid "No data link"
+msgstr "Parte aislada"
+
+#: ap/templates/master_cfg.html
+msgid "No data"
+msgstr "No data"
+
+#: ap/templates/filter_config.html
+msgid "Filter Type"
+msgstr "Filter Type"
+
+#: ap/templates/filter_config.html
+msgid "Please enter a character string for the filter condition."
+msgstr "Please enter a character string for the filter condition."
+
+#: ap/templates/parallel_plot.html
+msgid "Real and Integer"
+msgstr "Real and Integer"
+
+#: ap/templates/i18n.html
+msgid "Change divide confirm message"
+msgstr ""
+"Clear Div in Facet box?\n"
+"When click OK, clear Div.\n"
+"When click Cancel, 'CATEGORY_DIVIDE_OPTION' is selected automatically."
+
+#: ap/templates/i18n.html
+msgid "Clear Div in Facet"
+msgstr ""
+"Clear CURRENT_DIVIDE_OPTION?\n"
+"When click OK, clear CURRENT_DIVIDE_OPTION and select "
+"'CATEGORY_DIVIDE_OPTION' automatically. \n"
+"When click Cancel, clear Div in Facet automatically."
+
+#: ap/templates/templates/i18n.html
+msgid "Parallel Coordinates Plot"
+msgstr "Parallel Coordinates Plot"
+
+#: ap/templates/i18n.html
+msgid ""
+"There is no datetime column. If there is no datetime column, the "
+"application generates a dummy data for datetime."
+msgstr ""
+"There is no datetime column. If there is no datetime column, the "
+"application generates a dummy data for datetime."
+
+#: ap/templates/i18n.html
+msgid ""
+"Since there is no datetime column, the application generates a dummy data"
+" for datetime."
+msgstr ""
+"Since there is no datetime column, the application generates a dummy data"
+" for datetime."
+
+#: ap/templates/templates/i18n.html
+msgid "K sep type notification"
+msgstr ""
+"The data type of real number or integer column including thousands "
+"separator is presumed to be character string, so change it to the correct"
+" data type"
+
+#: ap/templates/i18n.html
+msgid "Preview same value message"
+msgstr ""
+"There are columns with the same values in the previewed data. Please "
+"check whether it is set as the target column to import data."
+
+#: ap/templates/i18n.html
+msgid "Preview null value message"
+msgstr ""
+"There are columns with no values in the previewed data. If you want to "
+"set the target column to import data, please check and specify the "
+"appropriate data type."
+
+#: ap/templates/setting_module/db_config_modals.html
+msgid "Dummy Datetime Generate On DS Confirm Message"
+msgstr ""
+"The target file does not have a datetime column.\n"
+"The system requires datetime, so are you sure to generate dummy "
+"datetime(DatetimeDummy) and continue setting?\n"
+"\n"
+"Dummy datetime is generated as follows.\n"
+"* Generate initial datetime on the first record of the target file which "
+"is 00:00 on the 1st day of this month.\n"
+"* Recursively add 10 seconds by records.\n"
+"* For the next file, initialize by 00:00 on the next day of latest "
+"datetime, and recursively add 10 seconds by records.\n"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Dummy Datetime Generate On Proc Confirm Message"
+msgstr ""
+"Dummy datetime (DatetimeDummy) was generated because there is no datetime"
+" column in the target file.\n"
+"\n"
+"Please check the generated dummy datetime and import it with \"As "
+"Datetime\" checked.\n"
+"\n"
+"Dummy datetime is generated as follows.\n"
+"* Generate initial datetime on the first record of the target file which "
+"is 00:00 on the 1st day of this month.\n"
+"* Recursively add 10 seconds by records.\n"
+"* For the next file, initialize by 00:00 on the next day of latest "
+"datetime, and recursively add 10 seconds by records.\n"
+
+#: ap/templates/modal.html
+msgid "Anchor cursor"
+msgstr "Anchor cursor"
+
+#: ap/templates/modal.html
+msgid "Show  cursor from all labels"
+msgstr "Show  cursor from all labels"
+
+#: ap/templates/modal.html
+msgid "Hide cursor"
+msgstr "Hide cursor"
+
+#: ap/templates/i18n.html
+msgid ""
+"The target file does not have a datetime column. Please prepare a "
+"datetime column or consider using dummy datetime (DatetimeDummy)."
+msgstr ""
+"There is no datetime column. If there is no datetime column, the "
+"application generates a dummy data for datetime."
+
+#: ap/tenplates/i18n.html
+msgid "MSP Hide Contour MSG"
+msgstr ""
+"Since the number of data points drawn on one graph is large, a high-speed"
+" mode scatter plot with contour is drawn.If you want to plot all data "
+"points, please change the target period to reduce the number of data "
+"points."
+
+#: ap/templates/i18n.html
+msgid "InfCastValue"
+msgstr "Mínimo"
+
+#: ap/templates/macros.html
+msgid ""
+"Values those have pulsed number of occurrences compared to the neighbors:"
+" Replace to NA"
+msgstr ""
+"Values those have pulsed number of occurrences compared to the neighbors:"
+" Replace to NA"
+
+#: ap/templates/macros.html
+msgid "Cleansing"
+msgstr "Advertencia"
+
+#: ap/templates/multiple_scatter_plot/multiple_scatter_plot.html
+msgid "Heatmap"
+msgstr "Heatmap"
+
+#: ap/templates/i18n.html
+msgid "Data Count"
+msgstr "Data Count"
+
+#: ap/templates/i18n.html
+msgid "Confusion Matrix"
+msgstr "Confusion Matrix"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "Accuracy"
+msgstr "Accuracy"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "Precision"
+msgstr "Predicción"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "Recall"
+msgstr "Recall"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "ROC-AUC"
+msgstr "ROC-AUC"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "PR-AUC"
+msgstr "PR-AUC"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "Accuracy description"
+msgstr "Descripción"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "Precision description"
+msgstr ""
+"Si selecciona un valor inferior a 100%%, ocultará una pequeña relación de"
+" concurrencia. (Predeterminado: dibuja una línea si hay incluso una vez)"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "Recall description"
+msgstr ""
+"Si selecciona un valor inferior a 100%%, ocultará una pequeña relación de"
+" concurrencia. (Predeterminado: dibuja una línea si hay incluso una vez)"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "ROC-AUC description"
+msgstr ""
+"Si selecciona un valor inferior a 100%%, ocultará una pequeña relación de"
+" concurrencia. (Predeterminado: dibuja una línea si hay incluso una vez)"
+
+#: ap/templates/sankey_plot/sankey_plot.html
+msgid "PR-AUC description"
+msgstr "Descripción"
+
+#: ap/templates/macros.html
+msgid "Serial series"
+msgstr "Serial series"
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Mode hover msg"
+msgstr ""
+"Select the EMD (Earth Mover's Distance) calculation mode that indicates "
+"the degree of distribution variation."
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Drift hover msg"
+msgstr ""
+"When calculating the degree of distribution variation (EMD) for each "
+"distribution, the top distribution is used as the reference."
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Diff hover msg"
+msgstr ""
+"When calculating the degree of distribution variation (EMD) for each "
+"distribution, the previous distribution is used as the reference."
+
+#: ap/templates/ridgeline_plot/ridgeline_plot.html
+msgid "Both hover msg"
+msgstr "Display the results calculated in both modes of \"Drift\" and \"Diff\"."
+
+#: ap/templates/multiple_scatter_plot/multiple_scatter_plot.html
+msgid "Contour hover msg"
+msgstr ""
+"Draws a scatter plot with contour showing the central portion of the "
+"distribution. If the number of data points drawn in one scatter plot is "
+"10,000 or more, scatter plot with contour is shown to omit the data "
+"points drawn on the plot."
+
+#: ap/templates/multiple_scatter_plot/multiple_scatter_plot.html
+msgid "Heatmap hover msg"
+msgstr ""
+"The background color is changed according to the magnitude of the "
+"correlation coefficient. Among the selected variables, combinations of "
+"variables with larger absolute values of correlation coefficients are "
+"displayed in brighter colors."
+
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid "XY axis"
+msgstr "X-Y axis"
+
+#: ap/templates/scatter_plot/scatter_plot.html
+msgid "Col num hover msg"
+msgstr "Set the number of columns in the split graph."
+
+#: ap/templates/macros.html
+msgid "If checked, the config on graph area will also be saved."
+msgstr "If checked, the config on graph area will also be saved."
+
+#: ap/templates/macros.html
+msgid "Graph Setting"
+msgstr "Graph Setting"
+
+#: ap/templates/macros.html
+msgid "Also save the settings of the graph area (or clear)"
+msgstr "Also save the settings of the graph area (or clear)"
+
+#: ap/templates/i18n.html
+msgid "Attribute"
+msgstr "Attribute"
+
+# ap/templates/modals.html
+#: ap/templates/i18n.html
+msgid "Lower"
+msgstr "Cerca"
+
+#: ap/templates/i18n.html
+msgid "Upper"
+msgstr "Upper"
+
+#: ap/templates/i18n.html
+msgid "Limit"
+msgstr "Limit"
+
+#: ap/templates/i18n.html
+msgid "Proc. limit"
+msgstr "Proc. limit"
+
+# ap/template/setting_module/master_config.html
+#: ap/templates/i18n.html
+msgid "Valid"
+msgstr "Fecha de vencimiento (final)"
+
+# ap/template/setting_module/master_config.html
+#: ap/templates/i18n.html
+msgid "ValidFrom"
+msgstr "Fecha de vencimiento (inicio)"
+
+# ap/template/setting_module/master_config.html
+#: ap/templates/i18n.html
+msgid "ValidTo"
+msgstr "Fecha de vencimiento (final)"
+
+#: ap/templates/modal.html
+msgid ""
+"Because duplicate column names exist, a numeric suffix  added to the "
+"duplicate column names."
+msgstr ""
+"Because duplicate column names exist, a numeric suffix  added to the "
+"duplicate column names."
+
+#: ap/templates/i18n.html
+msgid "Error Msg Common"
+msgstr "Error is occurring!!"
+
+#: ap/templates/i18n.html
+msgid "Filter search box hover msg"
+msgstr ""
+"General Search Options\n"
+"    ・OR Search: Including multiple words(spaces are treated as "
+"characters) separated by '|'.  (ex. A|B C → AX, B CX, AXB C)\n"
+"    ・Range Search: Including numbers in the range specified by '[-]'. "
+"(ex. [98-101] → X098, X099, X100)\n"
+"Regular Expression: Specify the format of serial etc. in detail."
+
+#: ap/templates/i18n.html
+msgid "First"
+msgstr "First"
+
+#: ap/templates/i18n.html
+msgid "Last"
+msgstr "Last"
+
+#: ap/templates/i18n.html
+msgid "Duplicate serial"
+msgstr "Duplicate serial"
+
+#: ap/templates/i18n.html
+msgid "Duplicate serial hover message"
+msgstr ""
+"You can select the record to display when there are duplicate records in "
+"the item set for 'As Link ID' on the process setting page.\n"
+"When data linking between several processes, duplicate serials are "
+"forcibly linked with the latest date & time record."
+
+#: ap/templates/i18n.html
+msgid "Remove duplicated records message"
+msgstr "Excluded `x` duplicate records."
+
+#: ap/templates/i18n.html
+msgid "P duplicate hover message"
+msgstr "Number of duplicate serials (percentage)"
+
+#: ap/templates/i18n.html
+msgid "You can filter categorical data used for graph drawing."
+msgstr "You can filter categorical data used for graph drawing."
+
+#: ap/templates/i18n.html
+msgid "TourSelectTargetVar"
+msgstr ""
+"Select a process and then select some variables that you would like to "
+"visualize. You can select additional process by clicking the + button on "
+"the upper right.BREAK_LINEYou can also set variables for label plots and "
+"facets.BREAK_LINE"
+
+#: ap/templates/i18n.html
+msgid "TourSelectTargetVarDesc"
+msgstr ""
+"You can show the description of the words with underlines by pointing the"
+" words with mouse pointer for a second."
+
+#: ap/templates/i18n.html
+msgid "TourSelectTargetPeriod"
+msgstr "Período objetivo"
+
+#: ap/templates/i18n.html
+msgid "TourSelectTargetPeriodDatePicker"
+msgstr ""
+"Clicking on the textbox will show datetime selector. You can specify the "
+"datetime range with this selector, or by typing directly with the "
+"keyboard."
+
+#: ap/templates/i18n.html
+msgid "TourFindData"
+msgstr ""
+"No problem. Clicking the \"Data Finder\" button, you can access data "
+"finder, which you can find the time range of the stored data."
+
+#: ap/templates/i18n.html
+msgid "TourWithDatafinder"
+msgstr ""
+"With the data finder, you can select a datetime range while seeing when "
+"and how much data is being imported.BREAK_LINEBREAK_LINEIf data are "
+"exist, the corresponding cell is displayed in blue; the greater the "
+"amount of data, the brighter the blue. The existence of this data refers "
+"to the data for the process selected first in the step \"Select target "
+"variable\" or the process specified as theSPAN_TAG\"Start "
+"point\"SPAN_END_TAG"
+
+# ap/templates/trace_data/trace_data.html
+#: ap/templates/i18n.html
+msgid "TourUseFilter"
+msgstr "Sin filtro"
+
+#: ap/templates/i18n.html
+msgid "TourCleansing"
+msgstr "Advertencia"
+
+#: ap/templates/i18n.html
+msgid "TourShowGraph"
+msgstr ""
+"The basic setup is finished. Most of the settings done in this tour are "
+"common among most of the visualization. BREAK_LINEBREAK_LINEFinally, "
+"press the \"Display Graph\" button and wait a few moments for the graph "
+"to be drawn."
+
+#: ap/templates/i18n.html
+msgid "TourFinish"
+msgstr ""
+"Thank you for completing this tour. BREAK_LINEBREAK_LINEMany useful "
+"functions, including on-demand filters, are also implemented on the "
+"screen after visualization. Manipulations on the graph will never destroy"
+" the imported data, so lets start manipulating the graph and analyze the "
+"data from various angles."
+
+#: ap/templates/i18n.html
+msgid "GoBack"
+msgstr "atrás"
+
+#: ap/templates/i18n.html
+msgid "GoNext"
+msgstr "Conectar"
+
+#: ap/templates/i18n.html
+msgid "GoFinish"
+msgstr ""
+"Thank you for completing this tour. BREAK_LINEBREAK_LINEMany useful "
+"functions, including on-demand filters, are also implemented on the "
+"screen after visualization. Manipulations on the graph will never destroy"
+" the imported data, so lets start manipulating the graph and analyze the "
+"data from various angles."
+
+#: ap/templates/i18n.html
+msgid "GoNextToDataFinder"
+msgstr ""
+"With the data finder, you can select a datetime range while seeing when "
+"and how much data is being imported.BREAK_LINEBREAK_LINEIf data are "
+"exist, the corresponding cell is displayed in blue; the greater the "
+"amount of data, the brighter the blue. The existence of this data refers "
+"to the data for the process selected first in the step \"Select target "
+"variable\" or the process specified as theSPAN_TAG\"Start "
+"point\"SPAN_END_TAG"
+
+#: ap/templates/i18n.html
+msgid "TourWelcomeTitle"
+msgstr "Welcome to the Analysis Platform"
+
+#: ap/templates/i18n.html
+msgid "TourWelcome"
+msgstr ""
+"In this tour, we are going to walk through the basics of how to run the "
+"visualizations. All visualizations can be used in the similar manner."
+
+#: ap/templates/i18n.html
+msgid "TourWelcomeQuit"
+msgstr "Quit tour"
+
+#: ap/templates/i18n.html
+msgid "TourSelectTargetVarTitle"
+msgstr ""
+"Select a process and then select some variables that you would like to "
+"visualize. You can select additional process by clicking the + button on "
+"the upper right.BREAK_LINEYou can also set variables for label plots and "
+"facets.BREAK_LINE"
+
+#: ap/templates/i18n.html
+msgid "TourSelectTargetPeriodTitle"
+msgstr "Período objetivo"
+
+#: ap/templates/i18n.html
+msgid "TourSelectTargetPeriodDatePickerTitle"
+msgstr ""
+"Clicking on the textbox will show datetime selector. You can specify the "
+"datetime range with this selector, or by typing directly with the "
+"keyboard."
+
+#: ap/templates/i18n.html
+msgid "TourFindDataTitle"
+msgstr ""
+"No problem. Clicking the \"Data Finder\" button, you can access data "
+"finder, which you can find the time range of the stored data."
+
+#: ap/templates/i18n.html
+msgid "TourWithDatafinderTitle"
+msgstr ""
+"With the data finder, you can select a datetime range while seeing when "
+"and how much data is being imported.BREAK_LINEBREAK_LINEIf data are "
+"exist, the corresponding cell is displayed in blue; the greater the "
+"amount of data, the brighter the blue. The existence of this data refers "
+"to the data for the process selected first in the step \"Select target "
+"variable\" or the process specified as theSPAN_TAG\"Start "
+"point\"SPAN_END_TAG"
+
+# ap/templates/trace_data/trace_data.html
+#: ap/templates/i18n.html
+msgid "TourUseFilterTitle"
+msgstr "Sin filtro"
+
+#: ap/templates/i18n.html
+msgid "TourCleansingTitle"
+msgstr "Advertencia"
+
+#: ap/templates/i18n.html
+msgid "TourShowGraphTitle"
+msgstr ""
+"The basic setup is finished. Most of the settings done in this tour are "
+"common among most of the visualization. BREAK_LINEBREAK_LINEFinally, "
+"press the \"Display Graph\" button and wait a few moments for the graph "
+"to be drawn."
+
+#: ap/templates/i18n.html
+msgid "TourFinishTitle"
+msgstr ""
+"Thank you for completing this tour. BREAK_LINEBREAK_LINEMany useful "
+"functions, including on-demand filters, are also implemented on the "
+"screen after visualization. Manipulations on the graph will never destroy"
+" the imported data, so lets start manipulating the graph and analyze the "
+"data from various angles."
+
+#: ap/templates/i18n.html
+msgid "Learn how to visualize data"
+msgstr "Learn how to visualize data"
+
+#: ap/templates/i18n.html
+msgid "Support site (JP)"
+msgstr "Support site (JP)"
+
+#: ap/templates/macros.html
+msgid "Dup check message"
+msgstr "Number of duplicate serials (percentage)"
+
+#: ap/templates/macros.html
+msgid "Divide by calender (Cyclic)"
+msgstr "Dividir por término (cíclico)"
+
+# ap/template/setting_module/master_config.html
+#: ap/templates/macros.html
+msgid "Divide format"
+msgstr "Fecha de vencimiento (inicio)"
+
+#: ap/templates/macros.html
+msgid "Offset"
+msgstr "Offset"
+
+#: ap/templates/macros.html
+msgid "Divide format hover msg"
+msgstr ""
+"When calculating the degree of distribution variation (EMD) for each "
+"distribution, the previous distribution is used as the reference."
+
+#: ap/templates/macros.html
+msgid "Daterange divide by calender hover msg"
+msgstr ""
+"Click : Date & time selection only \n"
+"Double click : Date & time selection and apply"
+
+#: ap/templates/macros.html
+msgid "Offset hover msg"
+msgstr ""
+"Select the EMD (Earth Mover's Distance) calculation mode that indicates "
+"the degree of distribution variation."
+
+#: ap/templates/macros.html
+msgid "AgP color hover msg"
+msgstr ""
+"Draws a scatter plot with contour showing the central portion of the "
+"distribution. If the number of data points drawn in one scatter plot is "
+"10,000 or more, scatter plot with contour is shown to omit the data "
+"points drawn on the plot."
+
+#: ap/templates/aggregate_plot/aggregate_plot.html
+msgid "Aggregation Plot info"
+msgstr ""
+"You can visualize aggregated results such as production volume, number of"
+" defects, and time-series changes in sensor data, and explore their "
+"relationships."
+
+#: ap/templates/aggregate_plot/aggregate_plot.html
+msgid "AgP target variables"
+msgstr "Target variable"
+
+#: ap/templates/sidebar.html
+#, fuzzy
+msgid "Aggregation Plot"
+msgstr "Aggregation Plot"
+
+#: ap/templates/macros.html
+msgid "Latest month"
+msgstr "month"
+
+#: ap/templates/macros.html
+msgid "Latest year"
+msgstr "year"
+
+#: ap/templates/templates/i18n.html
+#, fuzzy
+msgid "The target is a variable whose data type is Real"
+msgstr "The target is a variable whose data type is 'Real'"
+
+#: ap/templates/templates/i18n.html
+msgid "SkD select over 100 sensor msg"
+msgstr ""
+"Processing might take time due to the large number of selected variables."
+" To reduce the processing time, reduce the number of variables and rerun "
+"the visualization."
+
+#: ap/templates/templates/sidebar.html
+msgid "Open (new)"
+msgstr "Open (new)"
+
+#: ap/templates/templates/sidebar.html
+msgid "Open (takeover)"
+msgstr "Open (takeover)"
+
+#: ap/templates/templates/sidebar.html
+msgid "Open in new tab (new)"
+msgstr "Open in new tab (new)"
+
+#: ap/templates/templates/sidebar.html
+msgid "Open in new tab (takeover)"
+msgstr "Open in new tab (takeover)"
+
+#: ap/templates/templates/sidebar.html
+msgid "Main page: DN7"
+msgstr "Main page: DN7"
+
+#: ap/templates/templates/sidebar.html
+msgid "Main page: AP"
+msgstr "Main page: AP"
+
+#: ap/templates/templates/macros.html
+msgid "Select a unit of time and input value."
+msgstr ""
+"Select a unit of time and input value. \n"
+"The range of possible inputs for each unit are as follows.\n"
+"* minute: 0.01 - 1,000,000\n"
+"* hour: 0.01 - 20,000\n"
+"* day: 0.01- 1,000\n"
+"* week: 0.01 - 100\n"
+"* month: 0.01- 24\n"
+"* year : 0.01 - 2\n"
+
+#: ap/templates/sidebar.html
+#, fuzzy
+msgid "Structure Learning"
+msgstr "Los datos no se dibujan porque hay demasiadas categorías."
+
+#: ap/templates/sidebar.html
+#, fuzzy
+msgid "Graphical Lasso"
+msgstr "Gráfico LASSO"
+
+#: ap/templates/analyze/graphical_lasso.html
+msgid "Sparsity"
+msgstr "Sparsity"
+
+#: ap/templates/analyze/graphical_lasso.html
+#, fuzzy
+msgid "GLThreshold"
+msgstr "Umbral de visualización"
+
+#: ap/templates/analyze/graphical_lasso.html
+#, fuzzy
+msgid "Labels"
+msgstr "Etiqueta"
+
+#: ap/templates/analyze/graphical_lasso.html
+#, fuzzy
+msgid "Sensor name"
+msgstr "Nombre de usuario"
+
+#: ap/templates/analyze/graphical_lasso.html
+msgid "GL Page Title"
+msgstr ""
+"Visualizes partial correlations of variables with network graph.\n"
+"By specifing the objective variable, you can visualize the directly "
+"correlated variables and the in-directly correlated variables in more "
+"easy to understand layout."
+
+#: ap/templates/analyze/graphical_lasso.html
+#, fuzzy
+msgid "Sparsity Hover"
+msgstr ""
+"When calculating the degree of distribution variation (EMD) for each "
+"distribution, the top distribution is used as the reference."
+
+#: ap/templates/analyze/graphical_lasso.html
+#, fuzzy
+msgid "GLThreshold Hover"
+msgstr "Línea umbral"
+
+#: ap/templates/analyze/graphical_lasso.html
+#, fuzzy
+msgid "GL Process name"
+msgstr "Nombre del proceso"
+
+#: ap/templates/templates/macros.html
+msgid "SkD objective hover messenger"
+msgstr ""
+"The variable selected here is called 'Objective variable',\n"
+"which we will fit a regression model to estimate the objective variable "
+"using other selected variables."
+
+#: ap/templates/templates/macros.html
+#, fuzzy
+msgid "GL target variable"
+msgstr "Target variable"
+
+#: ap/templates/templates/macros.html
+#, fuzzy
+msgid "GL objective hover messenger"
+msgstr "Number of duplicate serials (percentage)"
+
+#: ap/templates/templates/co_occurence.html
+#, fuzzy
+msgid "Show all node labels"
+msgstr "Mostrar etiquetas de eje X"
+
+#: ap/templates/templates/macros.html
+msgid "Generate proc link information msg"
+msgstr ""
+"If you want to update the number of imported records or the number of "
+"linked records, press the 'Reload' button."
+
+#: ap/templates/templates/sidebar.html
+#, fuzzy
+msgid "in new tab"
+msgstr "Open in new tab (new)"
+
+#: ap/templates/i18n.html
+msgid "File not found"
+msgstr "File not found"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Move next to target variable"
+msgstr "Move next to target variable"
+
+#: ap/templates/macros.html
+msgid "Remove outlier hover msg"
+msgstr ""
+"Values less than Q1-1.5×IQR and values greater than Q3+1.5×IQR: replace "
+"to NA"
+
+#: ap/templates/modal.html
+msgid "Do you want to uncheck problematic variables?"
+msgstr "Do you want to uncheck problematic variables?"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Categorized Real"
+msgstr "Categorized Real"
+
+#: ap/templates/templates/modal.html
+msgid "Generate several v2 data sources msg"
+msgstr ""
+"Do you want to generate data source config automatically? Or please "
+"select only one process to avoid."
+
+#: ap/templates/tile_interface/tile_search_by_use.html
+msgid "For example"
+msgstr "For example"
+
+#: ap/templates/tile_interface/tile_search_by_use.html
+msgid "Search by Usage"
+msgstr "Search by Usage"
+
+#: ap/templates/i18n.html
+msgid "Filter label hover msg"
+msgstr ""
+"Checked categorical variables can be used as on-demand filter items in "
+"graphs. You can select items whose data types are Int(integer) and "
+"Str(String)."
+
+#: ap/templates/macros.html
+msgid "Link"
+msgstr "Link"
+
+#: ap/templates/macros.html
+msgid "Link copy hover msg"
+msgstr "Copy the URL to draw the graph with the saved settings."
+
+#: ap/templates/sidebar.html
+msgid "New tab"
+msgstr "New tab"
+
+#: ap/templates/sidebar.html
+msgid "Takeover"
+msgstr "Takeover"
+
+#: ap/templates/sidebar.html
+msgid "Usage"
+msgstr "Usage"
+
+#: ap/templates/modal.html
+msgid "Selected Variables"
+msgstr "Selected Variables"
+
+#: ap/templates/modal.html
+msgid "Zero Variance"
+msgstr "Zero Variance"
+
+#: ap/templates/modal.html
+msgid "NA rate"
+msgstr "NA rate"
+
+#: ap/templates/macros.html
+msgid "Variable display ordering"
+msgstr "Variable display ordering"
+
+#: ap/templates/tile_interface/tile_search_by_use.html
+msgid ""
+"You can find the recommended pages and their settings from what you want "
+"to do."
+msgstr ""
+"You can find the recommended pages and their settings from what you want "
+"to do."
+
+# master factory info
+msgid "factory_factid"
+msgstr "FactoryID"
+
+msgid "factory_name_jp"
+msgstr "FactoryName_JA"
+
+msgid "factory_name_en"
+msgstr "FactoryName_EN"
+
+msgid "factory_name_sys"
+msgstr "FactoryName_Sys"
+
+msgid "factory_name_local"
+msgstr "FactoryName_Local"
+
+msgid "factory_abbr_jp"
+msgstr "FactoryName(Short)_JA"
+
+msgid "factory_abbr_en"
+msgstr "FactoryName(Short)_EN"
+
+msgid "factory_abbr_local"
+msgstr "FactoryName(Short)_Local"
+
+msgid "plant_factid"
+msgstr "PlantNo"
+
+# master plant info
+msgid "plant_name_jp"
+msgstr "PlantName_JA"
+
+msgid "plant_name_en"
+msgstr "PlantName_EN"
+
+msgid "plant_name_sys"
+msgstr "PlantName_Sys"
+
+msgid "plant_name_local"
+msgstr "PlantName_Local"
+
+msgid "plant_abbr_jp"
+msgstr "PlantName(Short)_JA"
+
+msgid "plant_abbr_en"
+msgstr "PlantName(Short)_EN"
+
+msgid "plant_abbr_local"
+msgstr "PlantName(Short)_Local"
+
+# master prod info
+msgid "prod_family_factid"
+msgstr "ProdFamilyID"
+
+msgid "prod_family_name_jp"
+msgstr "ProdFamilyName_JA"
+
+msgid "prod_family_name_en"
+msgstr "ProdFamilyName_EN"
+
+msgid "prod_family_name_sys"
+msgstr "ProdFamilyName_Sys"
+
+msgid "prod_family_name_local"
+msgstr "ProdFamilyName_Local"
+
+msgid "prod_family_abbr_jp"
+msgstr "ProdFamilyName(Short_JA"
+
+msgid "prod_family_abbr_en"
+msgstr "ProdFamilyName(Short)_EN"
+
+msgid "prod_family_abbr_local"
+msgstr "ProdFamilyName(Short)_Local"
+
+# master line info
+msgid "line_factid"
+msgstr "LineID"
+
+msgid "line_name_jp"
+msgstr "LineName_JA"
+
+msgid "line_name_en"
+msgstr "LineName_EN"
+
+msgid "line_name_sys"
+msgstr "LineName_Sys"
+
+msgid "line_name_local"
+msgstr "LineName_Local"
+
+msgid "line_no"
+msgstr "LineNo"
+
+msgid "outsource"
+msgstr "Outsource"
+
+# master dept info
+msgid "dept_factid"
+msgstr "DeptID"
+
+msgid "dept_name_jp"
+msgstr "DeptName_JA"
+
+msgid "dept_name_en"
+msgstr "DeptName_EN"
+
+msgid "dept_name_sys"
+msgstr "DeptName_Sys"
+
+msgid "dept_name_local"
+msgstr "DeptName_Local"
+
+msgid "dept_abbr_jp"
+msgstr "DeptName(Short)_JA"
+
+msgid "dept_abbr_en"
+msgstr "DeptName(Short)_EN"
+
+msgid "dept_abbr_local"
+msgstr "DeptName(Short)_Local"
+
+# master sect info
+msgid "sect_factid"
+msgstr "SectID"
+
+msgid "sect_name_jp"
+msgstr "SectName_JA"
+
+msgid "sect_name_en"
+msgstr "SectName_EN"
+
+msgid "sect_name_sys"
+msgstr "SectName_Sys"
+
+msgid "sect_name_local"
+msgstr "SectName_Local"
+
+msgid "sect_abbr_jp"
+msgstr "SectName(Short)_JA"
+
+msgid "sect_abbr_en"
+msgstr "SectName(Short)_EN"
+
+msgid "sect_abbr_local"
+msgstr "SectName(Short)_Local"
+
+# master prod info
+msgid "prod_factid"
+msgstr "ProductNo"
+
+msgid "prod_name_jp"
+msgstr "ProdName_JA"
+
+msgid "prod_name_en"
+msgstr "ProdName_EN"
+
+msgid "prod_name_sys"
+msgstr "ProdName_Sys"
+
+msgid "prod_name_local"
+msgstr "ProdName_Local"
+
+msgid "prod_abbr_jp"
+msgstr "ProdName(Short)_JA"
+
+msgid "prod_abbr_en"
+msgstr "ProdName(Short)_EN"
+
+msgid "prod_abbr_local"
+msgstr "ProdName(Short)_Local"
+
+# master part type info
+msgid "part_type_factid"
+msgstr "PartType"
+
+msgid "part_name_jp"
+msgstr "PartName_JA"
+
+msgid "part_name_en"
+msgstr "PartName_EN"
+
+msgid "part_name_sys"
+msgstr "PartName_Sys"
+
+msgid "part_name_local"
+msgstr "PartName_Local"
+
+msgid "part_abbr_jp"
+msgstr "PartName(Short)_JA"
+
+msgid "part_abbr_en"
+msgstr "PartName(Short)_EN"
+
+msgid "part_abbr_local"
+msgstr "PartName(Short)_Local"
+
+# master part info
+msgid "part_factid"
+msgstr "PartNo(Full)"
+
+msgid "part_no"
+msgstr "PartNo(Short)"
+
+# master equip info
+msgid "equip_factid"
+msgstr "EquipID"
+
+msgid "equip_name_jp"
+msgstr "EquipName_JA"
+
+msgid "equip_name_en"
+msgstr "EquipName_EN"
+
+msgid "equip_name_sys"
+msgstr "EquipName_Sys"
+
+msgid "equip_name_local"
+msgstr "EquipName_Local"
+
+msgid "equip_product_no"
+msgstr "EquipProductNo"
+
+msgid "equip_product_date"
+msgstr "EquipProductDate"
+
+msgid "equip_no"
+msgstr "EquipNo"
+
+# master st info
+msgid "st_no"
+msgstr "StationNo"
+
+# master process info
+msgid "process_factid"
+msgstr "ProcessID"
+
+msgid "process_name_jp"
+msgstr "ProcessName_JA"
+
+msgid "process_name_en"
+msgstr "ProcessName_EN"
+
+msgid "process_name_sys"
+msgstr "ProcessName_Sys"
+
+msgid "process_name_local"
+msgstr "ProcessName_Local"
+
+msgid "process_abbr_jp"
+msgstr "ProcessName(Short)_JA"
+
+msgid "process_abbr_en"
+msgstr "ProcessName(Short)_EN"
+
+msgid "process_abbr_local"
+msgstr "ProcessName(Short)_Local"
+
+# master data info
+msgid "data_factid"
+msgstr "DataID"
+
+msgid "data_name_jp"
+msgstr "DataName_JA"
+
+msgid "data_name_en"
+msgstr "DataName_EN"
+
+msgid "data_name_sys"
+msgstr "DataName_Sys"
+
+msgid "data_name_local"
+msgstr "DataName_Local"
+
+msgid "data_abbr_jp"
+msgstr "DataName(Short)_JA"
+
+msgid "data_abbr_en"
+msgstr "DataName(Short)_EN"
+
+msgid "data_abbr_local"
+msgstr "DataName(Short)_Local"
+
+msgid "data_type"
+msgstr "DataType"
+
+msgid "config_equation_id"
+msgstr "ConfigEquationID"
+
+# master unit info
+msgid "quantity_jp"
+msgstr "Unit_JA"
+
+msgid "quantity_en"
+msgstr "Unit_EN"
+
+msgid "unit"
+msgstr "Sign"
+
+msgid "type"
+msgstr "DataType"
+
+msgid "base"
+msgstr "Base"
+
+msgid "conversion"
+msgstr "Conversion"
+
+msgid "denominator"
+msgstr "Denominator"
+
+msgid "offset"
+msgstr "Offset"
+
+msgid "status"
+msgstr "Status"
+
+# master location info
+msgid "location_name_jp"
+msgstr "LocationName_JA"
+
+msgid "location_name_en"
+msgstr "LocationName_EN"
+
+msgid "location_name_sys"
+msgstr "LocationName_Sys"
+
+msgid "location_abbr"
+msgstr "LocationName(Short)"
+
+msgid "Product Family"
+msgstr "Product Family"
+
+msgid "Department"
+msgstr "Department"
+
+msgid "Section"
+msgstr "Section"
+
+msgid "Machine"
+msgstr "Machine"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Part Type"
+msgstr "Part Type"
+
+msgid "Part"
+msgstr "Part"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Finish"
+msgstr "Finish"
+
+msgid "Go Back"
+msgstr "Go Back"
+
+msgid "Temporary Save"
+msgstr "Temporary Save"
+
+msgid "Go to Next"
+msgstr "Go to Next"
+
+msgid "Linked Item"
+msgstr "Linked Item"
+
+msgid "Master(Edit)"
+msgstr "Master(Edit)"
+
+msgid "Linked Item(Edit)"
+msgstr "Linked Item(Edit)"
+
+msgid "Undecided"
+msgstr "Undecided"
+
+msgid "Register Data"
+msgstr "Register Data"
+
+msgid "Reference Data"
+msgstr "Reference Data"
+
+msgid "outsourcing_flag"
+msgstr "Make or Buy"
+
+msgid "line_sign"
+msgstr "LineSign"
+
+msgid "State"
+msgstr "State"
+
+msgid "Do you want to temporary save changes?"
+msgstr "Do you want to temporary save changes?"
+
+msgid "equip_sign"
+msgstr "EquipSign"
+
+msgid "equip_st"
+msgstr "equip_st"
+
+msgid "st_sign"
+msgstr "StationSign"
+
+msgid "equip"
+msgstr "EquipName"
+
+msgid "assy_flag"
+msgstr "Assy/Part"
+
+msgid "Limited to 6-digit integer input."
+msgstr "Limited to 6-digit integer input."
+
+msgid "Limited to 12-digit ASCII 7."
+msgstr "Limited to 12-digit ASCII 7."
+
+msgid "Limited to 3-digit integers."
+msgstr "Limited to 3-digit integers."
+
+msgid "Copy value to below items"
+msgstr "Copy value to below items"
+
+msgid "Copy value to blank items"
+msgstr "Copy value to blank items"
+
+msgid "{0} is prohibit, please check !!!"
+msgstr "{0} is prohibit, please check !!!"
+
+msgid "{0} is required, please check !!!"
+msgstr "{0} is required, please check !!!"
+
+msgid "{0} is not a number, please check !!!"
+msgstr "{0} is not a number, please check !!!"
+
+msgid "{0} is not valid, please check !!!"
+msgstr "{0} is not valid, please check !!!"
+
+msgid "Length of {0} is not valid, please check !!!"
+msgstr "Length of {0} is not valid, please check !!!"
+
+msgid "Byte size of {0} is not valid, please check !!!"
+msgstr "Byte size of {0} is not valid, please check !!!"
+
+msgid "Range of {0} is not valid, please check !!!"
+msgstr "Range of {0} is not valid, please check !!!"
+
+msgid "At least one in {0} must be input, please check !!!"
+msgstr "At least one in {0} must be input, please check !!!"
+
+msgid "{0} is duplicated, please check !!!"
+msgstr "{0} is duplicated, please check !!!"
+
+msgid "Duplicate row, please check !!!"
+msgstr "Duplicate row, please check !!!"
+
+msgid "{0} is not register, please check !!!"
+msgstr "{0} is not register, please check !!!"
+
+msgid "Don't save"
+msgstr "Don't save"
+
+msgid "Jump"
+msgstr "Jump"
+
+msgid "Table Column Name"
+msgstr "Table Column Name"
+
+msgid "Error Message"
+msgstr "Error Message"
+
+msgid "Required scanned files does exist. Please go back this page later."
+msgstr "Required scanned files does exist. Please go back this page later."
+
+msgid "CLOSE ALL"
+msgstr "CLOSE ALL"
+
+msgid "data_name_all"
+msgstr "DataName"
+
+msgid "dept_name_all"
+msgstr "DeptName"
+
+msgid "equip_name_all"
+msgstr "EquipName"
+
+msgid "factory_name_all"
+msgstr "FactoryName"
+
+msgid "line_name_all"
+msgstr "LineName"
+
+msgid "part_name_all"
+msgstr "PartName"
+
+msgid "plant_name_all"
+msgstr "PlantName"
+
+msgid "process_name_all"
+msgstr "ProcessName"
+
+msgid "prod_name_all"
+msgstr "ProdName"
+
+msgid "prod_family_name_all"
+msgstr "ProdFamilyName"
+
+msgid "sect_name_all"
+msgstr "SectName"
+
+msgid "part_use"
+msgstr "Use"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Integer (Others)"
+msgstr "Integer (Others)"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Boolean"
+msgstr "Logical"
+
+#: ap/templates/setting_module/db_config.html
+msgid "SmallInt"
+msgstr "Integer (Int16)"
+
+msgid "Real (Float)"
+msgstr "Real (Float)"
+
+msgid "Integer (Int16)"
+msgstr "Integer (Int16)"
+
+msgid "Integer (Int32)"
+msgstr "Integer (Int32)"
+
+msgid "Integer (Int64)"
+msgstr "Integer (Int64)"
+
+msgid "Int16: smallint"
+msgstr "Int16: smallint"
+
+msgid "Int32: int"
+msgstr "Int32: int"
+
+msgid "Int64: bigint"
+msgstr "Int64: bigint"
+
+msgid "Bool"
+msgstr "Bool"
+
+msgid "Logical"
+msgstr "Logical"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Category"
+msgstr "Category"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Thousand sep (,)"
+msgstr "Thousand sep (,)"
+
+#: ap/templates/setting_module/db_config.html
+msgid "Thousand sep (.)"
+msgstr "Thousand sep (.)"
+
+#: ap/templates/i18n.html ap/templates/setting_module/db_config.html
+msgid "Copy to all below"
+msgstr "Copy to all below"
+
+#: ap/templates/setting_module/db_config.html
+msgid "BigInt"
+msgstr "BigInt"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Format"
+msgstr "Format"
+
+#: ap/templates/setting_module/data_table_config.html:17
+msgid "Fill in data table name"
+msgstr "Fill in data table name"
+
+#: ap/templates/macros.html
+msgid "{0} and {1} are defined at the same time."
+msgstr "{0} and {1} are defined at the same time."
+
+#: ap/templates/templates/i18n.html
+msgid "Integer(Category)"
+msgstr "Integer(Category)"
+
+#: ap/templates/templates/i18n.html
+msgid "String(Category)"
+msgstr "String(Category)"
+
+#: ap/templates/i18n.html
+msgid "All 2"
+msgstr "All"
+
+#: ap/templates/i18n.html
+msgid "System"
+msgstr "System"
+
+#: ap/templates/i18n.html
+msgid "Config Backup & Migration"
+msgstr "Config Backup & Migration"
+
+#: ap/templates/i18n.html
+msgid "Transaction Data"
+msgstr "Transaction Data"
+
+#: ap/templates/i18n.html
+msgid "Reset"
+msgstr "Reset"
+
+#: ap/templates/i18n.html
+msgid "Import Config"
+msgstr "Import Config"
+
+#: ap/templates/i18n.html
+msgid ""
+"Importing the config data of backup file deletes the current config. Is "
+"it OK to continue processing?"
+msgstr ""
+"Importing the config data of backup file deletes the current config. Is "
+"it OK to continue processing?"
+
+#: ap/templates/i18n.html
+msgid "All imported data will be permanently deleted. Do you want to continue?"
+msgstr "All imported data will be permanently deleted. Do you want to continue?"
+
+#: ap/templates/i18n.html
+msgid "Column Attribute Definition"
+msgstr "Column Attribute Definition"
+
+#: ap/templates/i18n.html
+msgid "Data Table Name"
+msgstr "Data Table Name"
+
+#: ap/templates/i18n.html
+msgid "Sample Data"
+msgstr "Sample Data"
+
+#: ap/templates/i18n.html
+msgid "Column Attribute"
+msgstr "Column Attribute"
+
+#: ap/templates/i18n.html
+msgid "Select attributes in the system. (Option)"
+msgstr "Select attributes in the system. (Option)"
+
+#: ap/templates/i18n.html
+msgid "Do you want to register the settings?"
+msgstr "Do you want to register the settings?"
+
+#: ap/templates/i18n.html
+msgid "Order Attribute Hover"
+msgstr ""
+"You can set a column that the app uses to store the import order when it "
+"periodically imports data."
+
+#: ap/templates/i18n.html
+msgid ""
+"Please drag and drop the previously exported configuration file (file "
+"name: BS_config_yyyymmddHHMMSS)."
+msgstr ""
+"Please drag and drop the previously exported configuration file (file "
+"name: BS_config_yyyymmddHHMMSS)."
+
+#: ap/templates/i18n.html
+msgid "Do you want to export config data to a file?"
+msgstr "Do you want to export config data to a file?"
+
+#: ap/templates/i18n.html
+msgid "Direct import"
+msgstr "Direct import"
+
+#: ap/templates/i18n.html
+msgid "Transaction data is deleted."
+msgstr "Transaction data is deleted."
+
+#: ap/templates/i18n.html
+msgid ""
+"All log data in the following folder will be permanently deleted. Do you "
+"want to continue?"
+msgstr ""
+"All log data in the following folder will be permanently deleted. Do you "
+"want to continue?"
+
+#: ap/templates/i18n.html
+msgid ""
+"Cast error: There are some columns that cannot be cast to another data "
+"type. Please check the real data of the columns listed below: You can "
+"also see the data that will be exported and stored in file path {0}"
+msgstr ""
+"Cast error: There are some columns that cannot be cast to another data "
+"type. Please check the real data of the columns listed below: You can "
+"also see the data that will be exported and stored in file path {0}"
+
+#: ap/templates/i18n.html
+msgid "DataValue"
+msgstr "DataValue"
+
+#: ap/templates/i18n.html
+msgid "HorizontalData"
+msgstr "HorizontalData"
+
+# ap/templates/i18n.html
+#, python-format
+msgid ""
+"Direct import: Please use this mode when you want to easily visualize and"
+" analyze data by importing horizontal data without registering it as a "
+"master.%(BREAK_LINE)sIf you want to use the data in earnest, click the OK"
+" button on the right to Column Attribute Definition page and import the "
+"data."
+msgstr ""
+"Direct import: Please use this mode when you want to easily visualize and"
+" analyze data by importing horizontal data without registering it as a "
+"master.%(BREAK_LINE)sIf you want to use the data in earnest, click the OK"
+" button on the right to Column Attribute Definition page and import the "
+"data."
+
+# ap/templates/i18n.html
+msgid ""
+"Direct import: Please use this when you want to easily visualize and "
+"analyze data by importing sideways data without registering it as a "
+"master.<br>If you want to use the data in earnest, click the Cancel "
+"button to return to the CSV/TSV read settings, and click the OK button to"
+" Column Attribute Definition page and import the data."
+msgstr ""
+"Direct import: Please use this when you want to easily visualize and "
+"analyze data by importing sideways data without registering it as a "
+"master.<br>If you want to use the data in earnest, click the Cancel "
+"button to return to the CSV/TSV read settings, and click the OK button to"
+" Column Attribute Definition page and import the data."
+
+# ap/templates/i18n.html
+#, python-format
+msgid ""
+"If you want to perform full-fledged data management for data in CSV/TSV "
+"files, please push OK button to transition to Column Attribute Definition"
+" page and register master data.%(BREAK_LINE)sIf you want to import the "
+"horizontal data without registering it as a master and easily visualize "
+"and analyze the data, please set the data import from the Direct import "
+"button on the left."
+msgstr ""
+"If you want to perform full-fledged data management for data in CSV/TSV "
+"files, please push OK button to transition to Column Attribute Definition"
+" page and register master data.%(BREAK_LINE)sIf you want to import the "
+"horizontal data without registering it as a master and easily visualize "
+"and analyze the data, please set the data import from the Direct import "
+"button on the left."
+
+msgid "Folder not found"
+msgstr "Folder not found"
+
+msgid "Access denied"
+msgstr "Access denied"
+
+#: ap/templates/macros.html
+msgid "Jump to other pages"
+msgstr "Jump to other pages"
+
+#: ap/templates/macros.html
+msgid "Jump to"
+msgstr "Jump to"
+
+#: ap/templates/macros.html
+msgid "Variable setting"
+msgstr "Variable setting"
+
+#: ap/templates/macros.html
+msgid "Select only the objective and top important variables (Max: 20)"
+msgstr "Select only the objective and top important variables (Max: 20)"
+
+#: ap/templates/macros.html
+msgid "Variable setting hover"
+msgstr ""
+"You can specify the variables to pass to the new page.\n"
+"If the new page has 'Objective' setting, the first variable is used."
+
+#: ap/templates/macros.html
+msgid "Select sensor hover"
+msgstr ""
+"You can analyze the relationship between the objective and the important "
+"variables on other page"
+
+#: ap/templates/macros.html
+msgid "ALL"
+msgstr "All"
+
+#: ap/templates/macros.html
+msgid "A list of pages that you can jump to."
+msgstr "A list of pages that you can jump to."
+
+#: ap/templates/macros.html
+msgid "Recommended"
+msgstr "Recommended"
+
+#: ap/templates/i18n.html
+msgid "Threshold/Graph Config"
+msgstr "Threshold/Graph Config"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Target"
+msgstr "Target"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Target hover msg"
+msgstr "Select the target data name. (Required)"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Condition"
+msgstr "Condition"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Condition hover msg"
+msgstr ""
+"If you want to change the threshold or graph axis settings depending on "
+"the part number or equipment,\n"
+"you can select the data name and its value that will be the condition for"
+" changing the settings."
+
+#: ap/templates/setting_module/master_config.html
+msgid "Threshold config"
+msgstr "Threshold"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Threshold config hover msg"
+msgstr ""
+"Enter the threshold for the target data.\n"
+"It is used to calculate the ratio and number of data exceeding the set "
+"threshold (outCL) and process capability. \n"
+"It is drawn as a red line on the graph."
+
+#: ap/templates/setting_module/master_config.html
+msgid "Process threshold"
+msgstr "Process threshold"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Process threshold hover msg"
+msgstr ""
+"Enter the in-process threshold for the target data. \n"
+"It is used to calculate the percentage of data exceeding the set in-"
+"process threshold and the number (outAL).\n"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Graph axis range"
+msgstr "Graph axis range"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Valid hover msg"
+msgstr ""
+"Select the start date and time (From) and end date and time (To) to apply"
+" the settings. \n"
+"This is used when the threshold changes depending on the date and time, \n"
+"such as when the threshold is changed due to a design change. (From: "
+"Required)"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Max value"
+msgstr "Max"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Min value"
+msgstr "Min"
+
+#: ap/templates/setting_module/master_config.html
+msgid "Data Name"
+msgstr "DataName"
+
+msgid "InvalidBrowserTitle"
+msgstr "Your browser does not support"
+
+msgid "InvalidBrowserContent"
+msgstr ""
+"The current version only supports Chrome, Microsoft Edge and Safari (>= "
+"15.4) browsers.BREAK_LINEPlease check your browser and try to accessing "
+"the application again."
+
+msgid "InvalidBrowserVersion"
+msgstr ""
+"Safari version 15.4 or higher is required to run some features of the "
+"application.BREAK_LINEPlease check your browser version and try accessing"
+" the application again."
+
+#: ap/templates/macros.html
+msgid "Applies outlier removal to the objective variable."
+msgstr "Applies outlier removal to the objective variable."
+
+#: ap/templates/macros.html
+msgid "Applies outlier removal to the explanatory variable."
+msgstr "Applies outlier removal to the explanatory variable."
+
+#: ap/templates/i18n.html
+msgid "Judge"
+msgstr "Judge"
+
+#: ap/templates/i18n.html
+msgid "Judge hover msg"
+msgstr ""
+"Used to calculate NG rate. Data of selected variable, that satisfies the "
+"conditional expression is regarded as NG.\n"
+"Can not select both Facet and Judge for one variable at the same time."
+
+#: ap/templates/i18n.html
+msgid "NG condition"
+msgstr "NG condition"
+
+#: ap/templates/i18n.html
+msgid "NG condition hover msg"
+msgstr ""
+"You can specify a condition of NGs for the variable selected as 'Judge'. "
+"For example, Temperature > 90, InspectionResult == 2"
+
+#: ap/templates/macros.html
+msgid "Pass EMD values to the new page"
+msgstr "Pass EMD values and NG rate (if calculated) to the new page"
+
+#: ap/templates/macros.html
+msgid "Pass EMD values to the new page hover msg"
+msgstr ""
+"Pass EMD that indicates the change of the distribution, to the new page.\n"
+"Also pass NG rate　(when 'Judge' is specified on the show value setting, "
+"and the NG rate is calculated).\n"
+"Especially effective for the data that do not have 1:1 data link. For "
+"example, data linked with Lot ID and Serial ID."
+
+#: ap/templates/macros.html
+msgid "This week"
+msgstr "This week"
+
+#: ap/templates/macros.html
+msgid "Set nominal scale and ordinal scale in categorical data."
+msgstr "Set nominal scale and ordinal scale in categorical data."
+
+#: ap/templates/macros.html
+msgid "Nominal/ordinal scale setting of categorical data"
+msgstr "Nominal/ordinal scale setting of categorical data"
+
+#: ap/templates/macros.html
+msgid "Japanese Name"
+msgstr "Japanese Name"
+
+#: ap/templates/macros.html
+msgid "Local Name"
+msgstr "Local Name"
+
+#: ap/templates/i18n.html
+msgid "JumpWithoutTargetPageMsg"
+msgstr ""
+"Please select a page to jump to (For example, from the 'Recommend' area "
+"on the left)"
+
+#: ap/templates/i18n.html
+msgid "JumpWithDataframeMode"
+msgstr ""
+"To change the visualization settings, jump again after modifying the "
+"graph on the page from which you jumped"
+
+#: ap/templates/macros.html
+msgid "Nominal scale"
+msgstr "Ordinalize categorical values"
+
+#: ap/templates/macros.html
+msgid "Nominal scale hover msg"
+msgstr ""
+"By converting categorical data into an ordinal scale based on the "
+"objective variable, \n"
+"it becomes possible to have a clearer understanding of the relationship "
+"between device number or line number and the target variable. \n"
+"This enables the detection of differences between devices or lines. "
+"Similar to target encoding, \n"
+"each category is replaced with the average value of the corresponding "
+"objective variable."
+
+msgid "In variable selected order"
+msgstr "In variable selected order"
+
+#: ap/templates/i18n.html
+msgid "main::Datetime"
+msgstr "main::Datetime"
+
+#: ap/templates/i18n.html
+msgid "main::Serial:Int"
+msgstr "main::Serial:Int"
+
+#: ap/templates/i18n.html
+msgid "main::Serial:Str"
+msgstr "main::Serial:Str"
+
+#: ap/templates/i18n.html
+msgid "Datetime:key"
+msgstr "Datetime:key"
+
+#: ap/templates/i18n.html
+msgid "Serial:Int"
+msgstr "Serial:Int"
+
+#: ap/templates/i18n.html
+msgid "Serial:Str"
+msgstr "Serial:Str"
+
+#: ap/templates/i18n.html
+msgid "LineName:Str"
+msgstr "LineName:Str"
+
+#: ap/templates/i18n.html
+msgid "LineNo:Int"
+msgstr "LineNo:Int"
+
+#: ap/templates/i18n.html
+msgid "EqName:Str"
+msgstr "EqName:Str"
+
+#: ap/templates/i18n.html
+msgid "EqNo:Int"
+msgstr "EqNo:Int"
+
+#: ap/templates/i18n.html
+msgid "PartName:Str"
+msgstr "PartName:Str"
+
+#: ap/templates/i18n.html
+msgid "PartNo:Int"
+msgstr "PartNo:Int"
+
+#: ap/templates/i18n.html
+msgid "Copy to filtered"
+msgstr "Copy to filtered"
+
+#: ap/templates/i18n.html
+msgid "Column Raw Name"
+msgstr "Column Raw Name"
+
+#: ap/templates/i18n.html
+msgid "Special"
+msgstr "Special"
+
+#: ap/templates/i18n.html
+msgid "Filter (System)"
+msgstr "Filter (System)"
+
+#: ap/templates/i18n.html
+msgid "Multi Set"
+msgstr "Multi Set"
+
+#: ap/templates/setting_module/proc_config_modal.html
+msgid "ShowPreviewByFile"
+msgstr ""
+"If the sample data has many missing value and datatype estimation is not "
+"good, select a better reference file."
+
+#: ap/templates/i18n.html
+msgid "Integer(Cat)"
+msgstr "Integer(Cat)"
+
+msgid "SystemNameHoverMsg"
+msgstr ""
+"This is the variable name used in the system and is required.\n"
+"Characters that can be used:\n"
+"・Half-width alphanumeric characters,\n"
+"・Hyphen '-',\n"
+"・Underbar '_'\n"
+
+#: ap/templates/i18n.html
+msgid "StNo:Int"
+msgstr "StNo:Int"
+
+#: ap/templates/i18n.html
+msgid "Could not read data"
+msgstr "Could not read data"
+
+#: ap/templates/setting_module/background_job.html
+msgid "Progress"
+msgstr "Progress"
+
+#: ap/templates/parallel_plot/parallel_plot.html
+msgid "Fine select hover msg"
+msgstr ""
+"You can set the range that can be filtered on the axis in detail. "
+"However, records containing NA (missing values) or Inf± (infinity) are "
+"removed."
+
+#: ap/templates/i18n.html
+msgid "LinkConfigurationNotExist"
+msgstr "The graph is not displayed because no linking settings have been made."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Japanese name is duplicated"
+msgstr "Japanese name is duplicated"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "Local name is duplicated"
+msgstr "Local name is duplicated"
+
+#: ap/templates/macros.html
+msgid "DataFinderHoverMsg"
+msgstr ""
+"Target period for which there is data for the process selected at the "
+"Start point (or the first process) is displayed in light blue. You can "
+"check when the data is collected from each unit: yearly [Year] ⇔ monthly "
+"[Month] ⇔ (daily [Week]). Please input the target range by using the "
+"information. The first click specifies the starting point (From), and the"
+" second click specifies the ending point (To). Press [Set] to enter the "
+"last selected date and time into the target period."
+
+#: ap/templates/modal.html
+msgid "ZeroVarianceTitle"
+msgstr "The variable\\'s variance is zero (all data values are the same)"
+
+#: ap/templates/modal.html
+msgid "NARateTitle"
+msgstr "Data missing rate"
+
+msgid "Division number Hover AgP"
+msgstr ""
+"Enter the number of distributions (Number of Divisions) to display. "
+"Please enter an integer (1 ≦ int ≦ 1000)"
+
+#: ap/templates/macros.html
+msgid "Window length Hover"
+msgstr ""
+"Vacío1つの分布を計算する際の時間の幅を入力します。0.1以上、20,000(=833日)以下の数値を入力してください。間隔と等しい場合は、すべてのデータを重なりなく評価し、間隔より大きい値の場合はデータの重なりがなくなり一部のデータは評価されなくなります。間隔より小さい場合はデータの重なりが発生します。"
+"\n"
+"e.g.) 1 week = 168, 30 days = 720, a half year = 4320, one year = 8760"
+
+#: ap/templates/macros.html
+msgid "Window length Hover AgP"
+msgstr ""
+"Enter the time width for calculating one plot or summary result. Please "
+"enter a number between 0.01 (=36 seconds) and less than 20,000 (=833 "
+"days). If it is equal to the interval, evaluate all data without overlap "
+"(recommended setting). If it is larger than the interval, data overlap "
+"will occur (effective when there is little data. However, since some of "
+"the same data is evaluated, there is a concern that changes may become "
+"slow). If the value is smaller than the interval, data will not overlap "
+"and some data will not be evaluated (effective when there is a large "
+"number of data. However, not recommended as some data will not be "
+"evaluated). \n"
+"e.g.) 1 week = 168h, 30 days = 720h, a half year = 4320h, one year = 8760h"
+
+#: ap/templates/macros.html
+msgid "Window length Hover ScP"
+msgstr ""
+"Vacío1つのグラフの時間の幅を入力します。0.1以上、20,000(=833日)以下の数値を入力してください。\n"
+"e.g.) 1週間 = 168, 30日 = 720, 半年 = 4320, 1年 = 8760"
+
+#: ap/templates/macros.html
+msgid "Division number Hover ScP"
+msgstr ""
+"Vacío表示するグラフ数(分割数)を入力します。1以上7もしくは49以下の整数を入力してください。\n"
+"Facet無効時：1以上49以下\n"
+"Facet有効時：1以上7以下"
+
+#: ap/templates/macros.html
+msgid "Interval Hover"
+msgstr ""
+"Vacíoプロットを日時ごとに表示する際の日時の間隔を入力します。絶対値が0.1以上、720(=30日)以下の数値を入力してください。マイナスの値を入力すると、過去にさかのぼる方向に期間を設定できます。"
+"\n"
+"e.g.) 1 week = 168, 30 days = 720, a half year = 4320, one year = 8760"
+
+#: ap/templates/macros.html
+msgid "Interval Hover AgP"
+msgstr ""
+"Enter the date and time interval when displaying plot or summary results "
+"by date and time. Please enter a number with an absolute value of 0.01 "
+"(36 seconds) or more and 720 (=30 days) or less. You can set the period "
+"backwards by entering a negative value. \n"
+"e.g.) 1 week = 168h, 30 days = 720h, a half year = 4320h, one year = 8760h"
+
+#: ap/templates/macros.html
+msgid "Interval Hover ScP"
+msgstr ""
+"Enter the date and time interval when displaying the graph by date and "
+"time. Please enter a number with an absolute value of 0.01 (36 seconds) "
+"or more and 720 (=30 days) or less. You can set the period backwards by "
+"entering a negative value. \n"
+"e.g.) 1 week = 168h, 30 days = 720h, a half year = 4320h, one year = 8760h"
+
+#: ap/templates/i18n.html
+msgid "Divide by category hover msg AgP RLP"
+msgstr ""
+"The variables selected for the Div are used on the horizontal axis, and "
+"are aggregated or aggregated by type of variable content."
+
+#: ap/templates/i18n.html
+msgid "Divide by category hover msg ScP"
+msgstr ""
+"The graph is divided according to the content of the variable selected in"
+" Div and arranged horizontally."
+
+#: ap/templates/i18n.html
+msgid "Stratify by variables hover msg StP"
+msgstr ""
+"The graph is divided according to the type of variable selected for Lv1 "
+"or Lv2 of Facet settings. If you select both Lv1/Lv2, the graph will be "
+"divided by the combination of the contents of the two selected variables."
+
+#: ap/templates/i18n.html
+msgid "Divide by term (Cyclic) hover msg"
+msgstr "Decomposes the graph in periodic time"
+
+#: ap/templates/i18n.html
+msgid "Divide by term (Direct) hover msg"
+msgstr ""
+"Directly enter the time period you want to visualize and break down the "
+"graph for each input time period."
+
+#: ap/templates/i18n.html
+msgid "Divide by data number (Cyclic) hover msg"
+msgstr "Break down the graph by the number of input data."
+
+#: ap/templates/i18n.html
+msgid "Divide by calender (Cyclic) hover msg"
+msgstr ""
+"Break down the scale of the horizontal axis by year, fiscal year, half "
+"year, quarter, month, week, day, and hour."
+
+#: ap/templates/setting_module/db_config_modal.html
+msgid "Skip line hover msg"
+msgstr ""
+"This item is set when the column name does not exist in the first row. "
+"You can enter a value between 0 and 100. \n"
+"If nothing is entered, the data will be loaded using the first row as "
+"column names. \n"
+"If 0, column names will be automatically generated. Also, if nothing is "
+"entered and there are many numbers in the first line, 0 will be entered "
+"automatically. \n"
+"If it is 1 or more, the data will be skipped to the row number of the "
+"entered value, and the data will be read using the next row as the column"
+" name."
+
+#: ap/templates/setting_module/db_config_modal.html
+#, fuzzy
+msgid "Num rows hover msg"
+msgstr ""
+"Select the EMD (Earth Mover's Distance) calculation mode that indicates "
+"the degree of distribution variation."
+
+#: ap/templates/setting_module/db_config_modal.html
+#, fuzzy
+msgid "Transpose hover msg"
+msgstr "Select the target data name. (Required)"
+
+#: ap/templates/i18n.html
+msgid "There were no column names in the file, the AP created new column names."
+msgstr "There were no column names in the file, the AP created new column names."
+
+#: ap/templates/i18n.html
+msgid "PartialDummyHeaderGenerated"
+msgstr ""
+"New column names are created for columns in the file that did not have "
+"names."
+
+#: ap/templates/register_by_file.html
+msgid "NavButtonRegisterByFile"
+msgstr "Register by File"
+
+#: ap/templates/register_by_file.html
+msgid "TitleRegisterByFile"
+msgstr "Register from Data File"
+
+#: ap/templates/register_by_file.html
+msgid "RegisterDataSource"
+msgstr "Source"
+
+#: ap/templates/register_by_file.html
+msgid "Folder"
+msgstr "Folder"
+
+#: ap/templates/register_by_file.html
+msgid "File"
+msgstr "File"
+
+#: ap/templates/register_by_file.html
+msgid "ReferenceFileLabel"
+msgstr "Reference File"
+
+#: ap/templates/register_by_file.html
+msgid "BrowseButton"
+msgstr "Browse"
+
+#: ap/templates/register_by_file.html
+msgid "FolderBrowsePlaceholder"
+msgstr "Z:\\path\\to\\folder (File size: Unlimited)"
+
+#: ap/templates/register_by_file.html
+#, fuzzy
+msgid "SourceFileBrowsePlaceholder"
+msgstr "Z:\\path\\to\\datafile.csv"
+
+#: ap/templates/register_by_file.html
+msgid "FileBrowsePlaceholder"
+msgstr "Z:\\path\\to\\datafile.csv"
+
+#: ap/templates/register_by_file.html
+msgid "RefFilePlaceholder"
+msgstr "(Optional) Data file used to estimate data types"
+
+#: ap/templates/register_by_file.html
+msgid "SourceExplanation"
+msgstr ""
+"If the source is a folder, all files in the folder will be loaded; if the"
+" source is a file, only that file will be loaded.\n"
+"If multiple files are to be loaded or additional data is to be loaded "
+"automatically, please specify a folder as the reference.\n"
+"All files (CSV, TSV, SSV) must have the same column name."
+
+#: ap/templates/register_by_file.html
+msgid "ProcNameExplanation"
+msgstr ""
+"The following items are automatically generated from the folder name.\n"
+"If you wish to set an arbitrary name, please modify the following before "
+"clicking the Register button."
+
+#: ap/templates/register_by_file.html
+msgid "RegisterDataFileButton"
+msgstr "Register Data"
+
+#: ap/templates/register_by_file.html
+msgid "ProgressSourceSelected"
+msgstr "Source is selected"
+
+#: ap/templates/register_by_file.html
+msgid "ProcessRegisterStart"
+msgstr "Register start"
+
+#: ap/templates/register_by_file.html
+msgid "ProgressFolderCheck"
+msgstr "Folder structure check"
+
+#: ap/templates/register_by_file.html
+msgid "ProgressImportingData"
+msgstr "Importing data"
+
+#: ap/templates/register_by_file.html
+msgid "ProgressFinished"
+msgstr "Finished"
+
+#: ap/templates/register_by_file.html
+msgid "File is selected"
+msgstr "File is selected"
+
+#: ap/templates/register_by_file.html
+msgid "Process Name is already registered"
+msgstr "Process name is already registered"
+
+#: ap/templates/register_by_file.html
+msgid "Data Source Name is already registered"
+msgstr "Data Source Name is already registered"
+
+#: ap/templates/register_by_file.html
+msgid "Table viewer title hover msg"
+msgstr ""
+"You can check the original data (contents of data files such as databases"
+" and CSV) for each process.\n"
+"For data files such as CSV, the contents of the latest file will be "
+"displayed."
+
+#: ap/templates/register_by_file.html
+msgid "Import all files in the same folder"
+msgstr "Import all files in the same folder"
+
+#: ap/templates/register_by_file.html
+msgid "A path to datafile is specified"
+msgstr "A path to datafile is specified."
+
+#: ap/templates/register_by_file.html
+msgid "Only the specified file is imported"
+msgstr "Only the specified file is imported."
+
+#: ap/templates/heatmap/heatmap.html
+msgid "Heatmap Plot Page Title"
+msgstr "Heat Map"
+
+#: ap/templates/heatmap/heatmap.html
+msgid "Heatmap Page title description"
+msgstr "The relationship between variables can be visualized with a heat map."
+
+#: ap/templates/heatmap/heatmap.html
+msgid "HMp show value description"
+msgstr ""
+"The data types of x and y to be selected are both categorical or integer "
+"only."
+
+#: ap/templates/heatmap/heatmap.html
+msgid "HMp color hover msg"
+msgstr ""
+"Specify the calculation method for the values of the color map (z-axis). "
+"For numerical values, statistical values such as average, and for "
+"categorical values, counting, etc."
+
+#: ap/templates/i18n.html
+msgid "If both x and y data types are categorical, please draw with HMP."
+msgstr "If both x and y data types are categorical, please draw with HMP."
+
+#: ap/templates/i18n.html
+msgid "main::Date"
+msgstr "main::Date"
+
+#: ap/templates/i18n.html
+msgid "main::Time"
+msgstr "main::Time"
+
+#: ap/templates/i18n.html
+msgid "generateDatetimeCol"
+msgstr "Generate a Datetime column from main::Date and main::time"
+
+msgid "requestSelectDateAndTime"
+msgstr "Please set both main::Date and main::Time columns"
+
+msgid "New master during scanning data table msg"
+msgstr ""
+"Found new master data during scanning. Please map them in Mapping Config "
+"page."
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "ProcDatetimeFormat"
+msgstr "Datetime Format"
+
+#: ap/templates/setting_module/proc_config_modals.html
+msgid "ProcDatetimeFormatHoverMsg"
+msgstr ""
+"Specifies the datetime format.\n"
+"\n"
+"Format\t\t\t\t\tExample\n"
+"%%Y-%%m-%%d %%H:%%M:%%S.%%f\t2024-02-21 15:30:51.123\n"
+"%%Y-%%m-%%d %%I:%%M:%%S %%p\t2024-02-21 03:30:51 PM\n"
+"%%m/%%d/%%y\t\t\t\t 02/21/2024\n"
+"%%b %%d, %%Y\t\t\t\t Feb 21, 2024\n"
+
+#, fuzzy
+msgid "LinkWithTime"
+msgstr "Linked Item"
+
+msgid "i18nCutOff"
+msgstr "CutOff: [msec]"
+
+msgid "Result is empty, please check input params."
+msgstr "Result is empty, please check input params."
+
+#: ap/template/setting_module/system_config.html
+#, fuzzy
+msgid "Backup data was started."
+msgstr "Comenzó a vincular datos."
+
+#: ap/template/setting_module/system_config.html
+#, fuzzy
+msgid "Restore data was started."
+msgstr "Comenzó a importar datos."
+
+#: ap/template/setting_module/system_config.html
+#, fuzzy
+msgid "Backup data was finished."
+msgstr "Comenzó a vincular datos."
+
+#: ap/template/setting_module/system_config.html
+#, fuzzy
+msgid "Restore data was finished."
+msgstr "Comenzó a importar datos."
+
+# ap/template/setting_module/db_config_modals.html
+#, fuzzy
+msgid "Data Source Name is empty"
+msgstr "Nombre de fuente de datos"
+
+#, fuzzy
+msgid "Process Name is empty"
+msgstr "Nombre del proceso"
+
+#: ap/templates/macros.html
+#, fuzzy
+msgid "nonNumericLabel"
+msgstr ""
+"No se puede analizar porque contiene datos distintos de los números. "
+"Asegúrese de haber seleccionado una columna que contenga una cadena o "
+"valor de categoría."
+
+#: ap/templates/macros.html
+#, fuzzy
+msgid "numericHoverMsg"
+msgstr ""
+"Select the EMD (Earth Mover's Distance) calculation mode that indicates "
+"the degree of distribution variation."
+
+#: ap/templates/macros.html
+#, fuzzy
+msgid "nonNumericHoverMsg"
+msgstr ""
+"No se puede analizar porque contiene datos distintos de los números. "
+"Asegúrese de haber seleccionado una columna que contenga una cadena o "
+"valor de categoría."
+
+#: ap/templates/i18n.html
+msgid "warnDeleteMergedProc"
+msgstr ""
+"This dataset is a merged dataset. If you delete this dataset, the parent "
+"dataset and other merged datasets will also be deleted at the same time. "
+"Are you sure you want to delete them all?"
+
