@@ -1417,8 +1417,7 @@ const addDBConfigRow = () => {
 
     const rowNumber = $(`${dbElements.tblDbConfigID} tbody tr`).length;
     // [FIRST RELEASE] Hide unstable functions
-    const limitFeature =
-        os_system !== OsSystem.WINDOWS ? 'disabled="disabled"' : '';
+    const limitFeature = !isRunningInWindow ? 'disabled="disabled"' : '';
 
     // const trID = generateDbID();
     const row = `<tr name="db-info">

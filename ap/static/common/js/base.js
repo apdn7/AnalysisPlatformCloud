@@ -2386,11 +2386,11 @@ const showGraphCallApi = async (
     gtag('event', 'apdn7_events_tracking', {
         dn_app_version: app_version,
         dn_app_source: app_source,
-        dn_app_group: user_group,
+        dn_app_group: app_group,
+        dn_app_type: app_type,
+        dn_app_os: app_os,
         dn_app_show_graph_mode: GAMode,
         dn_app_show_graph_method: showGraphMethod,
-        dn_os_system: os_system,
-        dn_app_type: app_type,
     });
 
     ajaxWithLog({

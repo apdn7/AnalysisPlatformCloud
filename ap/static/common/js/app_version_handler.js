@@ -36,18 +36,29 @@ window.getCookie = function getCookie(name) {
  *   "tarball_url": string,
  *   "zipball_url": string,
  *   "body": string,
- * }>}
+ * } | undefined>}
  */
 function getLatestRelease() {
+    const onRejected = (error) => {
+        console.debug(error);
+        return undefined;
+    };
     const apiUrl =
-        'https://api.github.com/repos/apdn7/AnalysisPlatform/releases/latest';
+        'https://api.github.com/repos/apdn7/AnalysisPlatformCloud/releases/latest';
     return fetch(apiUrl, {
         method: 'GET',
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
         },
-    }).then((response) => response.json());
+    })
+        .then((response) => {
+            if (!response.ok) {
+                return onRejected(`Response status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .catch(onRejected);
 }
 
 /**
@@ -72,12 +83,18 @@ function getCurrentVersionInfo() {
 
 /**
  * Check current version of application is in update or not
- * @return {Promise<boolean>} true: in update, otherwise.
+ * @return {Promise<boolean | undefined>} true: in update, otherwise.
  */
 async function isCurrentVersionInUpdate() {
-    const releaseInfo = getLatestRelease();
+    const promiseReleaseInfo = getLatestRelease();
     const currentVersionInfo = getCurrentVersionInfo();
-    const latestVersion = (await releaseInfo).tag_name;
+    const releaseInfo = await promiseReleaseInfo;
+    if (releaseInfo === undefined) {
+        console.debug('Cannot check latest version in Github.');
+        return undefined;
+    }
+
+    const latestVersion = releaseInfo.tag_name;
     console.info(`The latest version in Github is ${latestVersion}`);
     return currentVersionInfo.version === latestVersion;
 }
@@ -122,10 +139,14 @@ async function checkNewVersion() {
     // calculate the time from startup to now is many seconds through
     const passingTime = (now - appStartupTime) / 1000;
     if (passingTime < limitCheckingNewerVersionTime) {
+        const isUpdated = await isCurrentVersionInUpdate();
         // in case of out update
-        if (await isCurrentVersionInUpdate()) {
+        if (isUpdated) {
             console.info('Application is IN UPDATE');
             return; // current app is in update, do nothing
+        } else if (isUpdated === undefined) {
+            console.info('Bypass checking new version');
+            return;
         }
 
         // in case of out update

@@ -39,4 +39,4 @@ services:
       - .env
     environment:
       - TZ=${APP_TZ}
-    restart: unless-stopped
+    restart: on-failure:1

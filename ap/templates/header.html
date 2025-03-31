@@ -25,7 +25,7 @@
                 {{ _('Search by Usage') }}
             </a>
             <!-- [FIRST RELEASE] Hide unstable functions -->
-            {% if os_system == OsSystem.WINDOWS %}
+            {% if is_running_in_window %}
                 <a
                     class="btn tile-menus header-btn register-by-file-btn go-to-page"
                     data-tile="#register_by_file"
@@ -149,7 +149,7 @@
                     </a>
                     <a
                         class="dropdown-item"
-                        href="https://github.com/apdn7/AnalysisPlatform"
+                        href="https://github.com/apdn7/AnalysisPlatformCloud"
                         target="_blank"
                         id="githubLink"
                     >

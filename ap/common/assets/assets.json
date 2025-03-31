@@ -54,8 +54,7 @@
             "modules/date-range-picker/daterangepicker-utils.js",
             "common/js/libs/js.cookie.min.js",
             "common/js/libs/pagination.min.js",
-            "common/js/datetime_label_format.js",
-            "modules/tabulator/js/tabulator.min.js"
+            "common/js/datetime_label_format.js"
         ],
         "css": [
             "common/custom-jquery/jquery-ui.css",
@@ -76,8 +75,7 @@
             "common/css/pagination.css",
             "common/css/graph_nav.css",
             "common/css/jump_function.css",
-            "tile_interface/css/tile_interface.css",
-            "modules/tabulator/css/tabulator_midnight.css"
+            "tile_interface/css/tile_interface.css"
         ]
     },
     "fpp": {

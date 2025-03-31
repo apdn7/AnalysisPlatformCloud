@@ -11,6 +11,8 @@ else
 fi
 
 # this should be set after running download_uv
+UV_VERSION=0.6.9
+UV_INSTALL_URL=https://github.com/astral-sh/uv/releases/download/$UV_VERSION/uv-installer.sh
 UV_INSTALLATION_DIR=../.cache/uv-installer
 UV_BINARY=$UV_INSTALLATION_DIR/uv
 
@@ -34,26 +36,29 @@ ORACLE_INSTANT_ZIP=../instantclient.zip
 ORACLE_INSTANT_DIR=$ORACLE_DIR/instantclient_23_7
 
 download_oracle() {
-  echo "Download Oracle Instant Client 23.7.0.25.01"
-  curl -LsSf -o $ORACLE_INSTANT_ZIP "https://download.oracle.com/otn_software/linux/instantclient/2370000/instantclient-basic-linux.x64-23.7.0.25.01.zip"
-  echo "Download Completed"
-  echo "Unzipping..."
-  unzip -o $ORACLE_INSTANT_ZIP -d $ORACLE_DIR
-  sh -c "echo $ORACLE_INSTANT_DIR > /etc/ld.so.conf.d/oracle-instantclient.conf"
-  ldconfig
-  export LD_LIBRARY_PATH=$ORACLE_INSTANT_DIR:$LD_LIBRARY_PATH
+  # check oracle portable
+  if [ ! -d "$ORACLE_INSTANT_DIR" ]; then
+    echo "Download Oracle Instant Client 23.7.0.25.01"
+    curl -LsSf -o $ORACLE_INSTANT_ZIP "$ORACLE_PORTABLE_URL"
+    echo "Download Completed"
+    echo "Unzipping..."
+    unzip -o $ORACLE_INSTANT_ZIP -d $ORACLE_DIR
+    sh -c "echo $ORACLE_INSTANT_DIR > /etc/ld.so.conf.d/oracle-instantclient.conf"
+    ldconfig
+    export LD_LIBRARY_PATH=$ORACLE_INSTANT_DIR:$LD_LIBRARY_PATH
+  fi
 }
 
 download_uv() {
   mkdir -p $UV_INSTALLATION_DIR
 
-  curl -LsSf https://astral.sh/uv/install.sh | \
-  env \
-  UV_INSTALL_DIR=$UV_INSTALLATION_DIR \
-  UV_UNMANAGED_INSTALL=$UV_INSTALLATION_DIR \
-  INSTALLER_NO_MODIFY_PATH=1 \
-  sh -s -- \
-  --quiet
+  curl -LsSf $UV_INSTALL_URL | \
+    env \
+    UV_INSTALL_DIR=$UV_INSTALLATION_DIR \
+    UV_UNMANAGED_INSTALL=$UV_INSTALLATION_DIR \
+    INSTALLER_NO_MODIFY_PATH=1 \
+    sh -s -- \
+    --quiet
 
   echo "Installed $UV_BINARY"
 }
@@ -62,22 +67,20 @@ download_python() {
   if ! [ -f $UV_BINARY ]; then
     download_uv
   fi
-  $UV_BINARY python \
-    --python-preference only-managed `# don't care system python` \
-    install $PYTHON_VERSION
-}
-
-make_env() {
-  # check oracle portable
-  if [ ! -d "$ORACLE_INSTANT_DIR" ]; then
-    download_oracle
-  fi
 
   _=$($UV_BINARY python find $PYTHON_VERSION)
   # check if the previous command return error
   if [[ $? -ne 0 ]]; then
-    download_python
+    $UV_BINARY python \
+      --python-preference only-managed \
+      install $PYTHON_VERSION
   fi
+}
+
+make_env() {
+  download_oracle
+
+  download_python
 
   # check python virtual env
   if [ ! -d "$ENV_DIR/bin" ]; then
@@ -93,11 +96,13 @@ make_env() {
 install_necessary_components() {
   if ! dpkg -l | grep -q "curl" || ! dpkg -l | grep -q "libaio1" || ! dpkg -l | grep -q "gcc" || ! dpkg -l | grep -q "libpq-dev"; then
     apt update
-    apt install curl -y
-    apt install unzip -y
-    apt install libaio1 -y
-    apt install gcc -y
-    apt install libpq-dev -y
+    apt install \
+      curl=7.88.1-10+deb12u12 \
+      unzip=6.0-28 \
+      libaio1=0.3.113-4 \
+      gcc=4:12.2.0-3 \
+      libpq-dev=15.12-0+deb12u2 \
+      -y
   fi
 }
 
@@ -105,7 +110,10 @@ install_libraries() {
   make_env
 
   # install libraries
-  $UV_BINARY pip install --upgrade pip --cache-dir=$CACHE_PIP_DIR
+  $UV_BINARY pip install \
+    pip==25.0.1 \
+    setuptools==77.0.3 \
+    --cache-dir=$CACHE_PIP_DIR
   if [ $SOURCE == OSS ]; then
     $UV_BINARY pip install -r $OSS_REQUIREMENTS_FILE --cache-dir=$CACHE_PIP_DIR
   else
@@ -132,6 +140,20 @@ generate_i18n() {
     echo "Generated translations."
   fi
 }
+
+catch_error_occur() {
+  exitcode=$?
+
+  printf 'Error condition hit\n' 1>&2
+  printf 'Exit code returned: %s\n' "$exitcode"
+  printf 'The command executing at the time of the error was: %s\n' "$BASH_COMMAND"
+  printf 'Command present on line: %d' "${BASH_LINENO[0]}"
+
+  # Clean up error code to stop container
+  exit $exitcode
+}
+
+trap catch_error_occur ERR
 
 setup_timezone
 

@@ -1,4 +1,4 @@
-from ap import AppSource, app_source
+from ap.common.ga import is_app_source_dn
 
 
 def create_module(app, **kwargs):
@@ -39,7 +39,7 @@ def create_module(app, **kwargs):
     app.register_blueprint(external_api_v1_blueprint)
 
     # BRIDGE STATION - Refactor DN & OSS version
-    if app_source == AppSource.DN.value:
+    if is_app_source_dn():
         from .name_aggregation_setting.data.controllers import api_nas_data_blueprint
         from .name_aggregation_setting.dept.controllers import api_nas_dept_blueprint
         from .name_aggregation_setting.equip.controllers import api_nas_equip_blueprint

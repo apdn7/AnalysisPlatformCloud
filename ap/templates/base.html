@@ -17,17 +17,8 @@
             type="image/x-icon"
         />
         <script>
-            const os_system = '{{ os_system }}';
-            const app_type = '{{ app_type }}';
-            const AppSource = {
-                DN: '{{ AppSource.DN }}',
-                OSS: '{{ AppSource.OSS }}',
-            };
-            const OsSystem = {
-                WINDOWS: '{{ OsSystem.WINDOWS }}',
-                LINUX: '{{ OsSystem.LINUX }}',
-                MACOS: '{{ OsSystem.MACOS }}',
-            };
+            const isAppSourceDN = '{{ is_app_source_dn }}' == 'True';
+            const isRunningInWindow = '{{ is_running_in_window }}' == 'True';
         </script>
         {% assets "js_all" %}
             <script type="text/javascript" src="{{ ASSET_URL }}"></script>
@@ -169,19 +160,24 @@
                 gtag('js', new Date());
                 gtag('config', GA_TRACKING_ID);
 
-                const user_group = docCookies.getItem('user_group');
+                const app_version = docCookies
+                    .getItem('app_version')
+                    .split('.')
+                    .slice(0, -1)
+                    .join('.');
                 const app_source = docCookies.getItem('app_location');
-                let app_version = docCookies.getItem('app_version');
-                app_version = app_version.split('.').slice(0, -1).join('.');
+                const app_group = docCookies.getItem('user_group');
+                const app_type = docCookies.getItem('app_type');
+                const app_os = docCookies.getItem('app_os');
 
                 gtag('event', 'apdn7_events_tracking', {
                     dn_app_version: app_version,
                     dn_app_source: app_source,
-                    dn_app_group: user_group,
+                    dn_app_group: app_group,
+                    dn_app_type: app_type,
+                    dn_app_os: app_os,
                     dn_app_show_graph_mode: 'None', // have not clicked show_graph yet
                     dn_app_show_graph_method: 'None',
-                    dn_os_system: os_system,
-                    dn_app_type: app_type,
                 });
             </script>
         {% endif %}

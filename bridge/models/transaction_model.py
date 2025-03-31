@@ -604,7 +604,9 @@ FROM
             if column_name != self.getdate_column.bridge_column_name:  # can not update for column get_date
                 data_type_db = dict_data_type_db.get(data_type)
                 using_clause = (
-                    f'::TEXT::{data_type_db}' if data_type == RawDataTypeDB.BOOLEAN.value else f'::{data_type_db}'
+                    f'::{dict_data_type_db.get(RawDataTypeDB.INTEGER.value)}::{data_type_db}'
+                    if data_type == RawDataTypeDB.BOOLEAN.value
+                    else f'::{data_type_db}'
                 )
                 sql_col += f'ALTER COLUMN {column_name} TYPE {data_type_db} USING({column_name}{using_clause}), '
 
@@ -677,6 +679,7 @@ FROM
                 is_success = self.cast_data_type(
                     db_instance,
                     column.bridge_column_name,
+                    column.raw_data_type,
                     request_column.raw_data_type,
                 )
 
@@ -718,14 +721,28 @@ FROM
                 min_max_dict = dict_numeric_type_ranges[column.raw_data_type]
                 min_value = min_max_dict.get('min')
                 max_value = min_max_dict.get('max')
-                max_numeric_data_type_db = dict_data_type_db.get(RawDataTypeDB.BIG_INT.value)
+                max_numeric_data_type_db = dict_data_type_db.get(column.raw_data_type)
                 condition += ' OR ' if condition else ''
                 condition += (
-                    f'('
-                    f'CAST({column.bridge_column_name} AS {max_numeric_data_type_db}) < {min_value}'
-                    f' OR '
-                    f'CAST({column.bridge_column_name} AS {max_numeric_data_type_db}) > {max_value}'
-                    f')'
+                    (
+                        f'('
+                        f'CAST({column.bridge_column_name} AS {max_numeric_data_type_db}) < {min_value}'
+                        f' OR '
+                        f'CAST({column.bridge_column_name} AS {max_numeric_data_type_db}) > {max_value}'
+                        f')'
+                    )
+                    if column.origin_raw_data_type != RawDataTypeDB.BOOLEAN.value
+                    else (
+                        f'('
+                        f'CAST(CAST({column.bridge_column_name}'
+                        f' AS {dict_data_type_db.get(RawDataTypeDB.INTEGER.value)})'
+                        f' AS {max_numeric_data_type_db}) < {min_value}'
+                        f' OR '
+                        f'CAST(CAST({column.bridge_column_name}'
+                        f' AS {dict_data_type_db.get(RawDataTypeDB.INTEGER.value)})'
+                        f' AS {max_numeric_data_type_db}) > {max_value}'
+                        f')'
+                    )
                 )
 
             if not condition:
@@ -743,12 +760,14 @@ FROM
         self,
         db_instance: PostgreSQL,
         column_name: str,
+        origin_raw_data_type: str,
         new_data_type: str,
     ) -> bool:  # TODO: check can update float to int???
         """
         Change data type of column in table t_process_...
         :param db_instance: a database instance
         :param column_name: a column name
+        :param origin_raw_data_type: origin data type of column
         :param new_data_type: new data type dict_data_type_db
         :return: True if success, False otherwise
         """
@@ -759,7 +778,7 @@ FROM
         data_type_db = dict_data_type_db.get(new_data_type)
         sql = f'ALTER TABLE {table_name} ALTER COLUMN {column_name} TYPE {data_type_db} '
 
-        if new_data_type == RawDataTypeDB.BOOLEAN.value:
+        if RawDataTypeDB.BOOLEAN.value in (new_data_type, origin_raw_data_type):
             sql += (
                 f'USING CAST'
                 f'('

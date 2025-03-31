@@ -32,29 +32,22 @@ simplejson==3.17.2
 joblib==1.2.0
 scikit-learn==0.24.2
 chardet==3.0.4
-# detect-delimiter==0.1.1
 Flask-Compress==1.10.1
 group-lasso==1.5.0
-# mecab-python3==1.0.5
 unidic-lite==1.0.8
 fugashi==1.1.2
 cutlet==0.1.19
 grpcio==1.51.1
 protobuf==3.20
 redis==4.4.0
-# redis-lru==0.1.2
-# cachetools==4.2.4
 anyascii==0.3.0
-# dask==2023.2.0
 langdetect==1.0.9
 pyarrow==9.0.0
 lz4==4.0.2
 waitress==2.1.2
-# requests==2.28.2
+pywin32==306;sys_platform == 'win32'
 python-dateutil~=2.8.2
 Flask-Assets==2.0
 orjson==3.9.1
-# pywin32==306
 typing-extensions==4.7.1
 pydantic==2.2
-# more-itertools==10.1.0

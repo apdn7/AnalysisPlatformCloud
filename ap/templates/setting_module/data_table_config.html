@@ -85,7 +85,7 @@
                                             {{ _("Status") }}
                                         </th>
                                         <!-- BRIDGE STATION - Refactor DN & OSS version -->
-                                        {% if app_source == AppSource.DN %}
+                                        {% if is_app_source_dn %}
                                             <th
                                                 scope="col"
                                                 class="text-center th-title-other w-auto"
@@ -169,7 +169,7 @@
                                                 id="jobStatus-{{ data_table.id.data }}"
                                             ></td>
                                             <!-- BRIDGE STATION - Refactor DN & OSS version -->
-                                            {% if app_source == AppSource.DN %}
+                                            {% if is_app_source_dn %}
                                                 <td class="text-center">
                                                     <button
                                                         id="data-table-to-nayose-page-{{ data_table.id.data }}"

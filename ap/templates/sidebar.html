@@ -289,7 +289,7 @@
                         >
                     </li>
                     <!-- BRIDGE STATION - Refactor DN & OSS version -->
-                    {% if app_source == AppSource.DN %}
+                    {% if is_app_source_dn %}
                         <li>
                             <a
                                 href="{{ [bridge_station_web_url,'/ap/config/master_line_config']|join() }}"
@@ -366,7 +366,7 @@
                         >
                     </li>
                     <!-- BRIDGE STATION - Refactor DN & OSS version -->
-                    {% if app_source == AppSource.DN %}
+                    {% if is_app_source_dn %}
                         <li>
                             <a
                                 href="{{ url_for('mapping_config.master_line') }}"

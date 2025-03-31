@@ -5,7 +5,6 @@ from flask import Blueprint
 from flask_babel import get_locale
 from flask_babel import gettext as _
 
-from ap import AppSource, app_source
 from ap.common.common_utils import (
     get_about_md_file,
     get_data_path,
@@ -17,6 +16,7 @@ from ap.common.common_utils import (
 )
 from ap.common.constants import DEFAULT_POLLING_FREQ, CfgConstantType
 from ap.common.flask_customize import render_template
+from ap.common.ga import is_app_source_dn
 from ap.common.services.jp_to_romaji_utils import to_romaji
 from ap.setting_module.forms import DataSourceForm, DataTableForm
 from ap.setting_module.models import CfgConstant, CfgDataSource, CfgDataTable, make_session
@@ -108,7 +108,7 @@ def config_screen():
     func_etl_path = os.path.join(wrap_path, 'func', 'etl')
     try:
         # BRIDGE STATION - Refactor DN & OSS version
-        if app_source == AppSource.DN.value:
+        if is_app_source_dn():
             etl_scripts = get_files(directory=func_etl_path, depth_from=1, depth_to=1, file_name_only=True) or []
         else:
             etl_scripts = []

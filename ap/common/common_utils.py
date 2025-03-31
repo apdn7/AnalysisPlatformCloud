@@ -2077,6 +2077,12 @@ def bundle_assets(_app):
     if env != AppEnv.PRODUCTION.value:
         assets.debug = True
 
+    from ap.common.ga import is_app_source_dn
+
+    if is_app_source_dn():
+        _assets['all']['js'].append('modules/tabulator/js/tabulator.min.js')
+        _assets['all']['css'].append('modules/tabulator/css/tabulator_midnight.css')
+
     for page in _assets:
         js_assets = _assets[page].get('js') or []
         css_assets = _assets[page].get('css') or []

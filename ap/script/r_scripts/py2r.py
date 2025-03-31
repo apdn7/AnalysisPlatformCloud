@@ -1,10 +1,11 @@
 import pickle
 import time
 import csv
-from ap import app_source, AppSource
+
+from ap.common.ga import is_app_source_dn
 
 # BRIDGE STATION - Refactor DN & OSS version
-if app_source == AppSource.DN.value:
+if is_app_source_dn():
     import pyper
 
 r = pyper.R(use_dict=True)

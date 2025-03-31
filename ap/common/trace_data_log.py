@@ -9,7 +9,8 @@ from flask import current_app, g
 from pandas import DataFrame
 
 from ap.common.common_utils import create_file_path, write_to_pickle
-from ap.common.constants import GTAG_DEFAULT_TIMEOUT, IS_EXPORT_MODE, MPS, CsvDelimiter, FlaskGKey
+from ap.common.constants import IS_EXPORT_MODE, MPS, CsvDelimiter, FlaskGKey
+from ap.common.ga import GA_TRACKING_ID, GTAG_DEFAULT_TIMEOUT
 from ap.common.logger import log_execution_time
 
 waiting_trace_records = []
@@ -30,10 +31,9 @@ gen_dataset_id_inst = _gen_dataset_id()
 
 def send_gtag(**kwargs):
     try:
-        ga_tracking_id = current_app.config.get('GA_TRACKING_ID')
         data = {
             'v': '1',  # API Version.
-            'tid': ga_tracking_id,  # Tracking ID / Property ID.
+            'tid': GA_TRACKING_ID,  # Tracking ID / Property ID.
             # Anonymous Client Identifier. Ideally, this should be a UUID that
             # is associated with particular user, device, or browser instance.
             'cid': '555',

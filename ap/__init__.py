@@ -4,7 +4,6 @@ import os
 import time
 from datetime import datetime, timedelta
 from functools import wraps
-from platform import system
 from typing import TYPE_CHECKING
 
 import wtforms_json
@@ -25,7 +24,6 @@ from ap.common.common_utils import (
     DATE_FORMAT_STR,
     NoDataFoundException,
     get_process_queue,
-    resource_path,
 )
 from ap.common.constants import (
     ANNOUNCE_UPDATE_TIME,
@@ -34,7 +32,6 @@ from ap.common.constants import (
     APP_FILE_MODE_ENV,
     APP_LANGUAGE_ENV,
     APP_SUBTITLE_ENV,
-    APP_TYPE_ENV,
     COND_PROC,
     DB_SECRET_KEY,
     END_PROC,
@@ -61,12 +58,10 @@ from ap.common.constants import (
     YAML_CONFIG_VERSION,
     YAML_START_UP,
     ApLogLevel,
-    AppGroup,
-    AppSource,
     ListenNotifyType,
     MaxGraphNumber,
-    OsSystem,
 )
+from ap.common.ga import ga_info, is_app_source_dn
 from ap.common.logger import log_execution_time, logger
 from ap.common.services.http_content import json_dumps
 from ap.common.services.request_time_out_handler import RequestTimeOutAPI, set_request_g_dict
@@ -83,32 +78,6 @@ from ap.equations.error import FunctionErrors
 
 if TYPE_CHECKING:
     from config import Config
-
-os_system = system()
-if os_system == OsSystem.WINDOWS.value:
-    print('Running on Windows')
-elif os_system == OsSystem.LINUX.value:
-    print('Running on Linux')
-elif os_system == OsSystem.MACOS.value:
-    print('Running on MacOS')
-else:
-    print(f'Running on other system: {os_system}')
-
-# BRIDGE STATION - Refactor DN & OSS version
-# get app version
-version_file = resource_path('VERSION') or os.path.join(os.getcwd(), 'VERSION')
-with open(version_file) as f:
-    rows = f.readlines()
-    rows.reverse()
-    app_ver = rows.pop()
-    if '%%VERSION%%' in app_ver:
-        app_ver = 'v00.00.000.00000000'
-
-    config_ver = str(rows.pop()).strip('\n') if len(rows) else '0'
-    app_source = str(rows.pop()).strip('\n').replace('%%SOURCE%%', '') if len(rows) else AppSource.DN.value
-    app_source = app_source if app_source else AppSource.DN.value
-
-app_type = os.environ.get(APP_TYPE_ENV, 'AnalysisPlatformCloud')
 
 dic_config = {
     PROCESS_QUEUE: None,
@@ -297,7 +266,7 @@ def create_app(object_name: str | Config = None) -> Flask:
     create_command(app)
 
     # BRIDGE STATION - Refactor DN & OSS version
-    if app_source == AppSource.DN.value:
+    if is_app_source_dn():
         from .mapping_config import create_module as mapping_config_create_module
         from .name_aggregation_setting import create_module as name_aggregation_setting_module
 
@@ -313,17 +282,13 @@ def create_app(object_name: str | Config = None) -> Flask:
     is_default_log_level = default_log_level == ApLogLevel.INFO.name
     dic_yaml_config_instance[YAML_CONFIG_BASIC] = basic_config_yaml
     dic_yaml_config_instance[YAML_START_UP] = start_up_yaml
-    # BRIDGE STATION - Refactor DN & OSS version
-    dic_yaml_config_file[YAML_CONFIG_VERSION] = config_ver
+
+    dic_yaml_config_file[YAML_CONFIG_VERSION] = ga_info.config_version
 
     sub_title = get_subtitle()
 
     lang = get_language()
     lang = lang or app.config['BABEL_DEFAULT_LOCALE']
-
-    # BRIDGE STATION - Refactor DN & OSS version
-    user_group = os.environ.get('group', AppGroup.Dev.value)
-    user_group = get_app_group(app_source, user_group)
 
     @babel.localeselector
     def get_locale():
@@ -382,7 +347,7 @@ def create_app(object_name: str | Config = None) -> Flask:
             is_admin = int(client_ip in server_ip)
             response.set_cookie('is_admin', str(is_admin))
             response.set_cookie('sub_title', sub_title)
-            response.set_cookie('user_group', user_group)
+            response.set_cookie('user_group', ga_info.app_group.value)
 
         # close app db session
         close_sessions()
@@ -408,8 +373,10 @@ def create_app(object_name: str | Config = None) -> Flask:
             bind_user_info(request, response)
             response.set_cookie('log_level', str(is_default_log_level))
             response.set_cookie('hide_setting_page', str(hide_setting_page))
-            response.set_cookie('app_version', str(app_ver).strip('\n'))
-            response.set_cookie('app_location', str(app_source).strip('\n'))
+            response.set_cookie('app_version', ga_info.app_version)
+            response.set_cookie('app_location', ga_info.app_source.value)
+            response.set_cookie('app_type', ga_info.app_type.value)
+            response.set_cookie('app_os', ga_info.app_os.value)
 
         if app.config.get('app_startup_time'):
             response.set_cookie(
@@ -549,20 +516,6 @@ def get_start_up_yaml_obj() -> BasicConfigYaml:
     return dic_yaml_config_instance.get(YAML_START_UP)
 
 
-def get_app_group(app_source, user_group):
-    if user_group and user_group.lower() == AppGroup.Dev.value.lower():
-        user_group = AppGroup.Dev.value
-    elif app_source:
-        if app_source == AppSource.DN.value or user_group.lower() == AppGroup.DN.value.lower():
-            user_group = AppGroup.DN.value
-        else:
-            user_group = AppGroup.Ext.value
-    else:
-        user_group = AppGroup.Dev.value
-
-    return user_group
-
-
 def get_browser_debug(file_name=None) -> bool:
     browser_mode = os.environ.get(APP_BROWSER_DEBUG_ENV)
     if browser_mode is not None and browser_mode != '':
@@ -591,7 +544,8 @@ def get_file_mode(file_name=None) -> bool:
     elif basic_config_yaml.get_file_mode() is not None:
         file_mode = basic_config_yaml.get_file_mode()
     else:
-        file_mode = app_source == AppSource.DN.value
+        # BRIDGE STATION - Refactor DN & OSS version
+        file_mode = is_app_source_dn()
     return file_mode
 
 
@@ -608,7 +562,8 @@ def get_language(file_name=None):
         lang = basic_config_yaml.get_node(['info', 'language'], None)
 
     if lang is None or lang == 'null':
-        lang = 'ja' if app_source == AppSource.DN.value else 'en'
+        # BRIDGE STATION - Refactor DN & OSS version
+        lang = 'ja' if is_app_source_dn() else 'en'
 
     return lang
 
@@ -621,7 +576,7 @@ def get_subtitle():
     start_up_yaml = get_start_up_yaml_obj()
     subtitle = start_up_yaml.get_node(['setting_startup', 'subtitle'], None)
 
-    if subtitle is None or subtitle == 'null':
+    if not start_up_yaml.dic_config or subtitle is None or subtitle == 'null':
         subtitle = ''
 
     return subtitle

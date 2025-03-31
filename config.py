@@ -107,7 +107,6 @@ class Config(object):
     }
     VERSION_FILE_PATH = resource_path('VERSION')
     BASE_DIR = basedir
-    GA_TRACKING_ID = 'G-9DJ9TV72B5'
     PARTITION_NUMBER = 1
     PARTITION_YEAR_AGO = 3
 

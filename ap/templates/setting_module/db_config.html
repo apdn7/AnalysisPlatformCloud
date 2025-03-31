@@ -178,7 +178,7 @@
                                             </td>
                                             <td class="text-center">
                                                 <!-- [FIRST RELEASE] Hide unstable functions -->
-                                                {% set common_style = 'pointer-events:none;' if os_system != OsSystem.WINDOWS and db_info.type.data in ('CSV', 'SQLITE', 'CSV_V2') else '' %}
+                                                {% set common_style = 'pointer-events:none;' if not is_running_in_window and db_info.type.data in ('CSV', 'SQLITE', 'CSV_V2') else '' %}
                                                 <select
                                                     name="type"
                                                     class="form-control"
@@ -186,7 +186,7 @@
                                                 >
                                                     {% for dbtype in ('CSV', 'SQLITE','POSTGRESQL', 'MSSQLSERVER', 'ORACLE', 'MYSQL', 'ORACLE_EFA', 'CSV_V2', 'SOFTWARE_WORKSHOP') %}
                                                         <!-- [FIRST RELEASE] Hide unstable functions -->
-                                                        {% set common_style = 'display:none;' if os_system != OsSystem.WINDOWS and dbtype in ('CSV', 'SQLITE', 'CSV_V2') else '' %}
+                                                        {% set common_style = 'display:none;' if not is_running_in_window and dbtype in ('CSV', 'SQLITE', 'CSV_V2') else '' %}
                                                         {% if dbtype == db_info.type.data %}
                                                             {% if dbtype == 'CSV' %}
                                                                 <option

@@ -8,13 +8,14 @@ from flask import Flask
 from flask_migrate import upgrade
 from pytz import utc
 
-from ap import app_source, dic_config, max_graph_config, scheduler
+from ap import dic_config, max_graph_config, scheduler
 from ap.api.setting_module.services.polling_frequency import change_polling_all_interval_jobs
 from ap.api.trace_data.services.proc_link import add_restructure_indexes_job
 from ap.common.clean_expired_request import add_job_delete_expired_request
 from ap.common.clean_old_data import add_job_delete_old_zipped_log_files, add_job_zip_all_previous_log_files
 from ap.common.common_utils import bundle_assets, get_log_path, init_sample_config
-from ap.common.constants import SHUTDOWN, AppSource, JobType, ServerType
+from ap.common.constants import SHUTDOWN, JobType, ServerType
+from ap.common.ga import is_app_source_dn, is_running_in_window
 from ap.common.logger import logger
 from ap.common.services.import_export_config_and_master_data import pull_n_import_sample_data, set_break_job_flag
 from ap.common.services.notify_listen import process_listen_job
@@ -135,7 +136,7 @@ def serve_flask_server(app: Flask, port: int, server_type: ServerType, env: str 
         # import_transaction_all_processes()
 
     # BRIDGE STATION - Refactor DN & OSS version
-    if app_source == AppSource.DN.value:
+    if is_app_source_dn():
         true_values = [True, 'true', '1', 1]
         # check and update R-Portable folder
         should_update_r_lib = os.environ.get('UPDATE_R', 'false')
@@ -146,10 +147,11 @@ def serve_flask_server(app: Flask, port: int, server_type: ServerType, env: str 
 
     # disable quick edit of terminal to avoid pause
     is_debug = app.config.get('DEBUG')
-    # if not is_debug:
-    #     from ap.script.disable_terminal_quickedit import disable_quickedit
-    #
-    #     disable_quickedit()
+    # BRIDGE STATION - csv cannot run inside windows for now
+    if not is_debug and is_running_in_window():
+        from ap.script.disable_terminal_quickedit import disable_quickedit
+
+        disable_quickedit()
 
     # TODO: take time , so comment
     # add job when app started

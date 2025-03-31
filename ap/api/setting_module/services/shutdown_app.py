@@ -22,6 +22,7 @@ from ap.common.logger import log_execution_time, logger, logger_force_flush
 from ap.common.scheduler import get_running_jobs, scheduler_app_context
 from ap.common.services.import_export_config_and_master_data import pause_job_running
 from ap.common.services.sse import background_announcer
+from ap.script.disable_terminal_close_button import close_terminal
 from ap.setting_module.services.background_process import send_processing_info
 
 SAFE_TO_ROLLBACK_JOBS = {JobType.PROC_LINK_COUNT.name}
@@ -30,14 +31,20 @@ SAFE_TO_ROLLBACK_JOBS = {JobType.PROC_LINK_COUNT.name}
 @log_execution_time()
 def shut_down_app():
     logger.info('///////////// SHUTDOWN APP ///////////')
-    add_shutdown_app_job()
 
     # need to pause scheduler in main thread
     pause_job_running(remove_jobs=False)
 
+    shutdown_app_job(_job_id=JobType.SHUTDOWN_APP.name, _job_name=JobType.SHUTDOWN_APP.name)
+
+    # close terminal
+    close_terminal()
+
     shutdown_function = request.environ.get('werkzeug.server.shutdown')
     if shutdown_function is not None:
         shutdown_function()
+
+    os._exit(0)
 
 
 @log_execution_time()

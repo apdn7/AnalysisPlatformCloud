@@ -878,7 +878,6 @@ SQL_REGEXP_FUNC = 'REGEXP'
 MPS = 'www.google-analytics.com'
 R_PORTABLE = 'R-Portable'
 R_LIB_VERSION = 'R_LIB_VERSION'
-GTAG_DEFAULT_TIMEOUT = 3
 
 # Message
 MSG_DB_CON_FAILED = 'Database connection failed! Please check your database connection information'
@@ -1676,17 +1675,6 @@ class DuplicateSerialCount(Enum):
     AUTO = 'auto'
     CHECK = 'check'
     SILENT = 'silent'
-
-
-class AppSource(Enum):
-    OSS = 'OSS'
-    DN = 'DN'
-
-
-class AppGroup(Enum):
-    DN = 'DN'
-    Dev = 'Dev'
-    Ext = 'Ext'
 
 
 class RemoveOutlierType(Enum):
@@ -2706,9 +2694,3 @@ LIMIT_CHECKING_NEWER_VERSION_TIME: int = 60  # unit: seconds
 class BooleanStringDefinition(BaseEnum):
     true = 1
     false = 0
-
-
-class OsSystem(BaseEnum):
-    WINDOWS = 'Windows'
-    LINUX = 'Linux'
-    MACOS = 'Darwin'

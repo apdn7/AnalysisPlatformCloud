@@ -363,7 +363,7 @@ const addDataTableToTable = (dataSourceId = null) => {
         <td class="data-table-status" id=""></td>
         <!-- BRIDGE STATION - Refactor DN & OSS version -->
         ${
-            app_source === AppSource.DN
+            isAppSourceDN
                 ? `
         <td class="text-center">
             <button
@@ -489,7 +489,7 @@ const addColumnAttrToTable = (cfgDataTable, disabled = false) => {
         <td class="data-table-status" id="jobStatus-${cfgDataTable.id}"></td>
         <!-- BRIDGE STATION - Refactor DN & OSS version -->
         ${
-            app_source === AppSource.DN
+            isAppSourceDN
                 ? `
         <td class="text-center">
             <button

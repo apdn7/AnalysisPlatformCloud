@@ -4,8 +4,8 @@ from flask import jsonify
 from flask import render_template as _render_template
 from orjson import OPT_NON_STR_KEYS, OPT_PASSTHROUGH_DATETIME, OPT_SERIALIZE_NUMPY, orjson
 
-from ap import app_source, app_type, os_system
-from ap.common.constants import BRIDGE_STATION_WEB_URL, MODE, AppSource, OsSystem, ServerType
+from ap.common.constants import BRIDGE_STATION_WEB_URL, MODE, ServerType
+from ap.common.ga import is_app_source_dn, is_running_in_window
 from ap.common.memoize import memoize
 from ap.common.services import http_content
 from bridge.common.server_config import ServerConfig
@@ -20,18 +20,8 @@ def render_template(template_name_or_list, is_json_dumps_loads=True, **dic_conte
     # BRIDGE STATION - Refactor DN & OSS version
     dic_context.update(
         {
-            'app_type': app_type,
-            'app_source': app_source,
-            'os_system': os_system,
-            'AppSource': {
-                'DN': AppSource.DN.value,
-                'OSS': AppSource.OSS.value,
-            },
-            'OsSystem': {
-                'WINDOWS': OsSystem.WINDOWS.value,
-                'LINUX': OsSystem.LINUX.value,
-                'MACOS': OsSystem.MACOS.value,
-            },
+            'is_running_in_window': is_running_in_window(),
+            'is_app_source_dn': is_app_source_dn(),
         },
     )
 

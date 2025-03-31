@@ -2,6 +2,7 @@ import io
 import os
 import pickle
 import shutil
+from pathlib import Path
 from time import sleep
 from typing import Optional, Union
 from zipfile import ZipFile
@@ -114,7 +115,7 @@ def zip_preview_folder_to_byte() -> io.BytesIO:
     archive = io.BytesIO()
     with ZipFile(archive, 'w') as zip_archive:
         for file_path in get_files(preview_data_path, depth_from=1, depth_to=100, extension=['csv', 'tsv', 'zip']):
-            file_name = file_path.replace(f'{preview_data_path}\\', '')
+            file_name = Path(file_path).as_posix().replace(f'{Path(preview_data_path).as_posix()}/', '')
             with zip_archive.open(file_name, 'w') as file, open(file_path, 'rb') as f:
                 file.write(f.read())
 
@@ -132,7 +133,7 @@ def zip_nayose_folder_to_byte() -> io.BytesIO:
     archive = io.BytesIO()
     with ZipFile(archive, 'w') as zip_archive:
         for file_path in get_files(nayose_path, depth_from=1, depth_to=100, extension=['ftr']):
-            file_name = file_path.replace(f'{nayose_path}\\', '')
+            file_name = Path(file_path).as_posix().replace(f'{Path(nayose_path).as_posix()}/', '')
             with zip_archive.open(file_name, 'w') as file, open(file_path, 'rb') as f:
                 file.write(f.read())
 

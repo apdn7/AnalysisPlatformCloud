@@ -1,15 +1,15 @@
 import contextlib
 import os
 
-from ap import app_source, create_app, get_basic_yaml_obj, get_browser_debug
+from ap import create_app, get_basic_yaml_obj, get_browser_debug
 from ap.common.constants import (
     ANALYSIS_INTERFACE_ENV,
     APP_HOST_ENV,
     PORT,
     PROCESS_QUEUE,
-    AppSource,
     ServerType,
 )
+from ap.common.ga import is_app_source_dn, is_running_in_window
 from ap.common.logger import set_log_config
 from ap.common.pydn.dblib.db_proxy import get_db_proxy
 from bridge.common.disk_usage import MainDiskUsage, PostgreDiskUsage
@@ -44,8 +44,6 @@ if is_main:
     from ap.common.check_available_port import check_available_port
     from ap.common.common_utils import init_process_queue
     from ap.common.memoize import clear_cache
-
-    # from ap.script.disable_terminal_close_button import disable_terminal_close_btn
     from bridge.redis_utils.pubsub import redis_connection
     from bridge.redis_utils.redis_storage_utils import clear_redis_storage
     from start_flask_server import serve_flask_server
@@ -90,20 +88,21 @@ if is_main:
         clear_redis_storage()
 
     # disable quick edit of terminal to avoid pause
-    # is_debug = app.config.get('DEBUG')
-    # if not is_debug:
-    #     try:
-    #        from ap.script.disable_terminal_quickedit import disable_quickedit
+    is_debug = app.config.get('DEBUG')
+    # BRIDGE STATION - terminal for windows
+    if not is_debug and is_running_in_window():
+        try:
+            from ap.script.disable_terminal_quickedit import disable_quickedit
 
-    #        disable_quickedit()
-    #        from ap.script.hide_exe_root_folder import hide_bundle_folder, heartbeat_bundle_folder
-    #        heartbeat_bundle_folder()
-    #        hide_bundle_folder()
-    #    except Exception:
-    #        pass
+            disable_quickedit()
+            # from ap.script.hide_exe_root_folder import hide_bundle_folder, heartbeat_bundle_folder
+            # heartbeat_bundle_folder()
+            # hide_bundle_folder()
+        except Exception:
+            pass
 
     # BRIDGE STATION - Refactor DN & OSS version
-    if app_source == AppSource.DN.value:
+    if is_app_source_dn():
         # kick R process
         from ap.script.call_r_process import call_r_process
 
@@ -112,10 +111,12 @@ if is_main:
     # clear cache
     clear_cache()
 
-    if not app.config.get('TESTING'):
+    # BRIDGE STATION - terminal for windows
+    if not app.config.get('TESTING') and is_running_in_window():
+        from ap.script.disable_terminal_close_button import disable_terminal_close_btn
+
         # hide close button of cmd
-        # disable_terminal_close_btn()
-        ...
+        disable_terminal_close_btn()
 
     # TODO: khi khoi dong start edge server ,thi phai gan 1 bien online=0 de ko call grpc nua. de co the dung offline.
     if server_type is ServerType.BridgeStationGrpc:
