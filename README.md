@@ -109,10 +109,10 @@ http://localhost:7770/
 
 ## How do we shut down AP+DN7 Cloud?
 
-To shut down AP+DN7 Cloud, run docker compose down command:
+To shut down AP+DN7 Cloud, run docker compose stop command:
 
 ```shell
-sudo docker compose down
+sudo docker compose stop
 ```
 
 ## Uninstall
