@@ -78,7 +78,7 @@ AP+DN7 Cloud is tested under the following condition:
 Docker and Docker Compose must be installed and running.  
 For detailed instruction, please refer below documents (PDF):
 
-* [Getting Started]()
+* [Getting Started](https://github.com/user-attachments/files/19566945/AP%2BDN7Cloud_GettingStarted_470_en.pdf)
 
 First, clone the repository:
 
