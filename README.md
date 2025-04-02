@@ -60,8 +60,6 @@ The Analysis Platform currently supports following data sources:
 ## Terms of Use
 
 On your first access to the application, you must read and agree to [Terms of Use](/about/terms_of_use_en.md) shown on modal screen.  
-If you are going to use "`start_ap.bat`" to run the The Analysis Platform with the
-Windows embeddable package, running the batch file is regarded as you agreed to the Terms of Use.
 
 ## Requirements
 
