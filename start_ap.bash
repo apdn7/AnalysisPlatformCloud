@@ -97,11 +97,11 @@ install_necessary_components() {
   if ! dpkg -l | grep -q "curl" || ! dpkg -l | grep -q "libaio1" || ! dpkg -l | grep -q "gcc" || ! dpkg -l | grep -q "libpq-dev"; then
     apt update
     apt install \
-      curl=7.88.1-10+deb12u14 \
-      unzip=6.0-28 \
-      libaio1=0.3.113-4 \
-      gcc=4:12.2.0-3 \
-      libpq-dev=15.14-0+deb12u1 \
+      curl \
+      unzip \
+      libaio1 \
+      gcc \
+      libpq-dev \
       -y
   fi
 }
